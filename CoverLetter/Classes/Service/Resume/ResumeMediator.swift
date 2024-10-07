@@ -11,12 +11,9 @@ import RxCocoa
 final class ResumeMediator {
     static let shared = ResumeMediator()
     
-    private lazy var didCreadtedCVTrigger = PublishRelay<CV>()
     private lazy var didCreadtedCLTrigger = PublishRelay<CL>()
     private lazy var didChangedGroupsTrigger = PublishRelay<Void>()
-    private lazy var didRemovedCVTrigger = PublishRelay<String>()
     private lazy var didRemovedCLTrigger = PublishRelay<String>()
-    private lazy var didEditedCVTrigger = PublishRelay<CV>()
     private lazy var didEditedCLTrigger = PublishRelay<CL>()
     private lazy var didEditedGroupTrigger = PublishRelay<ResumeGroup>()
     
@@ -25,10 +22,6 @@ final class ResumeMediator {
 
 // MARK: Public
 extension ResumeMediator {
-    func created(cv: CV) {
-        didCreadtedCVTrigger.accept(cv)
-    }
-    
     func created(cl: CL) {
         didCreadtedCLTrigger.accept(cl)
     }
@@ -37,16 +30,8 @@ extension ResumeMediator {
         didChangedGroupsTrigger.accept(Void())
     }
     
-    func removedCV(id: String) {
-        didRemovedCVTrigger.accept(id)
-    }
-    
     func removedCL(id: String) {
         didRemovedCLTrigger.accept(id)
-    }
-    
-    func edit(cv: CV) {
-        didEditedCVTrigger.accept(cv)
     }
     
     func edit(cl: CL) {
@@ -57,10 +42,6 @@ extension ResumeMediator {
         didEditedGroupTrigger.accept(group)
     }
     
-    var didCreadtedCV: Signal<CV> {
-        didCreadtedCVTrigger.asSignal()
-    }
-    
     var didCreadtedCL: Signal<CL> {
         didCreadtedCLTrigger.asSignal()
     }
@@ -69,16 +50,8 @@ extension ResumeMediator {
         didChangedGroupsTrigger.asSignal()
     }
     
-    var didRemovedCV: Signal<String> {
-        didRemovedCVTrigger.asSignal()
-    }
-    
     var didRemovedCL: Signal<String> {
         didRemovedCLTrigger.asSignal()
-    }
-    
-    var didEditedCV: Signal<CV> {
-        didEditedCVTrigger.asSignal()
     }
     
     var didEditedCL: Signal<CL> {

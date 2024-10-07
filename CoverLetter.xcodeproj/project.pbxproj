@@ -10,244 +10,128 @@
 		C0EB2627C3FF4080024DED2C /* Pods_CoverLetter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFFAA3132ACB9913B767999 /* Pods_CoverLetter.framework */; };
 		DE04A9BE2CB4125B00127D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE04A9B22CB4125B00127D95 /* Assets.xcassets */; };
 		DE04A9C02CB4125B00127D95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE04A9B52CB4125B00127D95 /* LaunchScreen.storyboard */; };
-		DEBC644B2CB4144A003C7073 /* SelectCityTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC638A2CB4144A003C7073 /* SelectCityTableView.swift */; };
-		DEBC644C2CB4144A003C7073 /* CVMakerEducationCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC632B2CB4144A003C7073 /* CVMakerEducationCreateView.swift */; };
 		DEBC644D2CB4144A003C7073 /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62CA2CB4144A003C7073 /* ScreenSize.swift */; };
 		DEBC644E2CB4144A003C7073 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B42CB4144A003C7073 /* UITapGestureRecognizer+Extension.swift */; };
-		DEBC644F2CB4144A003C7073 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63BB2CB4144A003C7073 /* ProfileViewController.swift */; };
-		DEBC64502CB4144A003C7073 /* SelectProfessionalSkillViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63A22CB4144A003C7073 /* SelectProfessionalSkillViewModel.swift */; };
 		DEBC64512CB4144A003C7073 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63EA2CB4144A003C7073 /* SplashView.swift */; };
 		DEBC64522CB4144A003C7073 /* CLMakerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC630E2CB4144A003C7073 /* CLMakerViewModel.swift */; };
 		DEBC64532CB4144A003C7073 /* TapAreaButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62AB2CB4144A003C7073 /* TapAreaButton.swift */; };
 		DEBC64542CB4144A003C7073 /* CLMakerOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62F42CB4144A003C7073 /* CLMakerOnboardingView.swift */; };
 		DEBC64552CB4144A003C7073 /* PaygateInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63E02CB4144A003C7073 /* PaygateInfoCell.swift */; };
 		DEBC64562CB4144A003C7073 /* CLMakerCompanyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62DA2CB4144A003C7073 /* CLMakerCompanyInfoView.swift */; };
-		DEBC64572CB4144A003C7073 /* CVMakerProfileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63102CB4144A003C7073 /* CVMakerProfileGenerator.swift */; };
-		DEBC64582CB4144A003C7073 /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC640D2CB4144A003C7073 /* ProfileManager.swift */; };
 		DEBC64592CB4144A003C7073 /* CL2Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64282CB4144A003C7073 /* CL2Generator.swift */; };
 		DEBC645A2CB4144A003C7073 /* CLMakerVacancyResourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62EE2CB4144A003C7073 /* CLMakerVacancyResourceView.swift */; };
 		DEBC645B2CB4144A003C7073 /* ResumeGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C42CB4144A003C7073 /* ResumeGroupViewController.swift */; };
 		DEBC645C2CB4144A003C7073 /* Paygate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63FE2CB4144A003C7073 /* Paygate.swift */; };
 		DEBC645D2CB4144A003C7073 /* CLMakerChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D82CB4144A003C7073 /* CLMakerChaptersView.swift */; };
-		DEBC645E2CB4144A003C7073 /* SelectProfessionalSkillTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC639B2CB4144A003C7073 /* SelectProfessionalSkillTableCell.swift */; };
 		DEBC645F2CB4144A003C7073 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A62CB4144A003C7073 /* GradientView.swift */; };
 		DEBC64602CB4144A003C7073 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D82CB4144A003C7073 /* OnboardingViewController.swift */; };
 		DEBC64612CB4144A003C7073 /* SplashReceiptValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63E82CB4144A003C7073 /* SplashReceiptValidationObserver.swift */; };
-		DEBC64622CB4144A003C7073 /* ProfileInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63B42CB4144A003C7073 /* ProfileInfoCell.swift */; };
-		DEBC64632CB4144A003C7073 /* CVMakerSingleEntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63712CB4144A003C7073 /* CVMakerSingleEntityView.swift */; };
-		DEBC64642CB4144A003C7073 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64052CB4144A003C7073 /* Education.swift */; };
 		DEBC64652CB4144A003C7073 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A72CB4144A003C7073 /* InputField.swift */; };
 		DEBC64662CB4144A003C7073 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63CE2CB4144A003C7073 /* SettingsViewController.swift */; };
 		DEBC64672CB4144A003C7073 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63EB2CB4144A003C7073 /* SplashViewController.swift */; };
 		DEBC64682CB4144A003C7073 /* PaygateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63E62CB4144A003C7073 /* PaygateViewModel.swift */; };
-		DEBC64692CB4144A003C7073 /* SelectProfessionalSkillTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC639C2CB4144A003C7073 /* SelectProfessionalSkillTableView.swift */; };
 		DEBC646A2CB4144A003C7073 /* PaygateOptionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63FF2CB4144A003C7073 /* PaygateOptionConfig.swift */; };
 		DEBC646B2CB4144A003C7073 /* XOREncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62CD2CB4144A003C7073 /* XOREncryption.swift */; };
 		DEBC646C2CB4144A003C7073 /* NumberLaunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C72CB4144A003C7073 /* NumberLaunches.swift */; };
-		DEBC646D2CB4144A003C7073 /* CVMGIPhotoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63312CB4144A003C7073 /* CVMGIPhotoContainer.swift */; };
-		DEBC646E2CB4144A003C7073 /* ProfileTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63B62CB4144A003C7073 /* ProfileTableElement.swift */; };
 		DEBC646F2CB4144A003C7073 /* RSCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63BF2CB4144A003C7073 /* RSCollectionElement.swift */; };
 		DEBC64702CB4144A003C7073 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62962CB4144A003C7073 /* AmplitudeManager.swift */; };
 		DEBC64712CB4144A003C7073 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64472CB4144A003C7073 /* SessionManager.swift */; };
 		DEBC64722CB4144A003C7073 /* CLVacancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64222CB4144A003C7073 /* CLVacancy.swift */; };
-		DEBC64732CB4144A003C7073 /* CV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64232CB4144A003C7073 /* CV.swift */; };
-		DEBC64742CB4144A003C7073 /* CVMakerGeneralInfoCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63332CB4144A003C7073 /* CVMakerGeneralInfoCollector.swift */; };
 		DEBC64752CB4144A003C7073 /* NavigationControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A02CB4144A003C7073 /* NavigationControllerSettings.swift */; };
 		DEBC64762CB4144A003C7073 /* CL.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC641A2CB4144A003C7073 /* CL.swift */; };
 		DEBC64772CB4144A003C7073 /* CLMakerHiringManagerCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62DE2CB4144A003C7073 /* CLMakerHiringManagerCollector.swift */; };
-		DEBC64782CB4144A003C7073 /* CVMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63832CB4144A003C7073 /* CVMakerViewController.swift */; };
 		DEBC64792CB4144A003C7073 /* CLMakerChapterProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62F22CB4144A003C7073 /* CLMakerChapterProgressView.swift */; };
 		DEBC647A2CB4144A003C7073 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64172CB4144A003C7073 /* IAPManager.swift */; };
 		DEBC647B2CB4144A003C7073 /* CLMakerHMGenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E22CB4144A003C7073 /* CLMakerHMGenderView.swift */; };
 		DEBC647C2CB4144A003C7073 /* CLMakerAnalyzeDataGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D42CB4144A003C7073 /* CLMakerAnalyzeDataGenerator.swift */; };
-		DEBC647D2CB4144A003C7073 /* GetCitiesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63F52CB4144A003C7073 /* GetCitiesRequest.swift */; };
-		DEBC647E2CB4144A003C7073 /* ProfileTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63B72CB4144A003C7073 /* ProfileTableView.swift */; };
 		DEBC647F2CB4144A003C7073 /* UIView+RxExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B52CB4144A003C7073 /* UIView+RxExtension.swift */; };
 		DEBC64802CB4144A003C7073 /* CLMTemplatesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62F82CB4144A003C7073 /* CLMTemplatesCollectionCell.swift */; };
-		DEBC64812CB4144A003C7073 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64042CB4144A003C7073 /* ContactInfo.swift */; };
-		DEBC64822CB4144A003C7073 /* CVMakerCertificatesCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC631F2CB4144A003C7073 /* CVMakerCertificatesCreateView.swift */; };
-		DEBC64832CB4144A003C7073 /* GetCountriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63F62CB4144A003C7073 /* GetCountriesRequest.swift */; };
-		DEBC64842CB4144A003C7073 /* CVMTemplatesCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC637A2CB4144A003C7073 /* CVMTemplatesCollectionElement.swift */; };
 		DEBC64852CB4144A003C7073 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63CD2CB4144A003C7073 /* SettingsView.swift */; };
 		DEBC64862CB4144A003C7073 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63DC2CB4144A003C7073 /* Currency.swift */; };
-		DEBC64872CB4144A003C7073 /* CV9Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64372CB4144A003C7073 /* CV9Generator.swift */; };
-		DEBC64882CB4144A003C7073 /* CVMPSCollectionSkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC634F2CB4144A003C7073 /* CVMPSCollectionSkillCell.swift */; };
 		DEBC64892CB4144A003C7073 /* CLMakerTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62FF2CB4144A003C7073 /* CLMakerTemplateView.swift */; };
 		DEBC648A2CB4144A003C7073 /* OFinalizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D42CB4144A003C7073 /* OFinalizeView.swift */; };
-		DEBC648B2CB4144A003C7073 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63FC2CB4144A003C7073 /* ContentManager.swift */; };
-		DEBC648C2CB4144A003C7073 /* CVMICollectionInterestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC633D2CB4144A003C7073 /* CVMICollectionInterestCell.swift */; };
-		DEBC648D2CB4144A003C7073 /* SelectLanguageAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63962CB4144A003C7073 /* SelectLanguageAssembly.swift */; };
-		DEBC648E2CB4144A003C7073 /* CVMICollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC633F2CB4144A003C7073 /* CVMICollectionElement.swift */; };
 		DEBC648F2CB4144A003C7073 /* CLMakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC630C2CB4144A003C7073 /* CLMakerView.swift */; };
-		DEBC64902CB4144A003C7073 /* CVMakerFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63802CB4144A003C7073 /* CVMakerFlowView.swift */; };
-		DEBC64912CB4144A003C7073 /* ProfileMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC640E2CB4144A003C7073 /* ProfileMediator.swift */; };
 		DEBC64922CB4144A003C7073 /* Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C92CB4144A003C7073 /* Scalable.swift */; };
-		DEBC64932CB4144A003C7073 /* CVMPSCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63542CB4144A003C7073 /* CVMPSCollectionView.swift */; };
 		DEBC64942CB4144A003C7073 /* ProductPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64152CB4144A003C7073 /* ProductPrice.swift */; };
 		DEBC64952CB4144A003C7073 /* PDFFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64402CB4144A003C7073 /* PDFFactory.swift */; };
 		DEBC64962CB4144A003C7073 /* DefaultPaygate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63DD2CB4144A003C7073 /* DefaultPaygate.swift */; };
 		DEBC64972CB4144A003C7073 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62992CB4144A003C7073 /* FirebaseManager.swift */; };
-		DEBC64982CB4144A003C7073 /* CV13Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC643B2CB4144A003C7073 /* CV13Generator.swift */; };
 		DEBC64992CB4144A003C7073 /* CLMakerHMWhoIsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E32CB4144A003C7073 /* CLMakerHMWhoIsView.swift */; };
-		DEBC649A2CB4144A003C7073 /* CVMakerProfessionalSkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63572CB4144A003C7073 /* CVMakerProfessionalSkillsView.swift */; };
 		DEBC649B2CB4144A003C7073 /* IAPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64102CB4144A003C7073 /* IAPError.swift */; };
-		DEBC649C2CB4144A003C7073 /* CVTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64242CB4144A003C7073 /* CVTemplate.swift */; };
-		DEBC649D2CB4144A003C7073 /* CVMPSCollectionTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63502CB4144A003C7073 /* CVMPSCollectionTitleCell.swift */; };
-		DEBC649E2CB4144A003C7073 /* CV3Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64312CB4144A003C7073 /* CV3Generator.swift */; };
 		DEBC649F2CB4144A003C7073 /* CLMTBTableHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63022CB4144A003C7073 /* CLMTBTableHeaderCell.swift */; };
-		DEBC64A02CB4144A003C7073 /* CVMakerEducationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC632C2CB4144A003C7073 /* CVMakerEducationListView.swift */; };
 		DEBC64A12CB4144A003C7073 /* CLTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC641F2CB4144A003C7073 /* CLTemplate.swift */; };
-		DEBC64A22CB4144A003C7073 /* SelectProfessionalSkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63A02CB4144A003C7073 /* SelectProfessionalSkillView.swift */; };
 		DEBC64A32CB4144A003C7073 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A82CB4144A003C7073 /* PaddingLabel.swift */; };
 		DEBC64A42CB4144A003C7073 /* CL6Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC642C2CB4144A003C7073 /* CL6Generator.swift */; };
-		DEBC64A52CB4144A003C7073 /* Interest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63F12CB4144A003C7073 /* Interest.swift */; };
 		DEBC64A62CB4144A003C7073 /* SignError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C32CB4144A003C7073 /* SignError.swift */; };
 		DEBC64A72CB4144A003C7073 /* CLPersonalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC641E2CB4144A003C7073 /* CLPersonalInfo.swift */; };
 		DEBC64A82CB4144A003C7073 /* CLMakerFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC630A2CB4144A003C7073 /* CLMakerFlowView.swift */; };
 		DEBC64A92CB4144A003C7073 /* CLToneOfVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64212CB4144A003C7073 /* CLToneOfVoice.swift */; };
 		DEBC64AA2CB4144A003C7073 /* CLMakerHiringManagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E12CB4144A003C7073 /* CLMakerHiringManagerView.swift */; };
 		DEBC64AB2CB4144A003C7073 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62CC2CB4144A003C7073 /* Weak.swift */; };
-		DEBC64AC2CB4144A003C7073 /* CVMETableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63272CB4144A003C7073 /* CVMETableView.swift */; };
 		DEBC64AD2CB4144A003C7073 /* CLHiringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC641C2CB4144A003C7073 /* CLHiringManager.swift */; };
 		DEBC64AE2CB4144A003C7073 /* OWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D22CB4144A003C7073 /* OWelcomeView.swift */; };
-		DEBC64AF2CB4144A003C7073 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63BA2CB4144A003C7073 /* ProfileView.swift */; };
-		DEBC64B02CB4144A003C7073 /* GeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64062CB4144A003C7073 /* GeneralInfo.swift */; };
-		DEBC64B12CB4144A003C7073 /* CVMLCollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63452CB4144A003C7073 /* CVMLCollectionHeaderCell.swift */; };
 		DEBC64B22CB4144A003C7073 /* CLMakerChapterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D72CB4144A003C7073 /* CLMakerChapterButton.swift */; };
-		DEBC64B32CB4144A003C7073 /* SelectLanguageTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63922CB4144A003C7073 /* SelectLanguageTableCell.swift */; };
 		DEBC64B42CB4144A003C7073 /* DottedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A52CB4144A003C7073 /* DottedButton.swift */; };
-		DEBC64B52CB4144A003C7073 /* ISOLanguages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63F22CB4144A003C7073 /* ISOLanguages.swift */; };
 		DEBC64B62CB4144A003C7073 /* TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62CB2CB4144A003C7073 /* TextAttributes.swift */; };
 		DEBC64B72CB4144A003C7073 /* PaygateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63E42CB4144A003C7073 /* PaygateView.swift */; };
-		DEBC64B82CB4144A003C7073 /* CVMakerEntityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63172CB4144A003C7073 /* CVMakerEntityCell.swift */; };
-		DEBC64B92CB4144A003C7073 /* CVMakerReferencesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63622CB4144A003C7073 /* CVMakerReferencesListView.swift */; };
 		DEBC64BA2CB4144A003C7073 /* PaygateProductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63E12CB4144A003C7073 /* PaygateProductButton.swift */; };
-		DEBC64BB2CB4144A003C7073 /* CVMakerChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63242CB4144A003C7073 /* CVMakerChaptersView.swift */; };
 		DEBC64BC2CB4144A003C7073 /* RequestReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC629C2CB4144A003C7073 /* RequestReview.swift */; };
 		DEBC64BD2CB4144A003C7073 /* CVMTOVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E72CB4144A003C7073 /* CVMTOVCell.swift */; };
 		DEBC64BE2CB4144A003C7073 /* OInputInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D32CB4144A003C7073 /* OInputInfoView.swift */; };
 		DEBC64BF2CB4144A003C7073 /* PaygateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63E32CB4144A003C7073 /* PaygateInteractor.swift */; };
 		DEBC64C02CB4144A003C7073 /* PushNotificationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62BD2CB4144A003C7073 /* PushNotificationsModel.swift */; };
 		DEBC64C12CB4144A003C7073 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63862CB4144A003C7073 /* PDFViewController.swift */; };
-		DEBC64C22CB4144A003C7073 /* CVMICollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC633C2CB4144A003C7073 /* CVMICollectionHeaderCell.swift */; };
-		DEBC64C32CB4144A003C7073 /* CVMakerReferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63632CB4144A003C7073 /* CVMakerReferencesView.swift */; };
 		DEBC64C42CB4144A003C7073 /* CLMakerVacancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62F02CB4144A003C7073 /* CLMakerVacancyView.swift */; };
-		DEBC64C52CB4144A003C7073 /* CV6Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64342CB4144A003C7073 /* CV6Generator.swift */; };
-		DEBC64C62CB4144A003C7073 /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64092CB4144A003C7073 /* Reference.swift */; };
 		DEBC64C72CB4144A003C7073 /* CL3Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64292CB4144A003C7073 /* CL3Generator.swift */; };
 		DEBC64C82CB4144A003C7073 /* CLMTBTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63012CB4144A003C7073 /* CLMTBTableCell.swift */; };
-		DEBC64C92CB4144A003C7073 /* CVMCTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC631B2CB4144A003C7073 /* CVMCTableView.swift */; };
-		DEBC64CA2CB4144A003C7073 /* SelectProfessionalSkillAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC639F2CB4144A003C7073 /* SelectProfessionalSkillAssembly.swift */; };
-		DEBC64CB2CB4144A003C7073 /* CV10Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64382CB4144A003C7073 /* CV10Generator.swift */; };
-		DEBC64CC2CB4144A003C7073 /* SelectProfessionalSkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63A12CB4144A003C7073 /* SelectProfessionalSkillViewController.swift */; };
-		DEBC64CD2CB4144A003C7073 /* CVMakerCertificatesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63202CB4144A003C7073 /* CVMakerCertificatesListView.swift */; };
 		DEBC64CE2CB4144A003C7073 /* CLMTBTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63042CB4144A003C7073 /* CLMTBTableElement.swift */; };
 		DEBC64CF2CB4144A003C7073 /* CLMHRGenderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62DC2CB4144A003C7073 /* CLMHRGenderButton.swift */; };
-		DEBC64D02CB4144A003C7073 /* CVMakerChapterProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63702CB4144A003C7073 /* CVMakerChapterProgressView.swift */; };
 		DEBC64D12CB4144A003C7073 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C22CB4144A003C7073 /* NetworkError.swift */; };
-		DEBC64D22CB4144A003C7073 /* CVMakerInterestsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63422CB4144A003C7073 /* CVMakerInterestsView.swift */; };
 		DEBC64D32CB4144A003C7073 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A32CB4144A003C7073 /* CircleView.swift */; };
-		DEBC64D42CB4144A003C7073 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64072CB4144A003C7073 /* Language.swift */; };
-		DEBC64D52CB4144A003C7073 /* CVMTemplatesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC637B2CB4144A003C7073 /* CVMTemplatesCollectionView.swift */; };
-		DEBC64D62CB4144A003C7073 /* CVMakerGeneralInfoContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63362CB4144A003C7073 /* CVMakerGeneralInfoContactInfoView.swift */; };
-		DEBC64D72CB4144A003C7073 /* CVMakerReferencesCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63612CB4144A003C7073 /* CVMakerReferencesCreateView.swift */; };
-		DEBC64D82CB4144A003C7073 /* CVMPSCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63532CB4144A003C7073 /* CVMPSCollectionLayout.swift */; };
 		DEBC64D92CB4144A003C7073 /* IAPActionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64132CB4144A003C7073 /* IAPActionResult.swift */; };
 		DEBC64DA2CB4144A003C7073 /* CLMakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC630D2CB4144A003C7073 /* CLMakerViewController.swift */; };
-		DEBC64DB2CB4144A003C7073 /* CVMakerChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63A82CB4144A003C7073 /* CVMakerChapterViewController.swift */; };
 		DEBC64DC2CB4144A003C7073 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D22CB4144A003C7073 /* SceneDelegate.swift */; };
 		DEBC64DD2CB4144A003C7073 /* CLMakerPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62F62CB4144A003C7073 /* CLMakerPreviewView.swift */; };
 		DEBC64DE2CB4144A003C7073 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63AF2CB4144A003C7073 /* MainView.swift */; };
-		DEBC64DF2CB4144A003C7073 /* CV1Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC642F2CB4144A003C7073 /* CV1Generator.swift */; };
 		DEBC64E02CB4144A003C7073 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D72CB4144A003C7073 /* OnboardingView.swift */; };
-		DEBC64E12CB4144A003C7073 /* CVMakerEducationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC632D2CB4144A003C7073 /* CVMakerEducationView.swift */; };
 		DEBC64E22CB4144A003C7073 /* PaygateOptionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63DE2CB4144A003C7073 /* PaygateOptionInfo.swift */; };
 		DEBC64E32CB4144A003C7073 /* CLMakerTextBlocksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63082CB4144A003C7073 /* CLMakerTextBlocksView.swift */; };
 		DEBC64E42CB4144A003C7073 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC629F2CB4144A003C7073 /* NavigationController.swift */; };
 		DEBC64E52CB4144A003C7073 /* PurchaseValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64182CB4144A003C7073 /* PurchaseValidationObserver.swift */; };
-		DEBC64E62CB4144A003C7073 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63EF2CB4144A003C7073 /* City.swift */; };
 		DEBC64E82CB4144A003C7073 /* PushNotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62BF2CB4144A003C7073 /* PushNotificationsManager.swift */; };
 		DEBC64E92CB4144A003C7073 /* CLMakerToneOfVoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E92CB4144A003C7073 /* CLMakerToneOfVoiceView.swift */; };
 		DEBC64EA2CB4144A003C7073 /* DefaultRequestWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B72CB4144A003C7073 /* DefaultRequestWrapper.swift */; };
-		DEBC64EB2CB4144A003C7073 /* CVMakerCertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63212CB4144A003C7073 /* CVMakerCertificatesView.swift */; };
-		DEBC64EC2CB4144A003C7073 /* CVMTemplatesCollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63782CB4144A003C7073 /* CVMTemplatesCollectionHeaderCell.swift */; };
-		DEBC64ED2CB4144A003C7073 /* CVMLCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63482CB4144A003C7073 /* CVMLCollectionElement.swift */; };
 		DEBC64EE2CB4144A003C7073 /* ResumeGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C32CB4144A003C7073 /* ResumeGroupView.swift */; };
 		DEBC64EF2CB4144A003C7073 /* CL5Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC642B2CB4144A003C7073 /* CL5Generator.swift */; };
 		DEBC64F02CB4144A003C7073 /* DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C52CB4144A003C7073 /* DocumentsDirectory.swift */; };
 		DEBC64F12CB4144A003C7073 /* ObservableAndSingle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62AE2CB4144A003C7073 /* ObservableAndSingle+Extension.swift */; };
-		DEBC64F22CB4144A003C7073 /* SelectCityTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63892CB4144A003C7073 /* SelectCityTableElement.swift */; };
 		DEBC64F32CB4144A003C7073 /* CLAssistantAnalyzeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64422CB4144A003C7073 /* CLAssistantAnalyzeRequest.swift */; };
 		DEBC64F42CB4144A003C7073 /* ResumeMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64452CB4144A003C7073 /* ResumeMediator.swift */; };
 		DEBC64F52CB4144A003C7073 /* OSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D52CB4144A003C7073 /* OSlideView.swift */; };
 		DEBC64F62CB4144A003C7073 /* CLMakerVacancyPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62ED2CB4144A003C7073 /* CLMakerVacancyPositionView.swift */; };
 		DEBC64F72CB4144A003C7073 /* PushNotificationsAuthorizationStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62BC2CB4144A003C7073 /* PushNotificationsAuthorizationStatus.swift */; };
-		DEBC64F82CB4144A003C7073 /* CVMakerGeneralInfoPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63392CB4144A003C7073 /* CVMakerGeneralInfoPhotoView.swift */; };
-		DEBC64F92CB4144A003C7073 /* CV11Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64392CB4144A003C7073 /* CV11Generator.swift */; };
 		DEBC64FA2CB4144A003C7073 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64142CB4144A003C7073 /* IAPProduct.swift */; };
-		DEBC64FB2CB4144A003C7073 /* CV2Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64302CB4144A003C7073 /* CV2Generator.swift */; };
-		DEBC64FC2CB4144A003C7073 /* SocialMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC640A2CB4144A003C7073 /* SocialMedia.swift */; };
 		DEBC64FD2CB4144A003C7073 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62982CB4144A003C7073 /* FacebookManager.swift */; };
 		DEBC64FE2CB4144A003C7073 /* RestAPITransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62BA2CB4144A003C7073 /* RestAPITransport.swift */; };
-		DEBC64FF2CB4144A003C7073 /* CVMRCreateFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC635F2CB4144A003C7073 /* CVMRCreateFieldsView.swift */; };
-		DEBC65002CB4144A003C7073 /* CVMRTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC635B2CB4144A003C7073 /* CVMRTableCell.swift */; };
-		DEBC65012CB4144A003C7073 /* CVMakerWorkExperienceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC636D2CB4144A003C7073 /* CVMakerWorkExperienceListView.swift */; };
-		DEBC65022CB4144A003C7073 /* CVMakerGeneralInfoFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63372CB4144A003C7073 /* CVMakerGeneralInfoFlowView.swift */; };
 		DEBC65032CB4144A003C7073 /* CLMakerHiringManagerStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E02CB4144A003C7073 /* CLMakerHiringManagerStepView.swift */; };
-		DEBC65042CB4144A003C7073 /* CV12Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC643A2CB4144A003C7073 /* CV12Generator.swift */; };
-		DEBC65052CB4144A003C7073 /* CVMakerChapterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63232CB4144A003C7073 /* CVMakerChapterButton.swift */; };
-		DEBC65062CB4144A003C7073 /* RWWCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C72CB4144A003C7073 /* RWWCView.swift */; };
-		DEBC65072CB4144A003C7073 /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64032CB4144A003C7073 /* Certificate.swift */; };
 		DEBC65082CB4144A003C7073 /* ResumeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64252CB4144A003C7073 /* ResumeGroup.swift */; };
-		DEBC65092CB4144A003C7073 /* CVMakerTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63182CB4144A003C7073 /* CVMakerTitleCell.swift */; };
 		DEBC650A2CB4144A003C7073 /* CLTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64202CB4144A003C7073 /* CLTextBlock.swift */; };
-		DEBC650B2CB4144A003C7073 /* SelectLanguageTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63932CB4144A003C7073 /* SelectLanguageTableView.swift */; };
-		DEBC650C2CB4144A003C7073 /* CV15Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC643D2CB4144A003C7073 /* CV15Generator.swift */; };
-		DEBC650D2CB4144A003C7073 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63F02CB4144A003C7073 /* Country.swift */; };
-		DEBC650E2CB4144A003C7073 /* CVMLCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63492CB4144A003C7073 /* CVMLCollectionView.swift */; };
-		DEBC650F2CB4144A003C7073 /* SelectCityAssemby.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC638D2CB4144A003C7073 /* SelectCityAssemby.swift */; };
-		DEBC65102CB4144A003C7073 /* RWWCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C82CB4144A003C7073 /* RWWCViewController.swift */; };
-		DEBC65112CB4144A003C7073 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64082CB4144A003C7073 /* Profile.swift */; };
-		DEBC65122CB4144A003C7073 /* CVMECreateFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63292CB4144A003C7073 /* CVMECreateFieldsView.swift */; };
 		DEBC65132CB4144A003C7073 /* APIRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B92CB4144A003C7073 /* APIRequestBody.swift */; };
-		DEBC65142CB4144A003C7073 /* CVMWETableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63682CB4144A003C7073 /* CVMWETableView.swift */; };
-		DEBC65152CB4144A003C7073 /* CVMakerWorkExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC636E2CB4144A003C7073 /* CVMakerWorkExperienceView.swift */; };
-		DEBC65162CB4144A003C7073 /* CVMRListInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63592CB4144A003C7073 /* CVMRListInfoView.swift */; };
-		DEBC65172CB4144A003C7073 /* CVMETableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63262CB4144A003C7073 /* CVMETableElement.swift */; };
 		DEBC65182CB4144A003C7073 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A92CB4144A003C7073 /* PaddingTextField.swift */; };
 		DEBC65192CB4144A003C7073 /* CLInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC641D2CB4144A003C7073 /* CLInfo.swift */; };
 		DEBC651A2CB4144A003C7073 /* CLMakerPersonalInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E52CB4144A003C7073 /* CLMakerPersonalInfoView.swift */; };
-		DEBC651B2CB4144A003C7073 /* SelectCityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC638E2CB4144A003C7073 /* SelectCityView.swift */; };
-		DEBC651C2CB4144A003C7073 /* CVMakerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63842CB4144A003C7073 /* CVMakerViewModel.swift */; };
-		DEBC651D2CB4144A003C7073 /* CVMakerSocialMediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63652CB4144A003C7073 /* CVMakerSocialMediaView.swift */; };
 		DEBC651E2CB4144A003C7073 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C62CB4144A003C7073 /* Fonts.swift */; };
 		DEBC651F2CB4144A003C7073 /* ObservableRetrySingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C82CB4144A003C7073 /* ObservableRetrySingle.swift */; };
-		DEBC65202CB4144A003C7073 /* CVMGIAboutYourselfTipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63302CB4144A003C7073 /* CVMGIAboutYourselfTipsView.swift */; };
-		DEBC65212CB4144A003C7073 /* WrapperController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63A52CB4144A003C7073 /* WrapperController.swift */; };
-		DEBC65222CB4144A003C7073 /* ProfileCVMakerChapterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63B32CB4144A003C7073 /* ProfileCVMakerChapterCell.swift */; };
-		DEBC65232CB4144A003C7073 /* WorkExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC640B2CB4144A003C7073 /* WorkExperience.swift */; };
-		DEBC65242CB4144A003C7073 /* SelectLanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63972CB4144A003C7073 /* SelectLanguageView.swift */; };
-		DEBC65252CB4144A003C7073 /* CVMakerGeneralInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC633A2CB4144A003C7073 /* CVMakerGeneralInfoView.swift */; };
-		DEBC65262CB4144A003C7073 /* CVMakerCraftingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63142CB4144A003C7073 /* CVMakerCraftingView.swift */; };
 		DEBC65272CB4144A003C7073 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B02CB4144A003C7073 /* UIApplication+Extension.swift */; };
 		DEBC65282CB4144A003C7073 /* PaygateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63E52CB4144A003C7073 /* PaygateViewController.swift */; };
 		DEBC65292CB4144A003C7073 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D92CB4144A003C7073 /* OnboardingViewModel.swift */; };
-		DEBC652A2CB4144A003C7073 /* CVMRTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC635C2CB4144A003C7073 /* CVMRTableElement.swift */; };
 		DEBC652B2CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62F92CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift */; };
-		DEBC652C2CB4144A003C7073 /* CV8Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64362CB4144A003C7073 /* CV8Generator.swift */; };
 		DEBC652E2CB4144A003C7073 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62972CB4144A003C7073 /* BranchManager.swift */; };
-		DEBC652F2CB4144A003C7073 /* CV5Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64332CB4144A003C7073 /* CV5Generator.swift */; };
-		DEBC65302CB4144A003C7073 /* CVMLCollectionAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63442CB4144A003C7073 /* CVMLCollectionAddCell.swift */; };
 		DEBC65312CB4144A003C7073 /* CL7Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC642D2CB4144A003C7073 /* CL7Generator.swift */; };
 		DEBC65322CB4144A003C7073 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B12CB4144A003C7073 /* UIColor+Extension.swift */; };
-		DEBC65332CB4144A003C7073 /* SelectCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC638F2CB4144A003C7073 /* SelectCityViewController.swift */; };
 		DEBC65342CB4144A003C7073 /* PaygateOptionLineComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64002CB4144A003C7073 /* PaygateOptionLineComponent.swift */; };
-		DEBC65352CB4144A003C7073 /* CVMakerChapterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63A92CB4144A003C7073 /* CVMakerChapterViewModel.swift */; };
-		DEBC65362CB4144A003C7073 /* CVMLCollectionLanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63462CB4144A003C7073 /* CVMLCollectionLanguageCell.swift */; };
-		DEBC65372CB4144A003C7073 /* CVMPSCollectionAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC634E2CB4144A003C7073 /* CVMPSCollectionAddCell.swift */; };
 		DEBC65382CB4144A003C7073 /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63EC2CB4144A003C7073 /* SplashViewModel.swift */; };
 		DEBC65392CB4144A003C7073 /* CLCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC641B2CB4144A003C7073 /* CLCompany.swift */; };
-		DEBC653A2CB4144A003C7073 /* CVMTemplatesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63772CB4144A003C7073 /* CVMTemplatesCollectionCell.swift */; };
 		DEBC653B2CB4144A003C7073 /* SettingsLinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63CB2CB4144A003C7073 /* SettingsLinkButton.swift */; };
 		DEBC653C2CB4144A003C7073 /* CLMTemplatesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62FC2CB4144A003C7073 /* CLMTemplatesCollectionView.swift */; };
 		DEBC653D2CB4144A003C7073 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62AF2CB4144A003C7073 /* String+Extension.swift */; };
@@ -255,59 +139,28 @@
 		DEBC653F2CB4144A003C7073 /* CLMTBTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63052CB4144A003C7073 /* CLMTBTableView.swift */; };
 		DEBC65402CB4144A003C7073 /* CLMakerVacancyCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62EB2CB4144A003C7073 /* CLMakerVacancyCollector.swift */; };
 		DEBC65412CB4144A003C7073 /* UIEdgeInsets+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B32CB4144A003C7073 /* UIEdgeInsets+Extension.swift */; };
-		DEBC65422CB4144A003C7073 /* CVMakerWorkExperienceCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC636C2CB4144A003C7073 /* CVMakerWorkExperienceCreateView.swift */; };
-		DEBC65432CB4144A003C7073 /* CV7Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64352CB4144A003C7073 /* CV7Generator.swift */; };
 		DEBC65442CB4144A003C7073 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63CF2CB4144A003C7073 /* SettingsViewModel.swift */; };
 		DEBC65452CB4144A003C7073 /* GlobalDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D12CB4144A003C7073 /* GlobalDefinitions.swift */; };
 		DEBC65462CB4144A003C7073 /* ResumeGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C52CB4144A003C7073 /* ResumeGroupViewModel.swift */; };
-		DEBC65472CB4144A003C7073 /* SelectCityTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63882CB4144A003C7073 /* SelectCityTableCell.swift */; };
-		DEBC65482CB4144A003C7073 /* CVMRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC635D2CB4144A003C7073 /* CVMRTableView.swift */; };
-		DEBC65492CB4144A003C7073 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63BC2CB4144A003C7073 /* ProfileViewModel.swift */; };
 		DEBC654A2CB4144A003C7073 /* CL4Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC642A2CB4144A003C7073 /* CL4Generator.swift */; };
 		DEBC654B2CB4144A003C7073 /* SelectField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62AA2CB4144A003C7073 /* SelectField.swift */; };
-		DEBC654C2CB4144A003C7073 /* CVMICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63402CB4144A003C7073 /* CVMICollectionView.swift */; };
 		DEBC654D2CB4144A003C7073 /* DateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A42CB4144A003C7073 /* DateField.swift */; };
-		DEBC654E2CB4144A003C7073 /* CVMWETableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63672CB4144A003C7073 /* CVMWETableElement.swift */; };
 		DEBC654F2CB4144A003C7073 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D02CB4144A003C7073 /* Appearance.swift */; };
-		DEBC65502CB4144A003C7073 /* CVMGIAboutYourselfTipCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC632F2CB4144A003C7073 /* CVMGIAboutYourselfTipCell.swift */; };
 		DEBC65512CB4144A003C7073 /* CLMTemplatesCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62FB2CB4144A003C7073 /* CLMTemplatesCollectionElement.swift */; };
 		DEBC65522CB4144A003C7073 /* RSCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C02CB4144A003C7073 /* RSCollectionView.swift */; };
 		DEBC65532CB4144A003C7073 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC629B2CB4144A003C7073 /* ImagePicker.swift */; };
 		DEBC65542CB4144A003C7073 /* CL1Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64272CB4144A003C7073 /* CL1Generator.swift */; };
-		DEBC65552CB4144A003C7073 /* CV14Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC643C2CB4144A003C7073 /* CV14Generator.swift */; };
-		DEBC65562CB4144A003C7073 /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63982CB4144A003C7073 /* SelectLanguageViewController.swift */; };
-		DEBC65572CB4144A003C7073 /* CV4Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64322CB4144A003C7073 /* CV4Generator.swift */; };
-		DEBC65582CB4144A003C7073 /* SelectLanguageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63992CB4144A003C7073 /* SelectLanguageViewModel.swift */; };
-		DEBC65592CB4144A003C7073 /* CVMakerGeneralInfoNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63382CB4144A003C7073 /* CVMakerGeneralInfoNameView.swift */; };
 		DEBC655A2CB4144A003C7073 /* IAPErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64112CB4144A003C7073 /* IAPErrorHelper.swift */; };
-		DEBC655B2CB4144A003C7073 /* CVMakerGeneralInfoAboutYourselfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63352CB4144A003C7073 /* CVMakerGeneralInfoAboutYourselfView.swift */; };
-		DEBC655C2CB4144A003C7073 /* CV16Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC643E2CB4144A003C7073 /* CV16Generator.swift */; };
-		DEBC655D2CB4144A003C7073 /* CVMakerLanguagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC634C2CB4144A003C7073 /* CVMakerLanguagesView.swift */; };
 		DEBC655E2CB4144A003C7073 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62CF2CB4144A003C7073 /* AppDelegate.swift */; };
-		DEBC655F2CB4144A003C7073 /* CVMWECreateFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC636A2CB4144A003C7073 /* CVMWECreateFieldsView.swift */; };
-		DEBC65602CB4144A003C7073 /* CVMakerTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC637E2CB4144A003C7073 /* CVMakerTemplateView.swift */; };
-		DEBC65612CB4144A003C7073 /* CVMCTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC631A2CB4144A003C7073 /* CVMCTableElement.swift */; };
-		DEBC65622CB4144A003C7073 /* CVMakerAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63162CB4144A003C7073 /* CVMakerAddCell.swift */; };
-		DEBC65632CB4144A003C7073 /* CVMPSCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63522CB4144A003C7073 /* CVMPSCollectionElement.swift */; };
 		DEBC65642CB4144A003C7073 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63B02CB4144A003C7073 /* MainViewController.swift */; };
-		DEBC65652CB4144A003C7073 /* CVMCCreateFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC631D2CB4144A003C7073 /* CVMCCreateFieldsView.swift */; };
-		DEBC65662CB4144A003C7073 /* CVMakerPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63752CB4144A003C7073 /* CVMakerPreviewView.swift */; };
 		DEBC65672CB4144A003C7073 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A22CB4144A003C7073 /* CircleProgressView.swift */; };
 		DEBC65692CB4144A003C7073 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62AD2CB4144A003C7073 /* Collection+Extension.swift */; };
 		DEBC656A2CB4144A003C7073 /* CLMakerVacancyStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62EF2CB4144A003C7073 /* CLMakerVacancyStepView.swift */; };
-		DEBC656B2CB4144A003C7073 /* SelectCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63902CB4144A003C7073 /* SelectCityViewModel.swift */; };
 		DEBC656C2CB4144A003C7073 /* RSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63BE2CB4144A003C7073 /* RSCollectionCell.swift */; };
-		DEBC656D2CB4144A003C7073 /* CVMakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63822CB4144A003C7073 /* CVMakerView.swift */; };
 		DEBC656E2CB4144A003C7073 /* ContentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C12CB4144A003C7073 /* ContentError.swift */; };
-		DEBC656F2CB4144A003C7073 /* CVMakerOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63732CB4144A003C7073 /* CVMakerOnboardingView.swift */; };
 		DEBC65702CB4144A003C7073 /* RxActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC629D2CB4144A003C7073 /* RxActivityIndicator.swift */; };
 		DEBC65712CB4144A003C7073 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B22CB4144A003C7073 /* UIDevice+Extension.swift */; };
-		DEBC65722CB4144A003C7073 /* ProfessionalSkill.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63F32CB4144A003C7073 /* ProfessionalSkill.swift */; };
 		DEBC65732CB4144A003C7073 /* CLMakerPrepareOnboardingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D52CB4144A003C7073 /* CLMakerPrepareOnboardingData.swift */; };
-		DEBC65742CB4144A003C7073 /* Languages.json in Resources */ = {isa = PBXBuildFile; fileRef = DEBC63F92CB4144A003C7073 /* Languages.json */; };
-		DEBC65752CB4144A003C7073 /* Interests.json in Resources */ = {isa = PBXBuildFile; fileRef = DEBC63F82CB4144A003C7073 /* Interests.json */; };
-		DEBC65762CB4144A003C7073 /* ProfessionalSkills.json in Resources */ = {isa = PBXBuildFile; fileRef = DEBC63FA2CB4144A003C7073 /* ProfessionalSkills.json */; };
-		DEBC65772CB4144A003C7073 /* CVMaker.Crafting.Animation.json in Resources */ = {isa = PBXBuildFile; fileRef = DEBC63122CB4144A003C7073 /* CVMaker.Crafting.Animation.json */; };
 		DEBC65D32CB41457003C7073 /* Lora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBC65972CB41457003C7073 /* Lora-SemiBold.ttf */; };
 		DEBC65D42CB41457003C7073 /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBC65932CB41457003C7073 /* Lora-Italic.ttf */; };
 		DEBC65D52CB41457003C7073 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBC65B82CB41457003C7073 /* Roboto-Regular.ttf */; };
@@ -480,122 +333,15 @@
 		DEBC630C2CB4144A003C7073 /* CLMakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLMakerView.swift; sourceTree = "<group>"; };
 		DEBC630D2CB4144A003C7073 /* CLMakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLMakerViewController.swift; sourceTree = "<group>"; };
 		DEBC630E2CB4144A003C7073 /* CLMakerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLMakerViewModel.swift; sourceTree = "<group>"; };
-		DEBC63102CB4144A003C7073 /* CVMakerProfileGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerProfileGenerator.swift; sourceTree = "<group>"; };
-		DEBC63122CB4144A003C7073 /* CVMaker.Crafting.Animation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CVMaker.Crafting.Animation.json; sourceTree = "<group>"; };
-		DEBC63142CB4144A003C7073 /* CVMakerCraftingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerCraftingView.swift; sourceTree = "<group>"; };
-		DEBC63162CB4144A003C7073 /* CVMakerAddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerAddCell.swift; sourceTree = "<group>"; };
-		DEBC63172CB4144A003C7073 /* CVMakerEntityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerEntityCell.swift; sourceTree = "<group>"; };
-		DEBC63182CB4144A003C7073 /* CVMakerTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerTitleCell.swift; sourceTree = "<group>"; };
-		DEBC631A2CB4144A003C7073 /* CVMCTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMCTableElement.swift; sourceTree = "<group>"; };
-		DEBC631B2CB4144A003C7073 /* CVMCTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMCTableView.swift; sourceTree = "<group>"; };
-		DEBC631D2CB4144A003C7073 /* CVMCCreateFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMCCreateFieldsView.swift; sourceTree = "<group>"; };
-		DEBC631F2CB4144A003C7073 /* CVMakerCertificatesCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerCertificatesCreateView.swift; sourceTree = "<group>"; };
-		DEBC63202CB4144A003C7073 /* CVMakerCertificatesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerCertificatesListView.swift; sourceTree = "<group>"; };
-		DEBC63212CB4144A003C7073 /* CVMakerCertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerCertificatesView.swift; sourceTree = "<group>"; };
-		DEBC63232CB4144A003C7073 /* CVMakerChapterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerChapterButton.swift; sourceTree = "<group>"; };
-		DEBC63242CB4144A003C7073 /* CVMakerChaptersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerChaptersView.swift; sourceTree = "<group>"; };
-		DEBC63262CB4144A003C7073 /* CVMETableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMETableElement.swift; sourceTree = "<group>"; };
-		DEBC63272CB4144A003C7073 /* CVMETableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMETableView.swift; sourceTree = "<group>"; };
-		DEBC63292CB4144A003C7073 /* CVMECreateFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMECreateFieldsView.swift; sourceTree = "<group>"; };
-		DEBC632B2CB4144A003C7073 /* CVMakerEducationCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerEducationCreateView.swift; sourceTree = "<group>"; };
-		DEBC632C2CB4144A003C7073 /* CVMakerEducationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerEducationListView.swift; sourceTree = "<group>"; };
-		DEBC632D2CB4144A003C7073 /* CVMakerEducationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerEducationView.swift; sourceTree = "<group>"; };
-		DEBC632F2CB4144A003C7073 /* CVMGIAboutYourselfTipCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMGIAboutYourselfTipCell.swift; sourceTree = "<group>"; };
-		DEBC63302CB4144A003C7073 /* CVMGIAboutYourselfTipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMGIAboutYourselfTipsView.swift; sourceTree = "<group>"; };
-		DEBC63312CB4144A003C7073 /* CVMGIPhotoContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMGIPhotoContainer.swift; sourceTree = "<group>"; };
-		DEBC63332CB4144A003C7073 /* CVMakerGeneralInfoCollector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerGeneralInfoCollector.swift; sourceTree = "<group>"; };
-		DEBC63352CB4144A003C7073 /* CVMakerGeneralInfoAboutYourselfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerGeneralInfoAboutYourselfView.swift; sourceTree = "<group>"; };
-		DEBC63362CB4144A003C7073 /* CVMakerGeneralInfoContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerGeneralInfoContactInfoView.swift; sourceTree = "<group>"; };
-		DEBC63372CB4144A003C7073 /* CVMakerGeneralInfoFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerGeneralInfoFlowView.swift; sourceTree = "<group>"; };
-		DEBC63382CB4144A003C7073 /* CVMakerGeneralInfoNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerGeneralInfoNameView.swift; sourceTree = "<group>"; };
-		DEBC63392CB4144A003C7073 /* CVMakerGeneralInfoPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerGeneralInfoPhotoView.swift; sourceTree = "<group>"; };
-		DEBC633A2CB4144A003C7073 /* CVMakerGeneralInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerGeneralInfoView.swift; sourceTree = "<group>"; };
-		DEBC633C2CB4144A003C7073 /* CVMICollectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMICollectionHeaderCell.swift; sourceTree = "<group>"; };
-		DEBC633D2CB4144A003C7073 /* CVMICollectionInterestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMICollectionInterestCell.swift; sourceTree = "<group>"; };
-		DEBC633F2CB4144A003C7073 /* CVMICollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMICollectionElement.swift; sourceTree = "<group>"; };
-		DEBC63402CB4144A003C7073 /* CVMICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMICollectionView.swift; sourceTree = "<group>"; };
-		DEBC63422CB4144A003C7073 /* CVMakerInterestsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerInterestsView.swift; sourceTree = "<group>"; };
-		DEBC63442CB4144A003C7073 /* CVMLCollectionAddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMLCollectionAddCell.swift; sourceTree = "<group>"; };
-		DEBC63452CB4144A003C7073 /* CVMLCollectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMLCollectionHeaderCell.swift; sourceTree = "<group>"; };
-		DEBC63462CB4144A003C7073 /* CVMLCollectionLanguageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMLCollectionLanguageCell.swift; sourceTree = "<group>"; };
-		DEBC63482CB4144A003C7073 /* CVMLCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMLCollectionElement.swift; sourceTree = "<group>"; };
-		DEBC63492CB4144A003C7073 /* CVMLCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMLCollectionView.swift; sourceTree = "<group>"; };
-		DEBC634C2CB4144A003C7073 /* CVMakerLanguagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerLanguagesView.swift; sourceTree = "<group>"; };
-		DEBC634E2CB4144A003C7073 /* CVMPSCollectionAddCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMPSCollectionAddCell.swift; sourceTree = "<group>"; };
-		DEBC634F2CB4144A003C7073 /* CVMPSCollectionSkillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMPSCollectionSkillCell.swift; sourceTree = "<group>"; };
-		DEBC63502CB4144A003C7073 /* CVMPSCollectionTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMPSCollectionTitleCell.swift; sourceTree = "<group>"; };
-		DEBC63522CB4144A003C7073 /* CVMPSCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMPSCollectionElement.swift; sourceTree = "<group>"; };
-		DEBC63532CB4144A003C7073 /* CVMPSCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMPSCollectionLayout.swift; sourceTree = "<group>"; };
-		DEBC63542CB4144A003C7073 /* CVMPSCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMPSCollectionView.swift; sourceTree = "<group>"; };
-		DEBC63572CB4144A003C7073 /* CVMakerProfessionalSkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerProfessionalSkillsView.swift; sourceTree = "<group>"; };
-		DEBC63592CB4144A003C7073 /* CVMRListInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMRListInfoView.swift; sourceTree = "<group>"; };
-		DEBC635B2CB4144A003C7073 /* CVMRTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMRTableCell.swift; sourceTree = "<group>"; };
-		DEBC635C2CB4144A003C7073 /* CVMRTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMRTableElement.swift; sourceTree = "<group>"; };
-		DEBC635D2CB4144A003C7073 /* CVMRTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMRTableView.swift; sourceTree = "<group>"; };
-		DEBC635F2CB4144A003C7073 /* CVMRCreateFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMRCreateFieldsView.swift; sourceTree = "<group>"; };
-		DEBC63612CB4144A003C7073 /* CVMakerReferencesCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerReferencesCreateView.swift; sourceTree = "<group>"; };
-		DEBC63622CB4144A003C7073 /* CVMakerReferencesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerReferencesListView.swift; sourceTree = "<group>"; };
-		DEBC63632CB4144A003C7073 /* CVMakerReferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerReferencesView.swift; sourceTree = "<group>"; };
-		DEBC63652CB4144A003C7073 /* CVMakerSocialMediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerSocialMediaView.swift; sourceTree = "<group>"; };
-		DEBC63672CB4144A003C7073 /* CVMWETableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMWETableElement.swift; sourceTree = "<group>"; };
-		DEBC63682CB4144A003C7073 /* CVMWETableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMWETableView.swift; sourceTree = "<group>"; };
-		DEBC636A2CB4144A003C7073 /* CVMWECreateFieldsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMWECreateFieldsView.swift; sourceTree = "<group>"; };
-		DEBC636C2CB4144A003C7073 /* CVMakerWorkExperienceCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerWorkExperienceCreateView.swift; sourceTree = "<group>"; };
-		DEBC636D2CB4144A003C7073 /* CVMakerWorkExperienceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerWorkExperienceListView.swift; sourceTree = "<group>"; };
-		DEBC636E2CB4144A003C7073 /* CVMakerWorkExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerWorkExperienceView.swift; sourceTree = "<group>"; };
-		DEBC63702CB4144A003C7073 /* CVMakerChapterProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerChapterProgressView.swift; sourceTree = "<group>"; };
-		DEBC63712CB4144A003C7073 /* CVMakerSingleEntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerSingleEntityView.swift; sourceTree = "<group>"; };
-		DEBC63732CB4144A003C7073 /* CVMakerOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerOnboardingView.swift; sourceTree = "<group>"; };
-		DEBC63752CB4144A003C7073 /* CVMakerPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerPreviewView.swift; sourceTree = "<group>"; };
-		DEBC63772CB4144A003C7073 /* CVMTemplatesCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMTemplatesCollectionCell.swift; sourceTree = "<group>"; };
-		DEBC63782CB4144A003C7073 /* CVMTemplatesCollectionHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMTemplatesCollectionHeaderCell.swift; sourceTree = "<group>"; };
-		DEBC637A2CB4144A003C7073 /* CVMTemplatesCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMTemplatesCollectionElement.swift; sourceTree = "<group>"; };
-		DEBC637B2CB4144A003C7073 /* CVMTemplatesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMTemplatesCollectionView.swift; sourceTree = "<group>"; };
-		DEBC637E2CB4144A003C7073 /* CVMakerTemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerTemplateView.swift; sourceTree = "<group>"; };
-		DEBC63802CB4144A003C7073 /* CVMakerFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerFlowView.swift; sourceTree = "<group>"; };
-		DEBC63822CB4144A003C7073 /* CVMakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerView.swift; sourceTree = "<group>"; };
-		DEBC63832CB4144A003C7073 /* CVMakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerViewController.swift; sourceTree = "<group>"; };
-		DEBC63842CB4144A003C7073 /* CVMakerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerViewModel.swift; sourceTree = "<group>"; };
 		DEBC63862CB4144A003C7073 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
-		DEBC63882CB4144A003C7073 /* SelectCityTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityTableCell.swift; sourceTree = "<group>"; };
-		DEBC63892CB4144A003C7073 /* SelectCityTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityTableElement.swift; sourceTree = "<group>"; };
-		DEBC638A2CB4144A003C7073 /* SelectCityTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityTableView.swift; sourceTree = "<group>"; };
-		DEBC638D2CB4144A003C7073 /* SelectCityAssemby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityAssemby.swift; sourceTree = "<group>"; };
-		DEBC638E2CB4144A003C7073 /* SelectCityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityView.swift; sourceTree = "<group>"; };
-		DEBC638F2CB4144A003C7073 /* SelectCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityViewController.swift; sourceTree = "<group>"; };
-		DEBC63902CB4144A003C7073 /* SelectCityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCityViewModel.swift; sourceTree = "<group>"; };
-		DEBC63922CB4144A003C7073 /* SelectLanguageTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageTableCell.swift; sourceTree = "<group>"; };
-		DEBC63932CB4144A003C7073 /* SelectLanguageTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageTableView.swift; sourceTree = "<group>"; };
-		DEBC63962CB4144A003C7073 /* SelectLanguageAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageAssembly.swift; sourceTree = "<group>"; };
-		DEBC63972CB4144A003C7073 /* SelectLanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageView.swift; sourceTree = "<group>"; };
-		DEBC63982CB4144A003C7073 /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
-		DEBC63992CB4144A003C7073 /* SelectLanguageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewModel.swift; sourceTree = "<group>"; };
-		DEBC639B2CB4144A003C7073 /* SelectProfessionalSkillTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfessionalSkillTableCell.swift; sourceTree = "<group>"; };
-		DEBC639C2CB4144A003C7073 /* SelectProfessionalSkillTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfessionalSkillTableView.swift; sourceTree = "<group>"; };
-		DEBC639F2CB4144A003C7073 /* SelectProfessionalSkillAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfessionalSkillAssembly.swift; sourceTree = "<group>"; };
-		DEBC63A02CB4144A003C7073 /* SelectProfessionalSkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfessionalSkillView.swift; sourceTree = "<group>"; };
-		DEBC63A12CB4144A003C7073 /* SelectProfessionalSkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfessionalSkillViewController.swift; sourceTree = "<group>"; };
-		DEBC63A22CB4144A003C7073 /* SelectProfessionalSkillViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectProfessionalSkillViewModel.swift; sourceTree = "<group>"; };
-		DEBC63A52CB4144A003C7073 /* WrapperController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperController.swift; sourceTree = "<group>"; };
-		DEBC63A82CB4144A003C7073 /* CVMakerChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerChapterViewController.swift; sourceTree = "<group>"; };
-		DEBC63A92CB4144A003C7073 /* CVMakerChapterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerChapterViewModel.swift; sourceTree = "<group>"; };
 		DEBC63AF2CB4144A003C7073 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DEBC63B02CB4144A003C7073 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		DEBC63B32CB4144A003C7073 /* ProfileCVMakerChapterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCVMakerChapterCell.swift; sourceTree = "<group>"; };
-		DEBC63B42CB4144A003C7073 /* ProfileInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoCell.swift; sourceTree = "<group>"; };
-		DEBC63B62CB4144A003C7073 /* ProfileTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableElement.swift; sourceTree = "<group>"; };
-		DEBC63B72CB4144A003C7073 /* ProfileTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableView.swift; sourceTree = "<group>"; };
-		DEBC63BA2CB4144A003C7073 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		DEBC63BB2CB4144A003C7073 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		DEBC63BC2CB4144A003C7073 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		DEBC63BE2CB4144A003C7073 /* RSCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCollectionCell.swift; sourceTree = "<group>"; };
 		DEBC63BF2CB4144A003C7073 /* RSCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCollectionElement.swift; sourceTree = "<group>"; };
 		DEBC63C02CB4144A003C7073 /* RSCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCollectionView.swift; sourceTree = "<group>"; };
 		DEBC63C32CB4144A003C7073 /* ResumeGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeGroupView.swift; sourceTree = "<group>"; };
 		DEBC63C42CB4144A003C7073 /* ResumeGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeGroupViewController.swift; sourceTree = "<group>"; };
 		DEBC63C52CB4144A003C7073 /* ResumeGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeGroupViewModel.swift; sourceTree = "<group>"; };
-		DEBC63C72CB4144A003C7073 /* RWWCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWWCView.swift; sourceTree = "<group>"; };
-		DEBC63C82CB4144A003C7073 /* RWWCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWWCViewController.swift; sourceTree = "<group>"; };
 		DEBC63CB2CB4144A003C7073 /* SettingsLinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLinkButton.swift; sourceTree = "<group>"; };
 		DEBC63CD2CB4144A003C7073 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DEBC63CE2CB4144A003C7073 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -620,31 +366,9 @@
 		DEBC63EA2CB4144A003C7073 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		DEBC63EB2CB4144A003C7073 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		DEBC63EC2CB4144A003C7073 /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
-		DEBC63EF2CB4144A003C7073 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
-		DEBC63F02CB4144A003C7073 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		DEBC63F12CB4144A003C7073 /* Interest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interest.swift; sourceTree = "<group>"; };
-		DEBC63F22CB4144A003C7073 /* ISOLanguages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISOLanguages.swift; sourceTree = "<group>"; };
-		DEBC63F32CB4144A003C7073 /* ProfessionalSkill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalSkill.swift; sourceTree = "<group>"; };
-		DEBC63F52CB4144A003C7073 /* GetCitiesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCitiesRequest.swift; sourceTree = "<group>"; };
-		DEBC63F62CB4144A003C7073 /* GetCountriesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCountriesRequest.swift; sourceTree = "<group>"; };
-		DEBC63F82CB4144A003C7073 /* Interests.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Interests.json; sourceTree = "<group>"; };
-		DEBC63F92CB4144A003C7073 /* Languages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Languages.json; sourceTree = "<group>"; };
-		DEBC63FA2CB4144A003C7073 /* ProfessionalSkills.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProfessionalSkills.json; sourceTree = "<group>"; };
-		DEBC63FC2CB4144A003C7073 /* ContentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentManager.swift; sourceTree = "<group>"; };
 		DEBC63FE2CB4144A003C7073 /* Paygate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paygate.swift; sourceTree = "<group>"; };
 		DEBC63FF2CB4144A003C7073 /* PaygateOptionConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaygateOptionConfig.swift; sourceTree = "<group>"; };
 		DEBC64002CB4144A003C7073 /* PaygateOptionLineComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaygateOptionLineComponent.swift; sourceTree = "<group>"; };
-		DEBC64032CB4144A003C7073 /* Certificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
-		DEBC64042CB4144A003C7073 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
-		DEBC64052CB4144A003C7073 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
-		DEBC64062CB4144A003C7073 /* GeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfo.swift; sourceTree = "<group>"; };
-		DEBC64072CB4144A003C7073 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
-		DEBC64082CB4144A003C7073 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		DEBC64092CB4144A003C7073 /* Reference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reference.swift; sourceTree = "<group>"; };
-		DEBC640A2CB4144A003C7073 /* SocialMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMedia.swift; sourceTree = "<group>"; };
-		DEBC640B2CB4144A003C7073 /* WorkExperience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkExperience.swift; sourceTree = "<group>"; };
-		DEBC640D2CB4144A003C7073 /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
-		DEBC640E2CB4144A003C7073 /* ProfileMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMediator.swift; sourceTree = "<group>"; };
 		DEBC64102CB4144A003C7073 /* IAPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPError.swift; sourceTree = "<group>"; };
 		DEBC64112CB4144A003C7073 /* IAPErrorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPErrorHelper.swift; sourceTree = "<group>"; };
 		DEBC64132CB4144A003C7073 /* IAPActionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPActionResult.swift; sourceTree = "<group>"; };
@@ -661,8 +385,6 @@
 		DEBC64202CB4144A003C7073 /* CLTextBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLTextBlock.swift; sourceTree = "<group>"; };
 		DEBC64212CB4144A003C7073 /* CLToneOfVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLToneOfVoice.swift; sourceTree = "<group>"; };
 		DEBC64222CB4144A003C7073 /* CLVacancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLVacancy.swift; sourceTree = "<group>"; };
-		DEBC64232CB4144A003C7073 /* CV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV.swift; sourceTree = "<group>"; };
-		DEBC64242CB4144A003C7073 /* CVTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVTemplate.swift; sourceTree = "<group>"; };
 		DEBC64252CB4144A003C7073 /* ResumeGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeGroup.swift; sourceTree = "<group>"; };
 		DEBC64272CB4144A003C7073 /* CL1Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL1Generator.swift; sourceTree = "<group>"; };
 		DEBC64282CB4144A003C7073 /* CL2Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL2Generator.swift; sourceTree = "<group>"; };
@@ -671,22 +393,6 @@
 		DEBC642B2CB4144A003C7073 /* CL5Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL5Generator.swift; sourceTree = "<group>"; };
 		DEBC642C2CB4144A003C7073 /* CL6Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL6Generator.swift; sourceTree = "<group>"; };
 		DEBC642D2CB4144A003C7073 /* CL7Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL7Generator.swift; sourceTree = "<group>"; };
-		DEBC642F2CB4144A003C7073 /* CV1Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV1Generator.swift; sourceTree = "<group>"; };
-		DEBC64302CB4144A003C7073 /* CV2Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV2Generator.swift; sourceTree = "<group>"; };
-		DEBC64312CB4144A003C7073 /* CV3Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV3Generator.swift; sourceTree = "<group>"; };
-		DEBC64322CB4144A003C7073 /* CV4Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV4Generator.swift; sourceTree = "<group>"; };
-		DEBC64332CB4144A003C7073 /* CV5Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV5Generator.swift; sourceTree = "<group>"; };
-		DEBC64342CB4144A003C7073 /* CV6Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV6Generator.swift; sourceTree = "<group>"; };
-		DEBC64352CB4144A003C7073 /* CV7Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV7Generator.swift; sourceTree = "<group>"; };
-		DEBC64362CB4144A003C7073 /* CV8Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV8Generator.swift; sourceTree = "<group>"; };
-		DEBC64372CB4144A003C7073 /* CV9Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV9Generator.swift; sourceTree = "<group>"; };
-		DEBC64382CB4144A003C7073 /* CV10Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV10Generator.swift; sourceTree = "<group>"; };
-		DEBC64392CB4144A003C7073 /* CV11Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV11Generator.swift; sourceTree = "<group>"; };
-		DEBC643A2CB4144A003C7073 /* CV12Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV12Generator.swift; sourceTree = "<group>"; };
-		DEBC643B2CB4144A003C7073 /* CV13Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV13Generator.swift; sourceTree = "<group>"; };
-		DEBC643C2CB4144A003C7073 /* CV14Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV14Generator.swift; sourceTree = "<group>"; };
-		DEBC643D2CB4144A003C7073 /* CV15Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV15Generator.swift; sourceTree = "<group>"; };
-		DEBC643E2CB4144A003C7073 /* CV16Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV16Generator.swift; sourceTree = "<group>"; };
 		DEBC64402CB4144A003C7073 /* PDFFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFFactory.swift; sourceTree = "<group>"; };
 		DEBC64422CB4144A003C7073 /* CLAssistantAnalyzeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLAssistantAnalyzeRequest.swift; sourceTree = "<group>"; };
 		DEBC64442CB4144A003C7073 /* ResumeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeManager.swift; sourceTree = "<group>"; };
@@ -1201,424 +907,10 @@
 		DEBC630F2CB4144A003C7073 /* CLMaker */ = {
 			isa = PBXGroup;
 			children = (
-				DEBC62D62CB4144A003C7073 /* Utils */,
-				DEBC630B2CB4144A003C7073 /* Views */,
-				DEBC630C2CB4144A003C7073 /* CLMakerView.swift */,
-				DEBC630D2CB4144A003C7073 /* CLMakerViewController.swift */,
-				DEBC630E2CB4144A003C7073 /* CLMakerViewModel.swift */,
+				DEBC63872CB4144A003C7073 /* PDF */,
+				DEBC66292CB46216003C7073 /* CLMaker */,
 			);
 			path = CLMaker;
-			sourceTree = "<group>";
-		};
-		DEBC63112CB4144A003C7073 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63102CB4144A003C7073 /* CVMakerProfileGenerator.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		DEBC63132CB4144A003C7073 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63122CB4144A003C7073 /* CVMaker.Crafting.Animation.json */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		DEBC63152CB4144A003C7073 /* Crafting */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63132CB4144A003C7073 /* Source */,
-				DEBC63142CB4144A003C7073 /* CVMakerCraftingView.swift */,
-			);
-			path = Crafting;
-			sourceTree = "<group>";
-		};
-		DEBC63192CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63162CB4144A003C7073 /* CVMakerAddCell.swift */,
-				DEBC63172CB4144A003C7073 /* CVMakerEntityCell.swift */,
-				DEBC63182CB4144A003C7073 /* CVMakerTitleCell.swift */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC631C2CB4144A003C7073 /* List */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC631A2CB4144A003C7073 /* CVMCTableElement.swift */,
-				DEBC631B2CB4144A003C7073 /* CVMCTableView.swift */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		DEBC631E2CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC631C2CB4144A003C7073 /* List */,
-				DEBC631D2CB4144A003C7073 /* CVMCCreateFieldsView.swift */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC63222CB4144A003C7073 /* Certificates */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC631E2CB4144A003C7073 /* Atoms */,
-				DEBC631F2CB4144A003C7073 /* CVMakerCertificatesCreateView.swift */,
-				DEBC63202CB4144A003C7073 /* CVMakerCertificatesListView.swift */,
-				DEBC63212CB4144A003C7073 /* CVMakerCertificatesView.swift */,
-			);
-			path = Certificates;
-			sourceTree = "<group>";
-		};
-		DEBC63252CB4144A003C7073 /* Chapters */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63232CB4144A003C7073 /* CVMakerChapterButton.swift */,
-				DEBC63242CB4144A003C7073 /* CVMakerChaptersView.swift */,
-			);
-			path = Chapters;
-			sourceTree = "<group>";
-		};
-		DEBC63282CB4144A003C7073 /* List */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63262CB4144A003C7073 /* CVMETableElement.swift */,
-				DEBC63272CB4144A003C7073 /* CVMETableView.swift */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		DEBC632A2CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63282CB4144A003C7073 /* List */,
-				DEBC63292CB4144A003C7073 /* CVMECreateFieldsView.swift */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC632E2CB4144A003C7073 /* Education */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC632A2CB4144A003C7073 /* Atoms */,
-				DEBC632B2CB4144A003C7073 /* CVMakerEducationCreateView.swift */,
-				DEBC632C2CB4144A003C7073 /* CVMakerEducationListView.swift */,
-				DEBC632D2CB4144A003C7073 /* CVMakerEducationView.swift */,
-			);
-			path = Education;
-			sourceTree = "<group>";
-		};
-		DEBC63322CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC632F2CB4144A003C7073 /* CVMGIAboutYourselfTipCell.swift */,
-				DEBC63302CB4144A003C7073 /* CVMGIAboutYourselfTipsView.swift */,
-				DEBC63312CB4144A003C7073 /* CVMGIPhotoContainer.swift */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC63342CB4144A003C7073 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63332CB4144A003C7073 /* CVMakerGeneralInfoCollector.swift */,
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		DEBC633B2CB4144A003C7073 /* GeneralInfo */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63322CB4144A003C7073 /* Atoms */,
-				DEBC63342CB4144A003C7073 /* Utils */,
-				DEBC63352CB4144A003C7073 /* CVMakerGeneralInfoAboutYourselfView.swift */,
-				DEBC63362CB4144A003C7073 /* CVMakerGeneralInfoContactInfoView.swift */,
-				DEBC63372CB4144A003C7073 /* CVMakerGeneralInfoFlowView.swift */,
-				DEBC63382CB4144A003C7073 /* CVMakerGeneralInfoNameView.swift */,
-				DEBC63392CB4144A003C7073 /* CVMakerGeneralInfoPhotoView.swift */,
-				DEBC633A2CB4144A003C7073 /* CVMakerGeneralInfoView.swift */,
-			);
-			path = GeneralInfo;
-			sourceTree = "<group>";
-		};
-		DEBC633E2CB4144A003C7073 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC633C2CB4144A003C7073 /* CVMICollectionHeaderCell.swift */,
-				DEBC633D2CB4144A003C7073 /* CVMICollectionInterestCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		DEBC63412CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC633E2CB4144A003C7073 /* Cells */,
-				DEBC633F2CB4144A003C7073 /* CVMICollectionElement.swift */,
-				DEBC63402CB4144A003C7073 /* CVMICollectionView.swift */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC63432CB4144A003C7073 /* Interests */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63412CB4144A003C7073 /* Atoms */,
-				DEBC63422CB4144A003C7073 /* CVMakerInterestsView.swift */,
-			);
-			path = Interests;
-			sourceTree = "<group>";
-		};
-		DEBC63472CB4144A003C7073 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63442CB4144A003C7073 /* CVMLCollectionAddCell.swift */,
-				DEBC63452CB4144A003C7073 /* CVMLCollectionHeaderCell.swift */,
-				DEBC63462CB4144A003C7073 /* CVMLCollectionLanguageCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		DEBC634A2CB4144A003C7073 /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63472CB4144A003C7073 /* Cells */,
-				DEBC63482CB4144A003C7073 /* CVMLCollectionElement.swift */,
-				DEBC63492CB4144A003C7073 /* CVMLCollectionView.swift */,
-			);
-			path = CollectionView;
-			sourceTree = "<group>";
-		};
-		DEBC634B2CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC634A2CB4144A003C7073 /* CollectionView */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC634D2CB4144A003C7073 /* Languages */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC634B2CB4144A003C7073 /* Atoms */,
-				DEBC634C2CB4144A003C7073 /* CVMakerLanguagesView.swift */,
-			);
-			path = Languages;
-			sourceTree = "<group>";
-		};
-		DEBC63512CB4144A003C7073 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC634E2CB4144A003C7073 /* CVMPSCollectionAddCell.swift */,
-				DEBC634F2CB4144A003C7073 /* CVMPSCollectionSkillCell.swift */,
-				DEBC63502CB4144A003C7073 /* CVMPSCollectionTitleCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		DEBC63552CB4144A003C7073 /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63512CB4144A003C7073 /* Cells */,
-				DEBC63522CB4144A003C7073 /* CVMPSCollectionElement.swift */,
-				DEBC63532CB4144A003C7073 /* CVMPSCollectionLayout.swift */,
-				DEBC63542CB4144A003C7073 /* CVMPSCollectionView.swift */,
-			);
-			path = CollectionView;
-			sourceTree = "<group>";
-		};
-		DEBC63562CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63552CB4144A003C7073 /* CollectionView */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC63582CB4144A003C7073 /* ProfessionalSkills */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63562CB4144A003C7073 /* Atoms */,
-				DEBC63572CB4144A003C7073 /* CVMakerProfessionalSkillsView.swift */,
-			);
-			path = ProfessionalSkills;
-			sourceTree = "<group>";
-		};
-		DEBC635A2CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63592CB4144A003C7073 /* CVMRListInfoView.swift */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC635E2CB4144A003C7073 /* List */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC635A2CB4144A003C7073 /* Atoms */,
-				DEBC635B2CB4144A003C7073 /* CVMRTableCell.swift */,
-				DEBC635C2CB4144A003C7073 /* CVMRTableElement.swift */,
-				DEBC635D2CB4144A003C7073 /* CVMRTableView.swift */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		DEBC63602CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC635E2CB4144A003C7073 /* List */,
-				DEBC635F2CB4144A003C7073 /* CVMRCreateFieldsView.swift */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC63642CB4144A003C7073 /* References */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63602CB4144A003C7073 /* Atoms */,
-				DEBC63612CB4144A003C7073 /* CVMakerReferencesCreateView.swift */,
-				DEBC63622CB4144A003C7073 /* CVMakerReferencesListView.swift */,
-				DEBC63632CB4144A003C7073 /* CVMakerReferencesView.swift */,
-			);
-			path = References;
-			sourceTree = "<group>";
-		};
-		DEBC63662CB4144A003C7073 /* SocialMedia */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63652CB4144A003C7073 /* CVMakerSocialMediaView.swift */,
-			);
-			path = SocialMedia;
-			sourceTree = "<group>";
-		};
-		DEBC63692CB4144A003C7073 /* List */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63672CB4144A003C7073 /* CVMWETableElement.swift */,
-				DEBC63682CB4144A003C7073 /* CVMWETableView.swift */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		DEBC636B2CB4144A003C7073 /* Atoms */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63692CB4144A003C7073 /* List */,
-				DEBC636A2CB4144A003C7073 /* CVMWECreateFieldsView.swift */,
-			);
-			path = Atoms;
-			sourceTree = "<group>";
-		};
-		DEBC636F2CB4144A003C7073 /* WorkExperience */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC636B2CB4144A003C7073 /* Atoms */,
-				DEBC636C2CB4144A003C7073 /* CVMakerWorkExperienceCreateView.swift */,
-				DEBC636D2CB4144A003C7073 /* CVMakerWorkExperienceListView.swift */,
-				DEBC636E2CB4144A003C7073 /* CVMakerWorkExperienceView.swift */,
-			);
-			path = WorkExperience;
-			sourceTree = "<group>";
-		};
-		DEBC63722CB4144A003C7073 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63192CB4144A003C7073 /* Atoms */,
-				DEBC63222CB4144A003C7073 /* Certificates */,
-				DEBC63252CB4144A003C7073 /* Chapters */,
-				DEBC632E2CB4144A003C7073 /* Education */,
-				DEBC633B2CB4144A003C7073 /* GeneralInfo */,
-				DEBC63432CB4144A003C7073 /* Interests */,
-				DEBC634D2CB4144A003C7073 /* Languages */,
-				DEBC63582CB4144A003C7073 /* ProfessionalSkills */,
-				DEBC63642CB4144A003C7073 /* References */,
-				DEBC63662CB4144A003C7073 /* SocialMedia */,
-				DEBC636F2CB4144A003C7073 /* WorkExperience */,
-				DEBC63702CB4144A003C7073 /* CVMakerChapterProgressView.swift */,
-				DEBC63712CB4144A003C7073 /* CVMakerSingleEntityView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DEBC63742CB4144A003C7073 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63722CB4144A003C7073 /* Views */,
-				DEBC63732CB4144A003C7073 /* CVMakerOnboardingView.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		DEBC63762CB4144A003C7073 /* Preview */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63752CB4144A003C7073 /* CVMakerPreviewView.swift */,
-			);
-			path = Preview;
-			sourceTree = "<group>";
-		};
-		DEBC63792CB4144A003C7073 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63772CB4144A003C7073 /* CVMTemplatesCollectionCell.swift */,
-				DEBC63782CB4144A003C7073 /* CVMTemplatesCollectionHeaderCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		DEBC637C2CB4144A003C7073 /* Collection */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63792CB4144A003C7073 /* Cells */,
-				DEBC637A2CB4144A003C7073 /* CVMTemplatesCollectionElement.swift */,
-				DEBC637B2CB4144A003C7073 /* CVMTemplatesCollectionView.swift */,
-			);
-			path = Collection;
-			sourceTree = "<group>";
-		};
-		DEBC637D2CB4144A003C7073 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC637C2CB4144A003C7073 /* Collection */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DEBC637F2CB4144A003C7073 /* Template */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC637D2CB4144A003C7073 /* Views */,
-				DEBC637E2CB4144A003C7073 /* CVMakerTemplateView.swift */,
-			);
-			path = Template;
-			sourceTree = "<group>";
-		};
-		DEBC63812CB4144A003C7073 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63152CB4144A003C7073 /* Crafting */,
-				DEBC63742CB4144A003C7073 /* Onboarding */,
-				DEBC63762CB4144A003C7073 /* Preview */,
-				DEBC637F2CB4144A003C7073 /* Template */,
-				DEBC63802CB4144A003C7073 /* CVMakerFlowView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DEBC63852CB4144A003C7073 /* CVMaker */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63112CB4144A003C7073 /* Utils */,
-				DEBC63812CB4144A003C7073 /* Views */,
-				DEBC63822CB4144A003C7073 /* CVMakerView.swift */,
-				DEBC63832CB4144A003C7073 /* CVMakerViewController.swift */,
-				DEBC63842CB4144A003C7073 /* CVMakerViewModel.swift */,
-			);
-			path = CVMaker;
 			sourceTree = "<group>";
 		};
 		DEBC63872CB4144A003C7073 /* PDF */ = {
@@ -1627,132 +919,6 @@
 				DEBC63862CB4144A003C7073 /* PDFViewController.swift */,
 			);
 			path = PDF;
-			sourceTree = "<group>";
-		};
-		DEBC638B2CB4144A003C7073 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63882CB4144A003C7073 /* SelectCityTableCell.swift */,
-				DEBC63892CB4144A003C7073 /* SelectCityTableElement.swift */,
-				DEBC638A2CB4144A003C7073 /* SelectCityTableView.swift */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		DEBC638C2CB4144A003C7073 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC638B2CB4144A003C7073 /* TableView */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DEBC63912CB4144A003C7073 /* SelectCity */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC638C2CB4144A003C7073 /* Views */,
-				DEBC638D2CB4144A003C7073 /* SelectCityAssemby.swift */,
-				DEBC638E2CB4144A003C7073 /* SelectCityView.swift */,
-				DEBC638F2CB4144A003C7073 /* SelectCityViewController.swift */,
-				DEBC63902CB4144A003C7073 /* SelectCityViewModel.swift */,
-			);
-			path = SelectCity;
-			sourceTree = "<group>";
-		};
-		DEBC63942CB4144A003C7073 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63922CB4144A003C7073 /* SelectLanguageTableCell.swift */,
-				DEBC63932CB4144A003C7073 /* SelectLanguageTableView.swift */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		DEBC63952CB4144A003C7073 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63942CB4144A003C7073 /* TableView */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DEBC639A2CB4144A003C7073 /* SelectLanguage */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63952CB4144A003C7073 /* Views */,
-				DEBC63962CB4144A003C7073 /* SelectLanguageAssembly.swift */,
-				DEBC63972CB4144A003C7073 /* SelectLanguageView.swift */,
-				DEBC63982CB4144A003C7073 /* SelectLanguageViewController.swift */,
-				DEBC63992CB4144A003C7073 /* SelectLanguageViewModel.swift */,
-			);
-			path = SelectLanguage;
-			sourceTree = "<group>";
-		};
-		DEBC639D2CB4144A003C7073 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC639B2CB4144A003C7073 /* SelectProfessionalSkillTableCell.swift */,
-				DEBC639C2CB4144A003C7073 /* SelectProfessionalSkillTableView.swift */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		DEBC639E2CB4144A003C7073 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC639D2CB4144A003C7073 /* TableView */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DEBC63A32CB4144A003C7073 /* SelectProfessionalSkill */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC639E2CB4144A003C7073 /* Views */,
-				DEBC639F2CB4144A003C7073 /* SelectProfessionalSkillAssembly.swift */,
-				DEBC63A02CB4144A003C7073 /* SelectProfessionalSkillView.swift */,
-				DEBC63A12CB4144A003C7073 /* SelectProfessionalSkillViewController.swift */,
-				DEBC63A22CB4144A003C7073 /* SelectProfessionalSkillViewModel.swift */,
-			);
-			path = SelectProfessionalSkill;
-			sourceTree = "<group>";
-		};
-		DEBC63A42CB4144A003C7073 /* Select */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63912CB4144A003C7073 /* SelectCity */,
-				DEBC639A2CB4144A003C7073 /* SelectLanguage */,
-				DEBC63A32CB4144A003C7073 /* SelectProfessionalSkill */,
-			);
-			path = Select;
-			sourceTree = "<group>";
-		};
-		DEBC63A62CB4144A003C7073 /* Wrapper */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63A52CB4144A003C7073 /* WrapperController.swift */,
-			);
-			path = Wrapper;
-			sourceTree = "<group>";
-		};
-		DEBC63A72CB4144A003C7073 /* CVMaker */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63852CB4144A003C7073 /* CVMaker */,
-				DEBC63872CB4144A003C7073 /* PDF */,
-				DEBC63A42CB4144A003C7073 /* Select */,
-				DEBC63A62CB4144A003C7073 /* Wrapper */,
-			);
-			path = CVMaker;
-			sourceTree = "<group>";
-		};
-		DEBC63AA2CB4144A003C7073 /* CVMakerChapter */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63A82CB4144A003C7073 /* CVMakerChapterViewController.swift */,
-				DEBC63A92CB4144A003C7073 /* CVMakerChapterViewModel.swift */,
-			);
-			path = CVMakerChapter;
 			sourceTree = "<group>";
 		};
 		DEBC63AE2CB4144A003C7073 /* Views */ = {
@@ -1774,44 +940,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		DEBC63B52CB4144A003C7073 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63B32CB4144A003C7073 /* ProfileCVMakerChapterCell.swift */,
-				DEBC63B42CB4144A003C7073 /* ProfileInfoCell.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		DEBC63B82CB4144A003C7073 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63B52CB4144A003C7073 /* Cells */,
-				DEBC63B62CB4144A003C7073 /* ProfileTableElement.swift */,
-				DEBC63B72CB4144A003C7073 /* ProfileTableView.swift */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		DEBC63B92CB4144A003C7073 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63B82CB4144A003C7073 /* TableView */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DEBC63BD2CB4144A003C7073 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63B92CB4144A003C7073 /* Views */,
-				DEBC63BA2CB4144A003C7073 /* ProfileView.swift */,
-				DEBC63BB2CB4144A003C7073 /* ProfileViewController.swift */,
-				DEBC63BC2CB4144A003C7073 /* ProfileViewModel.swift */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
 		DEBC63C12CB4144A003C7073 /* CollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1830,33 +958,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		DEBC63C62CB4144A003C7073 /* ResumeGroup */ = {
+		DEBC63C62CB4144A003C7073 /* ResumeGroup 2 */ = {
 			isa = PBXGroup;
 			children = (
 				DEBC63C22CB4144A003C7073 /* Views */,
-				DEBC63C32CB4144A003C7073 /* ResumeGroupView.swift */,
 				DEBC63C42CB4144A003C7073 /* ResumeGroupViewController.swift */,
 				DEBC63C52CB4144A003C7073 /* ResumeGroupViewModel.swift */,
+				DEBC63C32CB4144A003C7073 /* ResumeGroupView.swift */,
 			);
-			path = ResumeGroup;
-			sourceTree = "<group>";
-		};
-		DEBC63C92CB4144A003C7073 /* RWWC */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63C72CB4144A003C7073 /* RWWCView.swift */,
-				DEBC63C82CB4144A003C7073 /* RWWCViewController.swift */,
-			);
-			path = RWWC;
-			sourceTree = "<group>";
-		};
-		DEBC63CA2CB4144A003C7073 /* ResumeGroup */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63C62CB4144A003C7073 /* ResumeGroup */,
-				DEBC63C92CB4144A003C7073 /* RWWC */,
-			);
-			path = ResumeGroup;
+			path = "ResumeGroup 2";
 			sourceTree = "<group>";
 		};
 		DEBC63CC2CB4144A003C7073 /* Views */ = {
@@ -1881,10 +991,8 @@
 		DEBC63D12CB4144A003C7073 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				DEBC63AA2CB4144A003C7073 /* CVMakerChapter */,
 				DEBC63B22CB4144A003C7073 /* Main */,
-				DEBC63BD2CB4144A003C7073 /* Profile */,
-				DEBC63CA2CB4144A003C7073 /* ResumeGroup */,
+				DEBC63C62CB4144A003C7073 /* ResumeGroup 2 */,
 				DEBC63D02CB4144A003C7073 /* Settings */,
 			);
 			path = Main;
@@ -1968,53 +1076,10 @@
 			isa = PBXGroup;
 			children = (
 				DEBC630F2CB4144A003C7073 /* CLMaker */,
-				DEBC63A72CB4144A003C7073 /* CVMaker */,
 				DEBC63D12CB4144A003C7073 /* Main */,
 				DEBC63ED2CB4144A003C7073 /* Splash */,
 			);
 			path = Presentation;
-			sourceTree = "<group>";
-		};
-		DEBC63F42CB4144A003C7073 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63EF2CB4144A003C7073 /* City.swift */,
-				DEBC63F02CB4144A003C7073 /* Country.swift */,
-				DEBC63F12CB4144A003C7073 /* Interest.swift */,
-				DEBC63F22CB4144A003C7073 /* ISOLanguages.swift */,
-				DEBC63F32CB4144A003C7073 /* ProfessionalSkill.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		DEBC63F72CB4144A003C7073 /* Request */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63F52CB4144A003C7073 /* GetCitiesRequest.swift */,
-				DEBC63F62CB4144A003C7073 /* GetCountriesRequest.swift */,
-			);
-			path = Request;
-			sourceTree = "<group>";
-		};
-		DEBC63FB2CB4144A003C7073 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63F82CB4144A003C7073 /* Interests.json */,
-				DEBC63F92CB4144A003C7073 /* Languages.json */,
-				DEBC63FA2CB4144A003C7073 /* ProfessionalSkills.json */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		DEBC63FD2CB4144A003C7073 /* Content */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63F42CB4144A003C7073 /* Model */,
-				DEBC63F72CB4144A003C7073 /* Request */,
-				DEBC63FB2CB4144A003C7073 /* Source */,
-				DEBC63FC2CB4144A003C7073 /* ContentManager.swift */,
-			);
-			path = Content;
 			sourceTree = "<group>";
 		};
 		DEBC64012CB4144A003C7073 /* Model */ = {
@@ -2033,32 +1098,6 @@
 				DEBC64012CB4144A003C7073 /* Model */,
 			);
 			path = Paygate;
-			sourceTree = "<group>";
-		};
-		DEBC640C2CB4144A003C7073 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC64032CB4144A003C7073 /* Certificate.swift */,
-				DEBC64042CB4144A003C7073 /* ContactInfo.swift */,
-				DEBC64052CB4144A003C7073 /* Education.swift */,
-				DEBC64062CB4144A003C7073 /* GeneralInfo.swift */,
-				DEBC64072CB4144A003C7073 /* Language.swift */,
-				DEBC64082CB4144A003C7073 /* Profile.swift */,
-				DEBC64092CB4144A003C7073 /* Reference.swift */,
-				DEBC640A2CB4144A003C7073 /* SocialMedia.swift */,
-				DEBC640B2CB4144A003C7073 /* WorkExperience.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		DEBC640F2CB4144A003C7073 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC640C2CB4144A003C7073 /* Model */,
-				DEBC640D2CB4144A003C7073 /* ProfileManager.swift */,
-				DEBC640E2CB4144A003C7073 /* ProfileMediator.swift */,
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		DEBC64122CB4144A003C7073 /* Error */ = {
@@ -2103,8 +1142,6 @@
 				DEBC64202CB4144A003C7073 /* CLTextBlock.swift */,
 				DEBC64212CB4144A003C7073 /* CLToneOfVoice.swift */,
 				DEBC64222CB4144A003C7073 /* CLVacancy.swift */,
-				DEBC64232CB4144A003C7073 /* CV.swift */,
-				DEBC64242CB4144A003C7073 /* CVTemplate.swift */,
 				DEBC64252CB4144A003C7073 /* ResumeGroup.swift */,
 			);
 			path = Model;
@@ -2124,34 +1161,10 @@
 			path = CLGenerator;
 			sourceTree = "<group>";
 		};
-		DEBC643F2CB4144A003C7073 /* CVGenerator */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC642F2CB4144A003C7073 /* CV1Generator.swift */,
-				DEBC64302CB4144A003C7073 /* CV2Generator.swift */,
-				DEBC64312CB4144A003C7073 /* CV3Generator.swift */,
-				DEBC64322CB4144A003C7073 /* CV4Generator.swift */,
-				DEBC64332CB4144A003C7073 /* CV5Generator.swift */,
-				DEBC64342CB4144A003C7073 /* CV6Generator.swift */,
-				DEBC64352CB4144A003C7073 /* CV7Generator.swift */,
-				DEBC64362CB4144A003C7073 /* CV8Generator.swift */,
-				DEBC64372CB4144A003C7073 /* CV9Generator.swift */,
-				DEBC64382CB4144A003C7073 /* CV10Generator.swift */,
-				DEBC64392CB4144A003C7073 /* CV11Generator.swift */,
-				DEBC643A2CB4144A003C7073 /* CV12Generator.swift */,
-				DEBC643B2CB4144A003C7073 /* CV13Generator.swift */,
-				DEBC643C2CB4144A003C7073 /* CV14Generator.swift */,
-				DEBC643D2CB4144A003C7073 /* CV15Generator.swift */,
-				DEBC643E2CB4144A003C7073 /* CV16Generator.swift */,
-			);
-			path = CVGenerator;
-			sourceTree = "<group>";
-		};
 		DEBC64412CB4144A003C7073 /* PDFFactory */ = {
 			isa = PBXGroup;
 			children = (
 				DEBC642E2CB4144A003C7073 /* CLGenerator */,
-				DEBC643F2CB4144A003C7073 /* CVGenerator */,
 				DEBC64402CB4144A003C7073 /* PDFFactory.swift */,
 			);
 			path = PDFFactory;
@@ -2188,9 +1201,7 @@
 		DEBC64492CB4144A003C7073 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				DEBC63FD2CB4144A003C7073 /* Content */,
 				DEBC64022CB4144A003C7073 /* Paygate */,
-				DEBC640F2CB4144A003C7073 /* Profile */,
 				DEBC64192CB4144A003C7073 /* Purchase */,
 				DEBC64462CB4144A003C7073 /* Resume */,
 				DEBC64482CB4144A003C7073 /* Session */,
@@ -2473,6 +1484,18 @@
 			path = Tab;
 			sourceTree = "<group>";
 		};
+		DEBC66292CB46216003C7073 /* CLMaker */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC62D62CB4144A003C7073 /* Utils */,
+				DEBC630B2CB4144A003C7073 /* Views */,
+				DEBC630C2CB4144A003C7073 /* CLMakerView.swift */,
+				DEBC630D2CB4144A003C7073 /* CLMakerViewController.swift */,
+				DEBC630E2CB4144A003C7073 /* CLMakerViewModel.swift */,
+			);
+			path = CLMaker;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2533,7 +1556,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBC65742CB4144A003C7073 /* Languages.json in Resources */,
 				DEBC65D32CB41457003C7073 /* Lora-SemiBold.ttf in Resources */,
 				DEBC65D42CB41457003C7073 /* Lora-Italic.ttf in Resources */,
 				DEBC65D52CB41457003C7073 /* Roboto-Regular.ttf in Resources */,
@@ -2603,9 +1625,6 @@
 				DEBC66152CB41457003C7073 /* Lora-BoldItalic.ttf in Resources */,
 				DEBC66162CB41457003C7073 /* SplineSans-Medium.ttf in Resources */,
 				DEBC66172CB41457003C7073 /* Outfit-Regular.ttf in Resources */,
-				DEBC65752CB4144A003C7073 /* Interests.json in Resources */,
-				DEBC65762CB4144A003C7073 /* ProfessionalSkills.json in Resources */,
-				DEBC65772CB4144A003C7073 /* CVMaker.Crafting.Animation.json in Resources */,
 				DE04A9BE2CB4125B00127D95 /* Assets.xcassets in Resources */,
 				DE04A9C02CB4125B00127D95 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -2660,12 +1679,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBC644B2CB4144A003C7073 /* SelectCityTableView.swift in Sources */,
-				DEBC644C2CB4144A003C7073 /* CVMakerEducationCreateView.swift in Sources */,
 				DEBC644D2CB4144A003C7073 /* ScreenSize.swift in Sources */,
 				DEBC644E2CB4144A003C7073 /* UITapGestureRecognizer+Extension.swift in Sources */,
-				DEBC644F2CB4144A003C7073 /* ProfileViewController.swift in Sources */,
-				DEBC64502CB4144A003C7073 /* SelectProfessionalSkillViewModel.swift in Sources */,
 				DEBC661F2CB4323F003C7073 /* SuggestCreateCLView.swift in Sources */,
 				DEBC64512CB4144A003C7073 /* SplashView.swift in Sources */,
 				DEBC64522CB4144A003C7073 /* CLMakerViewModel.swift in Sources */,
@@ -2673,238 +1688,126 @@
 				DEBC64542CB4144A003C7073 /* CLMakerOnboardingView.swift in Sources */,
 				DEBC64552CB4144A003C7073 /* PaygateInfoCell.swift in Sources */,
 				DEBC64562CB4144A003C7073 /* CLMakerCompanyInfoView.swift in Sources */,
-				DEBC64572CB4144A003C7073 /* CVMakerProfileGenerator.swift in Sources */,
-				DEBC64582CB4144A003C7073 /* ProfileManager.swift in Sources */,
 				DEBC64592CB4144A003C7073 /* CL2Generator.swift in Sources */,
 				DEBC645A2CB4144A003C7073 /* CLMakerVacancyResourceView.swift in Sources */,
 				DEBC645B2CB4144A003C7073 /* ResumeGroupViewController.swift in Sources */,
 				DEBC645C2CB4144A003C7073 /* Paygate.swift in Sources */,
 				DEBC645D2CB4144A003C7073 /* CLMakerChaptersView.swift in Sources */,
-				DEBC645E2CB4144A003C7073 /* SelectProfessionalSkillTableCell.swift in Sources */,
 				DEBC645F2CB4144A003C7073 /* GradientView.swift in Sources */,
 				DEBC64602CB4144A003C7073 /* OnboardingViewController.swift in Sources */,
 				DEBC64612CB4144A003C7073 /* SplashReceiptValidationObserver.swift in Sources */,
-				DEBC64622CB4144A003C7073 /* ProfileInfoCell.swift in Sources */,
-				DEBC64632CB4144A003C7073 /* CVMakerSingleEntityView.swift in Sources */,
-				DEBC64642CB4144A003C7073 /* Education.swift in Sources */,
 				DEBC64652CB4144A003C7073 /* InputField.swift in Sources */,
 				DEBC64662CB4144A003C7073 /* SettingsViewController.swift in Sources */,
 				DEBC64672CB4144A003C7073 /* SplashViewController.swift in Sources */,
 				DEBC64682CB4144A003C7073 /* PaygateViewModel.swift in Sources */,
-				DEBC64692CB4144A003C7073 /* SelectProfessionalSkillTableView.swift in Sources */,
 				DEBC646A2CB4144A003C7073 /* PaygateOptionConfig.swift in Sources */,
 				DEBC646B2CB4144A003C7073 /* XOREncryption.swift in Sources */,
 				DEBC646C2CB4144A003C7073 /* NumberLaunches.swift in Sources */,
-				DEBC646D2CB4144A003C7073 /* CVMGIPhotoContainer.swift in Sources */,
-				DEBC646E2CB4144A003C7073 /* ProfileTableElement.swift in Sources */,
 				DEBC646F2CB4144A003C7073 /* RSCollectionElement.swift in Sources */,
 				DEBC64702CB4144A003C7073 /* AmplitudeManager.swift in Sources */,
 				DEBC64712CB4144A003C7073 /* SessionManager.swift in Sources */,
 				DEBC64722CB4144A003C7073 /* CLVacancy.swift in Sources */,
-				DEBC64732CB4144A003C7073 /* CV.swift in Sources */,
-				DEBC64742CB4144A003C7073 /* CVMakerGeneralInfoCollector.swift in Sources */,
 				DEBC64752CB4144A003C7073 /* NavigationControllerSettings.swift in Sources */,
 				DEBC64762CB4144A003C7073 /* CL.swift in Sources */,
 				DEBC64772CB4144A003C7073 /* CLMakerHiringManagerCollector.swift in Sources */,
-				DEBC64782CB4144A003C7073 /* CVMakerViewController.swift in Sources */,
 				DEBC64792CB4144A003C7073 /* CLMakerChapterProgressView.swift in Sources */,
 				DEBC647A2CB4144A003C7073 /* IAPManager.swift in Sources */,
 				DEBC647B2CB4144A003C7073 /* CLMakerHMGenderView.swift in Sources */,
 				DEBC66262CB4565D003C7073 /* TabItemView.swift in Sources */,
 				DEBC647C2CB4144A003C7073 /* CLMakerAnalyzeDataGenerator.swift in Sources */,
-				DEBC647D2CB4144A003C7073 /* GetCitiesRequest.swift in Sources */,
-				DEBC647E2CB4144A003C7073 /* ProfileTableView.swift in Sources */,
 				DEBC647F2CB4144A003C7073 /* UIView+RxExtension.swift in Sources */,
 				DEBC64802CB4144A003C7073 /* CLMTemplatesCollectionCell.swift in Sources */,
-				DEBC64812CB4144A003C7073 /* ContactInfo.swift in Sources */,
-				DEBC64822CB4144A003C7073 /* CVMakerCertificatesCreateView.swift in Sources */,
-				DEBC64832CB4144A003C7073 /* GetCountriesRequest.swift in Sources */,
-				DEBC64842CB4144A003C7073 /* CVMTemplatesCollectionElement.swift in Sources */,
 				DEBC64852CB4144A003C7073 /* SettingsView.swift in Sources */,
 				DEBC64862CB4144A003C7073 /* Currency.swift in Sources */,
-				DEBC64872CB4144A003C7073 /* CV9Generator.swift in Sources */,
-				DEBC64882CB4144A003C7073 /* CVMPSCollectionSkillCell.swift in Sources */,
 				DEBC64892CB4144A003C7073 /* CLMakerTemplateView.swift in Sources */,
 				DEBC648A2CB4144A003C7073 /* OFinalizeView.swift in Sources */,
-				DEBC648B2CB4144A003C7073 /* ContentManager.swift in Sources */,
-				DEBC648C2CB4144A003C7073 /* CVMICollectionInterestCell.swift in Sources */,
-				DEBC648D2CB4144A003C7073 /* SelectLanguageAssembly.swift in Sources */,
-				DEBC648E2CB4144A003C7073 /* CVMICollectionElement.swift in Sources */,
 				DEBC648F2CB4144A003C7073 /* CLMakerView.swift in Sources */,
 				DEBC66242CB45656003C7073 /* TabView.swift in Sources */,
-				DEBC64902CB4144A003C7073 /* CVMakerFlowView.swift in Sources */,
-				DEBC64912CB4144A003C7073 /* ProfileMediator.swift in Sources */,
 				DEBC64922CB4144A003C7073 /* Scalable.swift in Sources */,
-				DEBC64932CB4144A003C7073 /* CVMPSCollectionView.swift in Sources */,
 				DEBC64942CB4144A003C7073 /* ProductPrice.swift in Sources */,
 				DEBC64952CB4144A003C7073 /* PDFFactory.swift in Sources */,
 				DEBC64962CB4144A003C7073 /* DefaultPaygate.swift in Sources */,
 				DEBC64972CB4144A003C7073 /* FirebaseManager.swift in Sources */,
-				DEBC64982CB4144A003C7073 /* CV13Generator.swift in Sources */,
 				DEBC64992CB4144A003C7073 /* CLMakerHMWhoIsView.swift in Sources */,
-				DEBC649A2CB4144A003C7073 /* CVMakerProfessionalSkillsView.swift in Sources */,
 				DEBC649B2CB4144A003C7073 /* IAPError.swift in Sources */,
-				DEBC649C2CB4144A003C7073 /* CVTemplate.swift in Sources */,
-				DEBC649D2CB4144A003C7073 /* CVMPSCollectionTitleCell.swift in Sources */,
-				DEBC649E2CB4144A003C7073 /* CV3Generator.swift in Sources */,
 				DEBC649F2CB4144A003C7073 /* CLMTBTableHeaderCell.swift in Sources */,
-				DEBC64A02CB4144A003C7073 /* CVMakerEducationListView.swift in Sources */,
 				DEBC64A12CB4144A003C7073 /* CLTemplate.swift in Sources */,
-				DEBC64A22CB4144A003C7073 /* SelectProfessionalSkillView.swift in Sources */,
 				DEBC64A32CB4144A003C7073 /* PaddingLabel.swift in Sources */,
 				DEBC64A42CB4144A003C7073 /* CL6Generator.swift in Sources */,
-				DEBC64A52CB4144A003C7073 /* Interest.swift in Sources */,
 				DEBC64A62CB4144A003C7073 /* SignError.swift in Sources */,
 				DEBC64A72CB4144A003C7073 /* CLPersonalInfo.swift in Sources */,
 				DEBC64A82CB4144A003C7073 /* CLMakerFlowView.swift in Sources */,
 				DEBC64A92CB4144A003C7073 /* CLToneOfVoice.swift in Sources */,
 				DEBC64AA2CB4144A003C7073 /* CLMakerHiringManagerView.swift in Sources */,
 				DEBC64AB2CB4144A003C7073 /* Weak.swift in Sources */,
-				DEBC64AC2CB4144A003C7073 /* CVMETableView.swift in Sources */,
 				DEBC661D2CB4323B003C7073 /* SuggestCreateCLViewController.swift in Sources */,
 				DEBC64AD2CB4144A003C7073 /* CLHiringManager.swift in Sources */,
 				DEBC64AE2CB4144A003C7073 /* OWelcomeView.swift in Sources */,
-				DEBC64AF2CB4144A003C7073 /* ProfileView.swift in Sources */,
-				DEBC64B02CB4144A003C7073 /* GeneralInfo.swift in Sources */,
-				DEBC64B12CB4144A003C7073 /* CVMLCollectionHeaderCell.swift in Sources */,
 				DEBC64B22CB4144A003C7073 /* CLMakerChapterButton.swift in Sources */,
-				DEBC64B32CB4144A003C7073 /* SelectLanguageTableCell.swift in Sources */,
 				DEBC64B42CB4144A003C7073 /* DottedButton.swift in Sources */,
-				DEBC64B52CB4144A003C7073 /* ISOLanguages.swift in Sources */,
 				DEBC64B62CB4144A003C7073 /* TextAttributes.swift in Sources */,
 				DEBC64B72CB4144A003C7073 /* PaygateView.swift in Sources */,
-				DEBC64B82CB4144A003C7073 /* CVMakerEntityCell.swift in Sources */,
-				DEBC64B92CB4144A003C7073 /* CVMakerReferencesListView.swift in Sources */,
 				DEBC64BA2CB4144A003C7073 /* PaygateProductButton.swift in Sources */,
-				DEBC64BB2CB4144A003C7073 /* CVMakerChaptersView.swift in Sources */,
 				DEBC64BC2CB4144A003C7073 /* RequestReview.swift in Sources */,
 				DEBC64BD2CB4144A003C7073 /* CVMTOVCell.swift in Sources */,
 				DEBC64BE2CB4144A003C7073 /* OInputInfoView.swift in Sources */,
 				DEBC64BF2CB4144A003C7073 /* PaygateInteractor.swift in Sources */,
 				DEBC64C02CB4144A003C7073 /* PushNotificationsModel.swift in Sources */,
 				DEBC64C12CB4144A003C7073 /* PDFViewController.swift in Sources */,
-				DEBC64C22CB4144A003C7073 /* CVMICollectionHeaderCell.swift in Sources */,
-				DEBC64C32CB4144A003C7073 /* CVMakerReferencesView.swift in Sources */,
 				DEBC64C42CB4144A003C7073 /* CLMakerVacancyView.swift in Sources */,
 				DEBC661A2CB423CF003C7073 /* OStepsView.swift in Sources */,
-				DEBC64C52CB4144A003C7073 /* CV6Generator.swift in Sources */,
-				DEBC64C62CB4144A003C7073 /* Reference.swift in Sources */,
 				DEBC64C72CB4144A003C7073 /* CL3Generator.swift in Sources */,
 				DEBC64C82CB4144A003C7073 /* CLMTBTableCell.swift in Sources */,
-				DEBC64C92CB4144A003C7073 /* CVMCTableView.swift in Sources */,
-				DEBC64CA2CB4144A003C7073 /* SelectProfessionalSkillAssembly.swift in Sources */,
-				DEBC64CB2CB4144A003C7073 /* CV10Generator.swift in Sources */,
-				DEBC64CC2CB4144A003C7073 /* SelectProfessionalSkillViewController.swift in Sources */,
-				DEBC64CD2CB4144A003C7073 /* CVMakerCertificatesListView.swift in Sources */,
 				DEBC64CE2CB4144A003C7073 /* CLMTBTableElement.swift in Sources */,
 				DEBC64CF2CB4144A003C7073 /* CLMHRGenderButton.swift in Sources */,
-				DEBC64D02CB4144A003C7073 /* CVMakerChapterProgressView.swift in Sources */,
 				DEBC64D12CB4144A003C7073 /* NetworkError.swift in Sources */,
-				DEBC64D22CB4144A003C7073 /* CVMakerInterestsView.swift in Sources */,
 				DEBC64D32CB4144A003C7073 /* CircleView.swift in Sources */,
-				DEBC64D42CB4144A003C7073 /* Language.swift in Sources */,
-				DEBC64D52CB4144A003C7073 /* CVMTemplatesCollectionView.swift in Sources */,
-				DEBC64D62CB4144A003C7073 /* CVMakerGeneralInfoContactInfoView.swift in Sources */,
-				DEBC64D72CB4144A003C7073 /* CVMakerReferencesCreateView.swift in Sources */,
-				DEBC64D82CB4144A003C7073 /* CVMPSCollectionLayout.swift in Sources */,
 				DEBC64D92CB4144A003C7073 /* IAPActionResult.swift in Sources */,
 				DEBC64DA2CB4144A003C7073 /* CLMakerViewController.swift in Sources */,
-				DEBC64DB2CB4144A003C7073 /* CVMakerChapterViewController.swift in Sources */,
 				DEBC64DC2CB4144A003C7073 /* SceneDelegate.swift in Sources */,
 				DEBC64DD2CB4144A003C7073 /* CLMakerPreviewView.swift in Sources */,
 				DEBC64DE2CB4144A003C7073 /* MainView.swift in Sources */,
-				DEBC64DF2CB4144A003C7073 /* CV1Generator.swift in Sources */,
 				DEBC64E02CB4144A003C7073 /* OnboardingView.swift in Sources */,
-				DEBC64E12CB4144A003C7073 /* CVMakerEducationView.swift in Sources */,
 				DEBC64E22CB4144A003C7073 /* PaygateOptionInfo.swift in Sources */,
 				DEBC64E32CB4144A003C7073 /* CLMakerTextBlocksView.swift in Sources */,
 				DEBC64E42CB4144A003C7073 /* NavigationController.swift in Sources */,
 				DEBC64E52CB4144A003C7073 /* PurchaseValidationObserver.swift in Sources */,
-				DEBC64E62CB4144A003C7073 /* City.swift in Sources */,
 				DEBC64E82CB4144A003C7073 /* PushNotificationsManager.swift in Sources */,
 				DEBC64E92CB4144A003C7073 /* CLMakerToneOfVoiceView.swift in Sources */,
 				DEBC64EA2CB4144A003C7073 /* DefaultRequestWrapper.swift in Sources */,
-				DEBC64EB2CB4144A003C7073 /* CVMakerCertificatesView.swift in Sources */,
-				DEBC64EC2CB4144A003C7073 /* CVMTemplatesCollectionHeaderCell.swift in Sources */,
-				DEBC64ED2CB4144A003C7073 /* CVMLCollectionElement.swift in Sources */,
 				DEBC64EE2CB4144A003C7073 /* ResumeGroupView.swift in Sources */,
 				DEBC64EF2CB4144A003C7073 /* CL5Generator.swift in Sources */,
 				DEBC64F02CB4144A003C7073 /* DocumentsDirectory.swift in Sources */,
 				DEBC64F12CB4144A003C7073 /* ObservableAndSingle+Extension.swift in Sources */,
-				DEBC64F22CB4144A003C7073 /* SelectCityTableElement.swift in Sources */,
 				DEBC64F32CB4144A003C7073 /* CLAssistantAnalyzeRequest.swift in Sources */,
 				DEBC64F42CB4144A003C7073 /* ResumeMediator.swift in Sources */,
 				DEBC64F52CB4144A003C7073 /* OSlideView.swift in Sources */,
 				DEBC64F62CB4144A003C7073 /* CLMakerVacancyPositionView.swift in Sources */,
 				DEBC64F72CB4144A003C7073 /* PushNotificationsAuthorizationStatus.swift in Sources */,
-				DEBC64F82CB4144A003C7073 /* CVMakerGeneralInfoPhotoView.swift in Sources */,
-				DEBC64F92CB4144A003C7073 /* CV11Generator.swift in Sources */,
 				DEBC64FA2CB4144A003C7073 /* IAPProduct.swift in Sources */,
-				DEBC64FB2CB4144A003C7073 /* CV2Generator.swift in Sources */,
-				DEBC64FC2CB4144A003C7073 /* SocialMedia.swift in Sources */,
 				DEBC64FD2CB4144A003C7073 /* FacebookManager.swift in Sources */,
 				DEBC64FE2CB4144A003C7073 /* RestAPITransport.swift in Sources */,
-				DEBC64FF2CB4144A003C7073 /* CVMRCreateFieldsView.swift in Sources */,
-				DEBC65002CB4144A003C7073 /* CVMRTableCell.swift in Sources */,
-				DEBC65012CB4144A003C7073 /* CVMakerWorkExperienceListView.swift in Sources */,
-				DEBC65022CB4144A003C7073 /* CVMakerGeneralInfoFlowView.swift in Sources */,
 				DEBC65032CB4144A003C7073 /* CLMakerHiringManagerStepView.swift in Sources */,
-				DEBC65042CB4144A003C7073 /* CV12Generator.swift in Sources */,
-				DEBC65052CB4144A003C7073 /* CVMakerChapterButton.swift in Sources */,
-				DEBC65062CB4144A003C7073 /* RWWCView.swift in Sources */,
 				DEBC66212CB44FC0003C7073 /* SuggestCreateCLViewModel.swift in Sources */,
-				DEBC65072CB4144A003C7073 /* Certificate.swift in Sources */,
 				DEBC65082CB4144A003C7073 /* ResumeGroup.swift in Sources */,
-				DEBC65092CB4144A003C7073 /* CVMakerTitleCell.swift in Sources */,
 				DEBC650A2CB4144A003C7073 /* CLTextBlock.swift in Sources */,
-				DEBC650B2CB4144A003C7073 /* SelectLanguageTableView.swift in Sources */,
-				DEBC650C2CB4144A003C7073 /* CV15Generator.swift in Sources */,
-				DEBC650D2CB4144A003C7073 /* Country.swift in Sources */,
-				DEBC650E2CB4144A003C7073 /* CVMLCollectionView.swift in Sources */,
-				DEBC650F2CB4144A003C7073 /* SelectCityAssemby.swift in Sources */,
-				DEBC65102CB4144A003C7073 /* RWWCViewController.swift in Sources */,
-				DEBC65112CB4144A003C7073 /* Profile.swift in Sources */,
-				DEBC65122CB4144A003C7073 /* CVMECreateFieldsView.swift in Sources */,
 				DEBC65132CB4144A003C7073 /* APIRequestBody.swift in Sources */,
-				DEBC65142CB4144A003C7073 /* CVMWETableView.swift in Sources */,
-				DEBC65152CB4144A003C7073 /* CVMakerWorkExperienceView.swift in Sources */,
-				DEBC65162CB4144A003C7073 /* CVMRListInfoView.swift in Sources */,
-				DEBC65172CB4144A003C7073 /* CVMETableElement.swift in Sources */,
 				DEBC65182CB4144A003C7073 /* PaddingTextField.swift in Sources */,
 				DEBC65192CB4144A003C7073 /* CLInfo.swift in Sources */,
 				DEBC651A2CB4144A003C7073 /* CLMakerPersonalInfoView.swift in Sources */,
-				DEBC651B2CB4144A003C7073 /* SelectCityView.swift in Sources */,
-				DEBC651C2CB4144A003C7073 /* CVMakerViewModel.swift in Sources */,
-				DEBC651D2CB4144A003C7073 /* CVMakerSocialMediaView.swift in Sources */,
 				DEBC651E2CB4144A003C7073 /* Fonts.swift in Sources */,
 				DEBC651F2CB4144A003C7073 /* ObservableRetrySingle.swift in Sources */,
-				DEBC65202CB4144A003C7073 /* CVMGIAboutYourselfTipsView.swift in Sources */,
-				DEBC65212CB4144A003C7073 /* WrapperController.swift in Sources */,
-				DEBC65222CB4144A003C7073 /* ProfileCVMakerChapterCell.swift in Sources */,
-				DEBC65232CB4144A003C7073 /* WorkExperience.swift in Sources */,
-				DEBC65242CB4144A003C7073 /* SelectLanguageView.swift in Sources */,
-				DEBC65252CB4144A003C7073 /* CVMakerGeneralInfoView.swift in Sources */,
-				DEBC65262CB4144A003C7073 /* CVMakerCraftingView.swift in Sources */,
 				DEBC65272CB4144A003C7073 /* UIApplication+Extension.swift in Sources */,
 				DEBC65282CB4144A003C7073 /* PaygateViewController.swift in Sources */,
 				DEBC65292CB4144A003C7073 /* OnboardingViewModel.swift in Sources */,
-				DEBC652A2CB4144A003C7073 /* CVMRTableElement.swift in Sources */,
 				DEBC652B2CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift in Sources */,
-				DEBC652C2CB4144A003C7073 /* CV8Generator.swift in Sources */,
 				DEBC652E2CB4144A003C7073 /* BranchManager.swift in Sources */,
 				DEBC66282CB45A70003C7073 /* MainCoordinator.swift in Sources */,
-				DEBC652F2CB4144A003C7073 /* CV5Generator.swift in Sources */,
-				DEBC65302CB4144A003C7073 /* CVMLCollectionAddCell.swift in Sources */,
 				DEBC65312CB4144A003C7073 /* CL7Generator.swift in Sources */,
 				DEBC65322CB4144A003C7073 /* UIColor+Extension.swift in Sources */,
-				DEBC65332CB4144A003C7073 /* SelectCityViewController.swift in Sources */,
 				DEBC65342CB4144A003C7073 /* PaygateOptionLineComponent.swift in Sources */,
-				DEBC65352CB4144A003C7073 /* CVMakerChapterViewModel.swift in Sources */,
-				DEBC65362CB4144A003C7073 /* CVMLCollectionLanguageCell.swift in Sources */,
-				DEBC65372CB4144A003C7073 /* CVMPSCollectionAddCell.swift in Sources */,
 				DEBC65382CB4144A003C7073 /* SplashViewModel.swift in Sources */,
 				DEBC65392CB4144A003C7073 /* CLCompany.swift in Sources */,
-				DEBC653A2CB4144A003C7073 /* CVMTemplatesCollectionCell.swift in Sources */,
 				DEBC653B2CB4144A003C7073 /* SettingsLinkButton.swift in Sources */,
 				DEBC653C2CB4144A003C7073 /* CLMTemplatesCollectionView.swift in Sources */,
 				DEBC653D2CB4144A003C7073 /* String+Extension.swift in Sources */,
@@ -2912,54 +1815,27 @@
 				DEBC653F2CB4144A003C7073 /* CLMTBTableView.swift in Sources */,
 				DEBC65402CB4144A003C7073 /* CLMakerVacancyCollector.swift in Sources */,
 				DEBC65412CB4144A003C7073 /* UIEdgeInsets+Extension.swift in Sources */,
-				DEBC65422CB4144A003C7073 /* CVMakerWorkExperienceCreateView.swift in Sources */,
-				DEBC65432CB4144A003C7073 /* CV7Generator.swift in Sources */,
 				DEBC65442CB4144A003C7073 /* SettingsViewModel.swift in Sources */,
 				DEBC65452CB4144A003C7073 /* GlobalDefinitions.swift in Sources */,
 				DEBC65462CB4144A003C7073 /* ResumeGroupViewModel.swift in Sources */,
-				DEBC65472CB4144A003C7073 /* SelectCityTableCell.swift in Sources */,
-				DEBC65482CB4144A003C7073 /* CVMRTableView.swift in Sources */,
-				DEBC65492CB4144A003C7073 /* ProfileViewModel.swift in Sources */,
 				DEBC654A2CB4144A003C7073 /* CL4Generator.swift in Sources */,
 				DEBC654B2CB4144A003C7073 /* SelectField.swift in Sources */,
-				DEBC654C2CB4144A003C7073 /* CVMICollectionView.swift in Sources */,
 				DEBC654D2CB4144A003C7073 /* DateField.swift in Sources */,
-				DEBC654E2CB4144A003C7073 /* CVMWETableElement.swift in Sources */,
 				DEBC654F2CB4144A003C7073 /* Appearance.swift in Sources */,
-				DEBC65502CB4144A003C7073 /* CVMGIAboutYourselfTipCell.swift in Sources */,
 				DEBC65512CB4144A003C7073 /* CLMTemplatesCollectionElement.swift in Sources */,
 				DEBC65522CB4144A003C7073 /* RSCollectionView.swift in Sources */,
 				DEBC65532CB4144A003C7073 /* ImagePicker.swift in Sources */,
 				DEBC65542CB4144A003C7073 /* CL1Generator.swift in Sources */,
-				DEBC65552CB4144A003C7073 /* CV14Generator.swift in Sources */,
-				DEBC65562CB4144A003C7073 /* SelectLanguageViewController.swift in Sources */,
-				DEBC65572CB4144A003C7073 /* CV4Generator.swift in Sources */,
-				DEBC65582CB4144A003C7073 /* SelectLanguageViewModel.swift in Sources */,
-				DEBC65592CB4144A003C7073 /* CVMakerGeneralInfoNameView.swift in Sources */,
 				DEBC655A2CB4144A003C7073 /* IAPErrorHelper.swift in Sources */,
-				DEBC655B2CB4144A003C7073 /* CVMakerGeneralInfoAboutYourselfView.swift in Sources */,
-				DEBC655C2CB4144A003C7073 /* CV16Generator.swift in Sources */,
-				DEBC655D2CB4144A003C7073 /* CVMakerLanguagesView.swift in Sources */,
 				DEBC655E2CB4144A003C7073 /* AppDelegate.swift in Sources */,
-				DEBC655F2CB4144A003C7073 /* CVMWECreateFieldsView.swift in Sources */,
-				DEBC65602CB4144A003C7073 /* CVMakerTemplateView.swift in Sources */,
-				DEBC65612CB4144A003C7073 /* CVMCTableElement.swift in Sources */,
-				DEBC65622CB4144A003C7073 /* CVMakerAddCell.swift in Sources */,
-				DEBC65632CB4144A003C7073 /* CVMPSCollectionElement.swift in Sources */,
 				DEBC65642CB4144A003C7073 /* MainViewController.swift in Sources */,
-				DEBC65652CB4144A003C7073 /* CVMCCreateFieldsView.swift in Sources */,
-				DEBC65662CB4144A003C7073 /* CVMakerPreviewView.swift in Sources */,
 				DEBC65672CB4144A003C7073 /* CircleProgressView.swift in Sources */,
 				DEBC65692CB4144A003C7073 /* Collection+Extension.swift in Sources */,
 				DEBC656A2CB4144A003C7073 /* CLMakerVacancyStepView.swift in Sources */,
-				DEBC656B2CB4144A003C7073 /* SelectCityViewModel.swift in Sources */,
 				DEBC656C2CB4144A003C7073 /* RSCollectionCell.swift in Sources */,
-				DEBC656D2CB4144A003C7073 /* CVMakerView.swift in Sources */,
 				DEBC656E2CB4144A003C7073 /* ContentError.swift in Sources */,
-				DEBC656F2CB4144A003C7073 /* CVMakerOnboardingView.swift in Sources */,
 				DEBC65702CB4144A003C7073 /* RxActivityIndicator.swift in Sources */,
 				DEBC65712CB4144A003C7073 /* UIDevice+Extension.swift in Sources */,
-				DEBC65722CB4144A003C7073 /* ProfessionalSkill.swift in Sources */,
 				DEBC65732CB4144A003C7073 /* CLMakerPrepareOnboardingData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

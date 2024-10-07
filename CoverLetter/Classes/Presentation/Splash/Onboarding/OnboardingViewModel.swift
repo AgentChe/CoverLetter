@@ -41,11 +41,11 @@ private extension OnboardingViewModel {
                 guard let self else { return .never() }
                 
                 return resumeManager
-                    .obtainCVs()
-                    .map { cvs -> Route in
+                    .obtainCLs()
+                    .map { cls -> Route in
                         let hasActiveSubscriptions = SessionManager().hasActiveSubscriptions()
                         
-                        if cvs.isEmpty {
+                        if cls.isEmpty {
                             return hasActiveSubscriptions ? .suggestCreateCL : .paygateTransitionSuggestCreateCL
                         } else {
                             return hasActiveSubscriptions ? .main : .paygateTransitionMain

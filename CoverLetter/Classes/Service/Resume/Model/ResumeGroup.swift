@@ -8,6 +8,5 @@
 struct ResumeGroup: Codable {
     let id: String
     let name: String
-    let cvs: [CV]
     let cls: [CL]
 }
