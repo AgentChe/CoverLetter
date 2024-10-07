@@ -9,24 +9,27 @@ import UIKit
 
 final class OnboardingView: UIView {
     enum Step: Int {
-        case linkedIn, coverLetter, landOffer
+        case welcome, inputInfo, finalize
     }
     
     var didFinish: (() -> Void)?
     
+    lazy var container = makeContainer()
+    lazy var stepsView = makeStepsView()
     lazy var contentViews: [OSlideView] = {
         [
-            OLinkedInView(step: .linkedIn),
-            OCoverLetterView(step: .coverLetter),
-            OLandOfferView(step: .landOffer)
+            OWelcomeView(),
+            OInputInfoView(),
+            OFinalizeView()
         ]
     }()
     
-    private var step = Step.linkedIn
+    private var step = Step.welcome
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        makeConstraints()
         initialize()
     }
     
@@ -78,9 +81,11 @@ private extension OnboardingView {
                 
                 if index == 0 {
                     view.frame.origin = CGPoint(x: 0, y: 0)
-                    self?.addSubview(view)
+                    self?.container.addSubview(view)
                     
                     view.moveToThis()
+                    
+                    self?.stepsView.update(at: view.step)
                 }
             }
     }
@@ -102,21 +107,56 @@ private extension OnboardingView {
         
         scrollToView.frame.origin = CGPoint(x: 393.scale * CGFloat(direction), y: 0)
         
-        addSubview(scrollToView)
+        container.addSubview(scrollToView)
         
         UIView.animate(withDuration: 0.3, animations: {
             currentView.frame.origin = CGPoint(x: 393.scale * CGFloat(-direction), y: 0)
             scrollToView.frame.origin = CGPoint(x: 0, y: 0)
         }, completion: { [weak self] result in
-            guard let self = self else {
-                return
-            }
+            guard let self = self else { return }
             
             currentView.removeFromSuperview()
             
             scrollToView.moveToThis()
             
             self.step = newStep
+            self.stepsView.update(at: newStep)
         })
+    }
+}
+
+// MARK: Make constraints
+private extension OnboardingView {
+    func makeConstraints() {
+        NSLayoutConstraint.activate([
+            container.leadingAnchor.constraint(equalTo: leadingAnchor),
+            container.trailingAnchor.constraint(equalTo: trailingAnchor),
+            container.topAnchor.constraint(equalTo: topAnchor),
+            container.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
+        
+        NSLayoutConstraint.activate([
+            stepsView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
+            stepsView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
+            stepsView.heightAnchor.constraint(equalToConstant: 4.scale),
+            stepsView.topAnchor.constraint(equalTo: topAnchor, constant: 66.scale)
+        ])
+    }
+}
+
+// MARK: Lazy initialization
+private extension OnboardingView {
+    func makeContainer() -> UIView {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
+    }
+    
+    func makeStepsView() -> OStepsView {
+        let view = OStepsView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
     }
 }

@@ -1,5 +1,5 @@
 //
-//  OLandOfferView.swift
+//  OInputInfoView.swift
 //  CVMaker
 //
 //  Created by Андрей Чернышев on 07.05.2024.
@@ -7,14 +7,15 @@
 
 import UIKit
 
-final class OLandOfferView: OSlideView {
+final class OInputInfoView: OSlideView {
+    lazy var roundedView = makeRoundedView()
     lazy var imageView = makeImageView()
     lazy var titleLabel = makeTitleLabel()
     lazy var subTitleLabel = makeSubTitleLabel()
     lazy var continueButton = makeContinueButton()
     
-    override init(step: OnboardingView.Step) {
-        super.init(step: step)
+    init() {
+        super.init(step: .inputInfo)
         
         makeConstraints()
         initialize()
@@ -26,31 +27,38 @@ final class OLandOfferView: OSlideView {
 }
 
 // MARK: Private
-private extension OLandOfferView {
+private extension OInputInfoView {
     func initialize() {
-        backgroundColor = Appearance.main100
+        backgroundColor = Appearance.mono100
     }
 }
 
 // MARK: Make constraints
-private extension OLandOfferView {
+private extension OInputInfoView {
     func makeConstraints() {
         NSLayoutConstraint.activate([
-            imageView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            imageView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            imageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: ScreenSize.isIphoneXFamily ? 68.scale : 50),
-            imageView.heightAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 393.scale : 299.scale)
+            roundedView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            roundedView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            roundedView.topAnchor.constraint(equalTo: topAnchor, constant: 263.scale),
+            roundedView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
         
         NSLayoutConstraint.activate([
-            titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
-            titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
-            titleLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: ScreenSize.isIphoneXFamily ? 87.scale : 10.scale)
+            imageView.widthAnchor.constraint(equalToConstant: 244.scale),
+            imageView.heightAnchor.constraint(equalToConstant: 276.scale),
+            imageView.centerXAnchor.constraint(equalTo: centerXAnchor),
+            imageView.topAnchor.constraint(equalTo: topAnchor, constant: 163.scale)
         ])
         
         NSLayoutConstraint.activate([
-            subTitleLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
-            subTitleLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
+            titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
+            titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
+            titleLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 102.scale)
+        ])
+        
+        NSLayoutConstraint.activate([
+            subTitleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
+            subTitleLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
             subTitleLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 16.scale)
         ])
         
@@ -64,12 +72,25 @@ private extension OLandOfferView {
 }
 
 // MARK: Lazy initialization
-private extension OLandOfferView {
+private extension OInputInfoView {
+    func makeRoundedView() -> GradientView {
+        let view = GradientView()
+        view.gradientLayer.colors = [
+            Appearance.custom_f7f3ed.cgColor,
+            Appearance.mono100.cgColor
+        ]
+        view.layer.cornerRadius = 30.scale
+        view.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
+    }
+    
     func makeImageView() -> UIImageView {
         let view = UIImageView()
         view.contentMode = .scaleAspectFit
         view.clipsToBounds = true
-        view.image = UIImage(named: ScreenSize.isIphoneXFamily ? "Onboarding.LandOffer.X" : "Onboarding.LandOffer.8")
+        view.image = UIImage(named: "Onboarding.InputInfo")
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view
@@ -78,12 +99,12 @@ private extension OLandOfferView {
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.Bitter.bold(size: 30.scale))
-            .lineHeight(34.scale)
-            .textAlignment(.center)
+            .font(Fonts.Inter.bold(size: 44.scale))
+            .lineHeight(55.scale)
+            .textAlignment(.left)
         
         let view = UILabel()
-        view.attributedText = "Onboarding.LandOffer.Title".localized.attributed(with: attrs)
+        view.attributedText = "Onboarding.InputInfo.Title".localized.attributed(with: attrs)
         view.numberOfLines = 0
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
@@ -93,12 +114,12 @@ private extension OLandOfferView {
     func makeSubTitleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.SFPro.regular(size: 17.scale))
+            .font(Fonts.Inter.medium(size: 17.scale))
             .lineHeight(21.scale)
-            .textAlignment(.center)
+            .textAlignment(.left)
         
         let view = UILabel()
-        view.attributedText = "Onboarding.LandOffer.SubTitle".localized.attributed(with: attrs)
+        view.attributedText = "Onboarding.InputInfo.SubTitle".localized.attributed(with: attrs)
         view.numberOfLines = 0
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
@@ -107,13 +128,13 @@ private extension OLandOfferView {
     
     func makeContinueButton() -> UIButton {
         let attrs = TextAttributes()
-            .textColor(Appearance.mono100)
-            .font(Fonts.Nunito.semiBold(size: 17.scale))
+            .textColor(Appearance.custom_fdfdfd)
+            .font(Fonts.Inter.semibold(size: 17.scale))
         
         let view = UIButton()
         view.setAttributedTitle("Continue".localized.attributed(with: attrs), for: .normal)
-        view.layer.cornerRadius = 12.scale
-        view.backgroundColor = Appearance.main200
+        view.layer.cornerRadius = 20.scale
+        view.backgroundColor = Appearance.custom_ed6f00
         view.addTarget(self, action: #selector(onNext), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)

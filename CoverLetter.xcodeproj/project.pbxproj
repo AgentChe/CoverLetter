@@ -73,7 +73,7 @@
 		DEBC64872CB4144A003C7073 /* CV9Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64372CB4144A003C7073 /* CV9Generator.swift */; };
 		DEBC64882CB4144A003C7073 /* CVMPSCollectionSkillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC634F2CB4144A003C7073 /* CVMPSCollectionSkillCell.swift */; };
 		DEBC64892CB4144A003C7073 /* CLMakerTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62FF2CB4144A003C7073 /* CLMakerTemplateView.swift */; };
-		DEBC648A2CB4144A003C7073 /* OLinkedInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D42CB4144A003C7073 /* OLinkedInView.swift */; };
+		DEBC648A2CB4144A003C7073 /* OFinalizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D42CB4144A003C7073 /* OFinalizeView.swift */; };
 		DEBC648B2CB4144A003C7073 /* ContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63FC2CB4144A003C7073 /* ContentManager.swift */; };
 		DEBC648C2CB4144A003C7073 /* CVMICollectionInterestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC633D2CB4144A003C7073 /* CVMICollectionInterestCell.swift */; };
 		DEBC648D2CB4144A003C7073 /* SelectLanguageAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63962CB4144A003C7073 /* SelectLanguageAssembly.swift */; };
@@ -109,7 +109,7 @@
 		DEBC64AB2CB4144A003C7073 /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62CC2CB4144A003C7073 /* Weak.swift */; };
 		DEBC64AC2CB4144A003C7073 /* CVMETableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63272CB4144A003C7073 /* CVMETableView.swift */; };
 		DEBC64AD2CB4144A003C7073 /* CLHiringManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC641C2CB4144A003C7073 /* CLHiringManager.swift */; };
-		DEBC64AE2CB4144A003C7073 /* OCoverLetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D22CB4144A003C7073 /* OCoverLetterView.swift */; };
+		DEBC64AE2CB4144A003C7073 /* OWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D22CB4144A003C7073 /* OWelcomeView.swift */; };
 		DEBC64AF2CB4144A003C7073 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63BA2CB4144A003C7073 /* ProfileView.swift */; };
 		DEBC64B02CB4144A003C7073 /* GeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64062CB4144A003C7073 /* GeneralInfo.swift */; };
 		DEBC64B12CB4144A003C7073 /* CVMLCollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63452CB4144A003C7073 /* CVMLCollectionHeaderCell.swift */; };
@@ -125,7 +125,7 @@
 		DEBC64BB2CB4144A003C7073 /* CVMakerChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63242CB4144A003C7073 /* CVMakerChaptersView.swift */; };
 		DEBC64BC2CB4144A003C7073 /* RequestReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC629C2CB4144A003C7073 /* RequestReview.swift */; };
 		DEBC64BD2CB4144A003C7073 /* CVMTOVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E72CB4144A003C7073 /* CVMTOVCell.swift */; };
-		DEBC64BE2CB4144A003C7073 /* OLandOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D32CB4144A003C7073 /* OLandOfferView.swift */; };
+		DEBC64BE2CB4144A003C7073 /* OInputInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D32CB4144A003C7073 /* OInputInfoView.swift */; };
 		DEBC64BF2CB4144A003C7073 /* PaygateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63E32CB4144A003C7073 /* PaygateInteractor.swift */; };
 		DEBC64C02CB4144A003C7073 /* PushNotificationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62BD2CB4144A003C7073 /* PushNotificationsModel.swift */; };
 		DEBC64C12CB4144A003C7073 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63862CB4144A003C7073 /* PDFViewController.swift */; };
@@ -380,6 +380,7 @@
 		DEBC66152CB41457003C7073 /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBC65922CB41457003C7073 /* Lora-BoldItalic.ttf */; };
 		DEBC66162CB41457003C7073 /* SplineSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBC65CB2CB41457003C7073 /* SplineSans-Medium.ttf */; };
 		DEBC66172CB41457003C7073 /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBC65AA2CB41457003C7073 /* Outfit-Regular.ttf */; };
+		DEBC661A2CB423CF003C7073 /* OStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66192CB423BA003C7073 /* OStepsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -599,9 +600,9 @@
 		DEBC63CD2CB4144A003C7073 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DEBC63CE2CB4144A003C7073 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		DEBC63CF2CB4144A003C7073 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
-		DEBC63D22CB4144A003C7073 /* OCoverLetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCoverLetterView.swift; sourceTree = "<group>"; };
-		DEBC63D32CB4144A003C7073 /* OLandOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLandOfferView.swift; sourceTree = "<group>"; };
-		DEBC63D42CB4144A003C7073 /* OLinkedInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLinkedInView.swift; sourceTree = "<group>"; };
+		DEBC63D22CB4144A003C7073 /* OWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OWelcomeView.swift; sourceTree = "<group>"; };
+		DEBC63D32CB4144A003C7073 /* OInputInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OInputInfoView.swift; sourceTree = "<group>"; };
+		DEBC63D42CB4144A003C7073 /* OFinalizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OFinalizeView.swift; sourceTree = "<group>"; };
 		DEBC63D52CB4144A003C7073 /* OSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSlideView.swift; sourceTree = "<group>"; };
 		DEBC63D72CB4144A003C7073 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		DEBC63D82CB4144A003C7073 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
@@ -760,6 +761,7 @@
 		DEBC65CC2CB41457003C7073 /* SplineSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SplineSans-Regular.ttf"; sourceTree = "<group>"; };
 		DEBC65CD2CB41457003C7073 /* SplineSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SplineSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		DEBC65D02CB41457003C7073 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DEBC66192CB423BA003C7073 /* OStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OStepsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1894,9 +1896,10 @@
 		DEBC63D62CB4144A003C7073 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DEBC63D22CB4144A003C7073 /* OCoverLetterView.swift */,
-				DEBC63D32CB4144A003C7073 /* OLandOfferView.swift */,
-				DEBC63D42CB4144A003C7073 /* OLinkedInView.swift */,
+				DEBC66192CB423BA003C7073 /* OStepsView.swift */,
+				DEBC63D22CB4144A003C7073 /* OWelcomeView.swift */,
+				DEBC63D32CB4144A003C7073 /* OInputInfoView.swift */,
+				DEBC63D42CB4144A003C7073 /* OFinalizeView.swift */,
 				DEBC63D52CB4144A003C7073 /* OSlideView.swift */,
 			);
 			path = Views;
@@ -1906,9 +1909,9 @@
 			isa = PBXGroup;
 			children = (
 				DEBC63D62CB4144A003C7073 /* Views */,
-				DEBC63D72CB4144A003C7073 /* OnboardingView.swift */,
 				DEBC63D82CB4144A003C7073 /* OnboardingViewController.swift */,
 				DEBC63D92CB4144A003C7073 /* OnboardingViewModel.swift */,
+				DEBC63D72CB4144A003C7073 /* OnboardingView.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -1964,10 +1967,9 @@
 		DEBC63ED2CB4144A003C7073 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				DEBC63E92CB4144A003C7073 /* Utils */,
-				DEBC63EB2CB4144A003C7073 /* SplashViewController.swift */,
-				DEBC63EC2CB4144A003C7073 /* SplashViewModel.swift */,
-				DEBC63EA2CB4144A003C7073 /* SplashView.swift */,
+				DEBC63E72CB4144A003C7073 /* Paygate */,
+				DEBC66182CB41E0A003C7073 /* Splash */,
+				DEBC63DB2CB4144A003C7073 /* Onboarding */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -1978,8 +1980,6 @@
 				DEBC630F2CB4144A003C7073 /* CLMaker */,
 				DEBC63A72CB4144A003C7073 /* CVMaker */,
 				DEBC63D12CB4144A003C7073 /* Main */,
-				DEBC63DB2CB4144A003C7073 /* Onboarding */,
-				DEBC63E72CB4144A003C7073 /* Paygate */,
 				DEBC63ED2CB4144A003C7073 /* Splash */,
 			);
 			path = Presentation;
@@ -2453,6 +2453,17 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
+		DEBC66182CB41E0A003C7073 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC63E92CB4144A003C7073 /* Utils */,
+				DEBC63EB2CB4144A003C7073 /* SplashViewController.swift */,
+				DEBC63EC2CB4144A003C7073 /* SplashViewModel.swift */,
+				DEBC63EA2CB4144A003C7073 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2703,7 +2714,7 @@
 				DEBC64872CB4144A003C7073 /* CV9Generator.swift in Sources */,
 				DEBC64882CB4144A003C7073 /* CVMPSCollectionSkillCell.swift in Sources */,
 				DEBC64892CB4144A003C7073 /* CLMakerTemplateView.swift in Sources */,
-				DEBC648A2CB4144A003C7073 /* OLinkedInView.swift in Sources */,
+				DEBC648A2CB4144A003C7073 /* OFinalizeView.swift in Sources */,
 				DEBC648B2CB4144A003C7073 /* ContentManager.swift in Sources */,
 				DEBC648C2CB4144A003C7073 /* CVMICollectionInterestCell.swift in Sources */,
 				DEBC648D2CB4144A003C7073 /* SelectLanguageAssembly.swift in Sources */,
@@ -2739,7 +2750,7 @@
 				DEBC64AB2CB4144A003C7073 /* Weak.swift in Sources */,
 				DEBC64AC2CB4144A003C7073 /* CVMETableView.swift in Sources */,
 				DEBC64AD2CB4144A003C7073 /* CLHiringManager.swift in Sources */,
-				DEBC64AE2CB4144A003C7073 /* OCoverLetterView.swift in Sources */,
+				DEBC64AE2CB4144A003C7073 /* OWelcomeView.swift in Sources */,
 				DEBC64AF2CB4144A003C7073 /* ProfileView.swift in Sources */,
 				DEBC64B02CB4144A003C7073 /* GeneralInfo.swift in Sources */,
 				DEBC64B12CB4144A003C7073 /* CVMLCollectionHeaderCell.swift in Sources */,
@@ -2755,13 +2766,14 @@
 				DEBC64BB2CB4144A003C7073 /* CVMakerChaptersView.swift in Sources */,
 				DEBC64BC2CB4144A003C7073 /* RequestReview.swift in Sources */,
 				DEBC64BD2CB4144A003C7073 /* CVMTOVCell.swift in Sources */,
-				DEBC64BE2CB4144A003C7073 /* OLandOfferView.swift in Sources */,
+				DEBC64BE2CB4144A003C7073 /* OInputInfoView.swift in Sources */,
 				DEBC64BF2CB4144A003C7073 /* PaygateInteractor.swift in Sources */,
 				DEBC64C02CB4144A003C7073 /* PushNotificationsModel.swift in Sources */,
 				DEBC64C12CB4144A003C7073 /* PDFViewController.swift in Sources */,
 				DEBC64C22CB4144A003C7073 /* CVMICollectionHeaderCell.swift in Sources */,
 				DEBC64C32CB4144A003C7073 /* CVMakerReferencesView.swift in Sources */,
 				DEBC64C42CB4144A003C7073 /* CLMakerVacancyView.swift in Sources */,
+				DEBC661A2CB423CF003C7073 /* OStepsView.swift in Sources */,
 				DEBC64C52CB4144A003C7073 /* CV6Generator.swift in Sources */,
 				DEBC64C62CB4144A003C7073 /* Reference.swift in Sources */,
 				DEBC64C72CB4144A003C7073 /* CL3Generator.swift in Sources */,

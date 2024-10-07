@@ -20,12 +20,12 @@
 "Splash.Preloader" = "Loading...";
 
 // MARK: Onboarding
-"Onboarding.LinkedIN.Title" = "Create Your CV in a few\nclicks";
-"Onboarding.LinkedIN.SubTitle" = "Browse ready-to-use CV templates";
-"Onboarding.CoverLetter.Title" = "AI-powered Cover Letter\ngenerator";
-"Onboarding.CoverLetter.SubTitle" = "Effortless cover letter writing";
-"Onboarding.LandOffer.Title" = "Land your dream offer\neasier";
-"Onboarding.LandOffer.SubTitle" = "Get noticed by employers and get hired\nfaster!";
+"Onboarding.Welcome.Title" = "Welcome to AI-\nPowered Cover\nLetter";
+"Onboarding.Welcome.SubTitle" = "Create personalized cover letters with ease, tailored to each job application";
+"Onboarding.InputInfo.Title" = "Input Your\nInformation";
+"Onboarding.InputInfo.SubTitle" = "Provide key information, and our AI will craft a letter that highlights your strengths.";
+"Onboarding.Finalize.Title" = "Finalize and\nDownload";
+"Onboarding.Finalize.SubTitle" = "Instantly review and download your personalized cover letter, ready to send!";
 
 // MARK: Paygate
 "Paygate.Title" = "Unlock Premium Status";
