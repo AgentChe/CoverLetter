@@ -102,8 +102,8 @@ private extension SettingsLinkButton {
     func makeLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.Nunito.semiBold(size: 15.scale))
-            .lineHeight(20.scale)
+            .font(Fonts.Inter.semibold(size: 15.scale))
+            .lineHeight(18.scale)
             .textAlignment(.left)
         
         let view = UILabel()

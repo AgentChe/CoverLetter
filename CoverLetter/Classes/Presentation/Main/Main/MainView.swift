@@ -7,8 +7,9 @@
 
 import UIKit
 
-final class MainView: UIView {
-    lazy var collectionView = makeCollectionView()
+final class MainView: GradientView {
+    lazy var container = makeContainer()
+    lazy var tabView = makeTabView()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -25,7 +26,12 @@ final class MainView: UIView {
 // MARK: Private
 private extension MainView {
     func initialize() {
-        backgroundColor = Appearance.main100
+        gradientLayer.colors = [
+            Appearance.custom_f7f3ed.cgColor,
+            Appearance.mono100.cgColor
+        ]
+        gradientLayer.startPoint = CGPoint(x: 0.5, y: 0)
+        gradientLayer.endPoint = CGPoint(x: 0.5, y: 1)
     }
 }
 
@@ -33,27 +39,34 @@ private extension MainView {
 private extension MainView {
     func makeConstraints() {
         NSLayoutConstraint.activate([
-            collectionView.leadingAnchor.constraint(equalTo: leadingAnchor),
-            collectionView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            collectionView.topAnchor.constraint(equalTo: topAnchor),
-            collectionView.bottomAnchor.constraint(equalTo: bottomAnchor)
+            container.leadingAnchor.constraint(equalTo: leadingAnchor),
+            container.trailingAnchor.constraint(equalTo: trailingAnchor),
+            container.topAnchor.constraint(equalTo: topAnchor),
+            container.bottomAnchor.constraint(equalTo: tabView.topAnchor)
+        ])
+        
+        NSLayoutConstraint.activate([
+            tabView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            tabView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            tabView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            tabView.heightAnchor.constraint(equalToConstant: 83.scale)
         ])
     }
 }
 
 // MARK: Lazy initialization
 private extension MainView {
-    func makeCollectionView() -> MainCollectionView {
-        let layout = CVMPSCollectionLayout()
-        layout.scrollDirection = .vertical
-        layout.minimumLineSpacing = 20.scale
-        layout.minimumInteritemSpacing = 15.scale
-        layout.itemSize = CGSize(width: 172.scale, height: 162.scale)
-        
-        let view = MainCollectionView(frame: .zero, collectionViewLayout: layout)
+    func makeContainer() -> UIView {
+        let view = UIView()
         view.backgroundColor = UIColor.clear
-        view.contentInset = UIEdgeInsets(vertical: 20.scale, horizontal: 16.scale)
-        view.setContentOffset(CGPoint(x: 0, y: -20.scale), animated: false)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
+    }
+    
+    func makeTabView() -> TabView {
+        let view = TabView()
+        view.backgroundColor = UIColor.clear
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

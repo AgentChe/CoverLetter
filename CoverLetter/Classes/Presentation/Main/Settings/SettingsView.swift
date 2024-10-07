@@ -8,6 +8,8 @@
 import UIKit
 
 final class SettingsView: UIView {
+    lazy var roundedView = makeRoundedView()
+    lazy var titleLabel = makeTitleLabel()
     lazy var termsOfUseButton = makeLinkButton(entity: .termsOfUse)
     lazy var privacyPolicyButton = makeLinkButton(entity: .privacyPolicy)
     lazy var contactUsButton = makeLinkButton(entity: .contactUs)
@@ -27,7 +29,7 @@ final class SettingsView: UIView {
 // MARK: Private
 private extension SettingsView {
     func initialize() {
-        backgroundColor = Appearance.main100
+        backgroundColor = Appearance.mono100
     }
 }
 
@@ -35,9 +37,21 @@ private extension SettingsView {
 private extension SettingsView {
     func makeConstraints() {
         NSLayoutConstraint.activate([
+            roundedView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            roundedView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            roundedView.topAnchor.constraint(equalTo: topAnchor, constant: 54.scale),
+            roundedView.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
+        
+        NSLayoutConstraint.activate([
+            titleLabel.centerXAnchor.constraint(equalTo: centerXAnchor),
+            titleLabel.topAnchor.constraint(equalTo: roundedView.topAnchor, constant: 32.scale)
+        ])
+        
+        NSLayoutConstraint.activate([
             termsOfUseButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
             termsOfUseButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
-            termsOfUseButton.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 24.scale),
+            termsOfUseButton.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 24.scale),
             termsOfUseButton.heightAnchor.constraint(equalToConstant: 60.scale)
         ])
         
@@ -59,6 +73,35 @@ private extension SettingsView {
 
 // MARK: Lazy initialization
 private extension SettingsView {
+    func makeRoundedView() -> GradientView {
+        let view = GradientView()
+        view.gradientLayer.colors = [
+            Appearance.custom_f7f3ed.cgColor,
+            Appearance.mono100.cgColor
+        ]
+        view.gradientLayer.startPoint = CGPoint(x: 0.5, y: 0)
+        view.gradientLayer.endPoint = CGPoint(x: 0.5, y: 1)
+        view.layer.cornerRadius = 30.scale
+        view.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
+    }
+    
+    func makeTitleLabel() -> UILabel {
+        let attrs = TextAttributes()
+            .textColor(Appearance.mono200)
+            .font(Fonts.Inter.bold(size: 25.scale))
+            .lineHeight(34.scale)
+            .textAlignment(.center)
+        
+        let view = UILabel()
+        view.attributedText = "Settings.Title".localized.attributed(with: attrs)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
+    }
+    
     func makeLinkButton(entity: SettingsLinkButton.Entity) -> SettingsLinkButton {
         let view = SettingsLinkButton(entity: entity)
         view.translatesAutoresizingMaskIntoConstraints = false

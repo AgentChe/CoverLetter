@@ -52,10 +52,8 @@ extension OnboardingViewController {
         OnboardingViewController()
     }
     
-    // TODO
     static func wasViewed() -> Bool {
-        false
-//        UserDefaults.standard.bool(forKey: OnboardingViewController.Constants.wasViewedKey)
+        UserDefaults.standard.bool(forKey: OnboardingViewController.Constants.wasViewedKey)
     }
 }
 
@@ -78,7 +76,7 @@ private extension OnboardingViewController {
             }
             present(vc, animated: true)
         case .main:
-            UIApplication.shared.keyWindow?.rootViewController = NavigationController(rootViewController: MainViewController.make())
+            UIApplication.shared.keyWindow?.rootViewController = MainViewController.make()
         case .suggestCreateCL:
             UIApplication.shared.keyWindow?.rootViewController = SuggestCreateCLViewController.make()
         }

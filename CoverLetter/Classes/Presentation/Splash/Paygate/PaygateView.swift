@@ -168,6 +168,8 @@ private extension PaygateView {
             Appearance.custom_f7f3ed.cgColor,
             Appearance.mono100.cgColor
         ]
+        view.gradientLayer.startPoint = CGPoint(x: 0.5, y: 0)
+        view.gradientLayer.endPoint = CGPoint(x: 0.5, y: 1)
         view.layer.cornerRadius = 30.scale
         view.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         view.translatesAutoresizingMaskIntoConstraints = false

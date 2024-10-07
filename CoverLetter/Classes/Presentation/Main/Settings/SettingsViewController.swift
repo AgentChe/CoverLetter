@@ -42,9 +42,7 @@ final class SettingsViewController: UIViewController {
 // MARK: Public
 extension SettingsViewController {
     static func make() -> SettingsViewController {
-        let vc = SettingsViewController()
-        vc.navigationItem.title = "Settings.Title".localized
-        return vc
+        SettingsViewController()
     }
 }
 

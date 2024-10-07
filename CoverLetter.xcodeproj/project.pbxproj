@@ -166,7 +166,6 @@
 		DEBC64E42CB4144A003C7073 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC629F2CB4144A003C7073 /* NavigationController.swift */; };
 		DEBC64E52CB4144A003C7073 /* PurchaseValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64182CB4144A003C7073 /* PurchaseValidationObserver.swift */; };
 		DEBC64E62CB4144A003C7073 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63EF2CB4144A003C7073 /* City.swift */; };
-		DEBC64E72CB4144A003C7073 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63B12CB4144A003C7073 /* MainViewModel.swift */; };
 		DEBC64E82CB4144A003C7073 /* PushNotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62BF2CB4144A003C7073 /* PushNotificationsManager.swift */; };
 		DEBC64E92CB4144A003C7073 /* CLMakerToneOfVoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E92CB4144A003C7073 /* CLMakerToneOfVoiceView.swift */; };
 		DEBC64EA2CB4144A003C7073 /* DefaultRequestWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B72CB4144A003C7073 /* DefaultRequestWrapper.swift */; };
@@ -236,7 +235,6 @@
 		DEBC652A2CB4144A003C7073 /* CVMRTableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC635C2CB4144A003C7073 /* CVMRTableElement.swift */; };
 		DEBC652B2CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62F92CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift */; };
 		DEBC652C2CB4144A003C7073 /* CV8Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64362CB4144A003C7073 /* CV8Generator.swift */; };
-		DEBC652D2CB4144A003C7073 /* MainCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63AB2CB4144A003C7073 /* MainCollectionCell.swift */; };
 		DEBC652E2CB4144A003C7073 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62972CB4144A003C7073 /* BranchManager.swift */; };
 		DEBC652F2CB4144A003C7073 /* CV5Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64332CB4144A003C7073 /* CV5Generator.swift */; };
 		DEBC65302CB4144A003C7073 /* CVMLCollectionAddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63442CB4144A003C7073 /* CVMLCollectionAddCell.swift */; };
@@ -295,7 +293,6 @@
 		DEBC65652CB4144A003C7073 /* CVMCCreateFieldsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC631D2CB4144A003C7073 /* CVMCCreateFieldsView.swift */; };
 		DEBC65662CB4144A003C7073 /* CVMakerPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63752CB4144A003C7073 /* CVMakerPreviewView.swift */; };
 		DEBC65672CB4144A003C7073 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A22CB4144A003C7073 /* CircleProgressView.swift */; };
-		DEBC65682CB4144A003C7073 /* MainCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63AC2CB4144A003C7073 /* MainCollectionView.swift */; };
 		DEBC65692CB4144A003C7073 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62AD2CB4144A003C7073 /* Collection+Extension.swift */; };
 		DEBC656A2CB4144A003C7073 /* CLMakerVacancyStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62EF2CB4144A003C7073 /* CLMakerVacancyStepView.swift */; };
 		DEBC656B2CB4144A003C7073 /* SelectCityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63902CB4144A003C7073 /* SelectCityViewModel.swift */; };
@@ -384,6 +381,9 @@
 		DEBC661D2CB4323B003C7073 /* SuggestCreateCLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC661C2CB43232003C7073 /* SuggestCreateCLViewController.swift */; };
 		DEBC661F2CB4323F003C7073 /* SuggestCreateCLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC661E2CB4323E003C7073 /* SuggestCreateCLView.swift */; };
 		DEBC66212CB44FC0003C7073 /* SuggestCreateCLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66202CB44FBD003C7073 /* SuggestCreateCLViewModel.swift */; };
+		DEBC66242CB45656003C7073 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66232CB45655003C7073 /* TabView.swift */; };
+		DEBC66262CB4565D003C7073 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66252CB4565C003C7073 /* TabItemView.swift */; };
+		DEBC66282CB45A70003C7073 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66272CB45A6E003C7073 /* MainCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -579,11 +579,8 @@
 		DEBC63A52CB4144A003C7073 /* WrapperController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperController.swift; sourceTree = "<group>"; };
 		DEBC63A82CB4144A003C7073 /* CVMakerChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerChapterViewController.swift; sourceTree = "<group>"; };
 		DEBC63A92CB4144A003C7073 /* CVMakerChapterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVMakerChapterViewModel.swift; sourceTree = "<group>"; };
-		DEBC63AB2CB4144A003C7073 /* MainCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionCell.swift; sourceTree = "<group>"; };
-		DEBC63AC2CB4144A003C7073 /* MainCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionView.swift; sourceTree = "<group>"; };
 		DEBC63AF2CB4144A003C7073 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DEBC63B02CB4144A003C7073 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		DEBC63B12CB4144A003C7073 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		DEBC63B32CB4144A003C7073 /* ProfileCVMakerChapterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCVMakerChapterCell.swift; sourceTree = "<group>"; };
 		DEBC63B42CB4144A003C7073 /* ProfileInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoCell.swift; sourceTree = "<group>"; };
 		DEBC63B62CB4144A003C7073 /* ProfileTableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableElement.swift; sourceTree = "<group>"; };
@@ -768,6 +765,9 @@
 		DEBC661C2CB43232003C7073 /* SuggestCreateCLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestCreateCLViewController.swift; sourceTree = "<group>"; };
 		DEBC661E2CB4323E003C7073 /* SuggestCreateCLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestCreateCLView.swift; sourceTree = "<group>"; };
 		DEBC66202CB44FBD003C7073 /* SuggestCreateCLViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestCreateCLViewModel.swift; sourceTree = "<group>"; };
+		DEBC66232CB45655003C7073 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		DEBC66252CB4565C003C7073 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
+		DEBC66272CB45A6E003C7073 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1755,19 +1755,10 @@
 			path = CVMakerChapter;
 			sourceTree = "<group>";
 		};
-		DEBC63AD2CB4144A003C7073 /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63AB2CB4144A003C7073 /* MainCollectionCell.swift */,
-				DEBC63AC2CB4144A003C7073 /* MainCollectionView.swift */,
-			);
-			path = CollectionView;
-			sourceTree = "<group>";
-		};
 		DEBC63AE2CB4144A003C7073 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DEBC63AD2CB4144A003C7073 /* CollectionView */,
+				DEBC66222CB4564B003C7073 /* Tab */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1776,9 +1767,9 @@
 			isa = PBXGroup;
 			children = (
 				DEBC63AE2CB4144A003C7073 /* Views */,
-				DEBC63AF2CB4144A003C7073 /* MainView.swift */,
 				DEBC63B02CB4144A003C7073 /* MainViewController.swift */,
-				DEBC63B12CB4144A003C7073 /* MainViewModel.swift */,
+				DEBC63AF2CB4144A003C7073 /* MainView.swift */,
+				DEBC66272CB45A6E003C7073 /* MainCoordinator.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -1880,9 +1871,9 @@
 			isa = PBXGroup;
 			children = (
 				DEBC63CC2CB4144A003C7073 /* Views */,
-				DEBC63CD2CB4144A003C7073 /* SettingsView.swift */,
 				DEBC63CE2CB4144A003C7073 /* SettingsViewController.swift */,
 				DEBC63CF2CB4144A003C7073 /* SettingsViewModel.swift */,
+				DEBC63CD2CB4144A003C7073 /* SettingsView.swift */,
 			);
 			path = Settings;
 			sourceTree = "<group>";
@@ -2473,6 +2464,15 @@
 			path = SuggestCreateCL;
 			sourceTree = "<group>";
 		};
+		DEBC66222CB4564B003C7073 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC66252CB4565C003C7073 /* TabItemView.swift */,
+				DEBC66232CB45655003C7073 /* TabView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2710,6 +2710,7 @@
 				DEBC64792CB4144A003C7073 /* CLMakerChapterProgressView.swift in Sources */,
 				DEBC647A2CB4144A003C7073 /* IAPManager.swift in Sources */,
 				DEBC647B2CB4144A003C7073 /* CLMakerHMGenderView.swift in Sources */,
+				DEBC66262CB4565D003C7073 /* TabItemView.swift in Sources */,
 				DEBC647C2CB4144A003C7073 /* CLMakerAnalyzeDataGenerator.swift in Sources */,
 				DEBC647D2CB4144A003C7073 /* GetCitiesRequest.swift in Sources */,
 				DEBC647E2CB4144A003C7073 /* ProfileTableView.swift in Sources */,
@@ -2730,6 +2731,7 @@
 				DEBC648D2CB4144A003C7073 /* SelectLanguageAssembly.swift in Sources */,
 				DEBC648E2CB4144A003C7073 /* CVMICollectionElement.swift in Sources */,
 				DEBC648F2CB4144A003C7073 /* CLMakerView.swift in Sources */,
+				DEBC66242CB45656003C7073 /* TabView.swift in Sources */,
 				DEBC64902CB4144A003C7073 /* CVMakerFlowView.swift in Sources */,
 				DEBC64912CB4144A003C7073 /* ProfileMediator.swift in Sources */,
 				DEBC64922CB4144A003C7073 /* Scalable.swift in Sources */,
@@ -2819,7 +2821,6 @@
 				DEBC64E42CB4144A003C7073 /* NavigationController.swift in Sources */,
 				DEBC64E52CB4144A003C7073 /* PurchaseValidationObserver.swift in Sources */,
 				DEBC64E62CB4144A003C7073 /* City.swift in Sources */,
-				DEBC64E72CB4144A003C7073 /* MainViewModel.swift in Sources */,
 				DEBC64E82CB4144A003C7073 /* PushNotificationsManager.swift in Sources */,
 				DEBC64E92CB4144A003C7073 /* CLMakerToneOfVoiceView.swift in Sources */,
 				DEBC64EA2CB4144A003C7073 /* DefaultRequestWrapper.swift in Sources */,
@@ -2890,8 +2891,8 @@
 				DEBC652A2CB4144A003C7073 /* CVMRTableElement.swift in Sources */,
 				DEBC652B2CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift in Sources */,
 				DEBC652C2CB4144A003C7073 /* CV8Generator.swift in Sources */,
-				DEBC652D2CB4144A003C7073 /* MainCollectionCell.swift in Sources */,
 				DEBC652E2CB4144A003C7073 /* BranchManager.swift in Sources */,
+				DEBC66282CB45A70003C7073 /* MainCoordinator.swift in Sources */,
 				DEBC652F2CB4144A003C7073 /* CV5Generator.swift in Sources */,
 				DEBC65302CB4144A003C7073 /* CVMLCollectionAddCell.swift in Sources */,
 				DEBC65312CB4144A003C7073 /* CL7Generator.swift in Sources */,
@@ -2949,7 +2950,6 @@
 				DEBC65652CB4144A003C7073 /* CVMCCreateFieldsView.swift in Sources */,
 				DEBC65662CB4144A003C7073 /* CVMakerPreviewView.swift in Sources */,
 				DEBC65672CB4144A003C7073 /* CircleProgressView.swift in Sources */,
-				DEBC65682CB4144A003C7073 /* MainCollectionView.swift in Sources */,
 				DEBC65692CB4144A003C7073 /* Collection+Extension.swift in Sources */,
 				DEBC656A2CB4144A003C7073 /* CLMakerVacancyStepView.swift in Sources */,
 				DEBC656B2CB4144A003C7073 /* SelectCityViewModel.swift in Sources */,
