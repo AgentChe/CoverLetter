@@ -1916,14 +1916,6 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		DEBC63DB2CB4144A003C7073 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63DA2CB4144A003C7073 /* Onboarding */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
 		DEBC63DF2CB4144A003C7073 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -1949,9 +1941,9 @@
 				DEBC63DF2CB4144A003C7073 /* Models */,
 				DEBC63E22CB4144A003C7073 /* Views */,
 				DEBC63E32CB4144A003C7073 /* PaygateInteractor.swift */,
-				DEBC63E42CB4144A003C7073 /* PaygateView.swift */,
 				DEBC63E52CB4144A003C7073 /* PaygateViewController.swift */,
 				DEBC63E62CB4144A003C7073 /* PaygateViewModel.swift */,
+				DEBC63E42CB4144A003C7073 /* PaygateView.swift */,
 			);
 			path = Paygate;
 			sourceTree = "<group>";
@@ -1967,9 +1959,9 @@
 		DEBC63ED2CB4144A003C7073 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				DEBC63DA2CB4144A003C7073 /* Onboarding */,
 				DEBC63E72CB4144A003C7073 /* Paygate */,
 				DEBC66182CB41E0A003C7073 /* Splash */,
-				DEBC63DB2CB4144A003C7073 /* Onboarding */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -2997,7 +2989,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.CoverLetter;
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.cvmaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -3032,7 +3024,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.CoverLetter;
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.cvmaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
