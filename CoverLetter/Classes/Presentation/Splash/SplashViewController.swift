@@ -67,15 +67,8 @@ private extension SplashViewController {
                 self?.goNext(route: .main)
             }
             present(vc, animated: true)
-        case .paygateTransitionCVMaker:
-            let vc = PaygateViewController.make { [weak self] in
-                self?.goNext(route: .cvMaker)
-            }
-            present(vc, animated: true)
         case .main:
             UIApplication.shared.keyWindow?.rootViewController = NavigationController(rootViewController: MainViewController.make())
-        case .cvMaker:
-            UIApplication.shared.keyWindow?.rootViewController = CVMakerViewController.make(mode: .create, stepAfterCancelFlow: .main)
         }
     }
 }

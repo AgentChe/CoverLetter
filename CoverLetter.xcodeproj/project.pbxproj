@@ -1965,9 +1965,9 @@
 			isa = PBXGroup;
 			children = (
 				DEBC63E92CB4144A003C7073 /* Utils */,
-				DEBC63EA2CB4144A003C7073 /* SplashView.swift */,
 				DEBC63EB2CB4144A003C7073 /* SplashViewController.swift */,
 				DEBC63EC2CB4144A003C7073 /* SplashViewModel.swift */,
+				DEBC63EA2CB4144A003C7073 /* SplashView.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";

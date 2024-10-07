@@ -29,6 +29,7 @@ final class GlobalDefinitions {
         static let redirectUri = "https://cmmaker.callback"
     }
     
+    // TODO
     enum Paygate {
         static let defaultLifetime = "cvmaker.endless"
         static let defaultMonthly = "cvmaker.monthly"

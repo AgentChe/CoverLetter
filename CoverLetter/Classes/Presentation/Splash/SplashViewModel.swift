@@ -10,7 +10,7 @@ import RxCocoa
 
 final class SplashViewModel {
     enum Route {
-        case onboarding, paygateTransitionMain, paygateTransitionCVMaker, main, cvMaker
+        case onboarding, paygateTransitionMain, main
     }
     
     private lazy var resumeManager = ResumeManager()
@@ -36,25 +36,15 @@ extension SplashViewModel {
 private extension SplashViewModel {
     func makeRoute(didSDKConfigured: Signal<Void>) -> Driver<Route> {
         didSDKConfigured
-            .flatMapLatest { [weak self] void -> Driver<Route> in
-                guard let self else { return .never() }
-                
+            .map { void -> Route in
                 if !OnboardingViewController.wasViewed() {
-                    return .just(.onboarding)
+                    return .onboarding
                 }
                 
-                return resumeManager
-                    .obtainCVs()
-                    .map { cvs -> Route in
-                        let hasActiveSubscriptions = SessionManager().hasActiveSubscriptions()
-                        
-                        if cvs.isEmpty {
-                            return hasActiveSubscriptions ? .cvMaker : .paygateTransitionCVMaker
-                        } else {
-                            return hasActiveSubscriptions ? .main : .paygateTransitionMain
-                        }
-                    }
-                    .asDriver(onErrorDriveWith: .never())
+                let hasActiveSubscriptions = SessionManager().hasActiveSubscriptions()
+                
+                return hasActiveSubscriptions ? .main : .paygateTransitionMain
             }
+            .asDriver(onErrorDriveWith: .never())
     }
 }

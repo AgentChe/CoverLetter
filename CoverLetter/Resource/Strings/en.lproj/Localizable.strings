@@ -16,6 +16,9 @@
 "ImagePicker.CameraRoll" = "Camera roll";
 "ImagePicker.PhotoLibrary" = "Photo library";
 
+// MARK: Splash
+"Splash.Preloader" = "Loading...";
+
 // MARK: Onboarding
 "Onboarding.LinkedIN.Title" = "Create Your CV in a few\nclicks";
 "Onboarding.LinkedIN.SubTitle" = "Browse ready-to-use CV templates";
