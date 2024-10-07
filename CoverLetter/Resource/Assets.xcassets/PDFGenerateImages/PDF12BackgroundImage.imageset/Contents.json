@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "PDF12BackgroundImage.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

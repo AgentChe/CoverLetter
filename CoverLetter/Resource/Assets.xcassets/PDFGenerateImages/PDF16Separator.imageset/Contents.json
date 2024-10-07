@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "PDF16Separator.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
