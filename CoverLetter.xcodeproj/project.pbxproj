@@ -381,6 +381,9 @@
 		DEBC66162CB41457003C7073 /* SplineSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBC65CB2CB41457003C7073 /* SplineSans-Medium.ttf */; };
 		DEBC66172CB41457003C7073 /* Outfit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DEBC65AA2CB41457003C7073 /* Outfit-Regular.ttf */; };
 		DEBC661A2CB423CF003C7073 /* OStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66192CB423BA003C7073 /* OStepsView.swift */; };
+		DEBC661D2CB4323B003C7073 /* SuggestCreateCLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC661C2CB43232003C7073 /* SuggestCreateCLViewController.swift */; };
+		DEBC661F2CB4323F003C7073 /* SuggestCreateCLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC661E2CB4323E003C7073 /* SuggestCreateCLView.swift */; };
+		DEBC66212CB44FC0003C7073 /* SuggestCreateCLViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66202CB44FBD003C7073 /* SuggestCreateCLViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -762,6 +765,9 @@
 		DEBC65CD2CB41457003C7073 /* SplineSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SplineSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		DEBC65D02CB41457003C7073 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DEBC66192CB423BA003C7073 /* OStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OStepsView.swift; sourceTree = "<group>"; };
+		DEBC661C2CB43232003C7073 /* SuggestCreateCLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestCreateCLViewController.swift; sourceTree = "<group>"; };
+		DEBC661E2CB4323E003C7073 /* SuggestCreateCLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestCreateCLView.swift; sourceTree = "<group>"; };
+		DEBC66202CB44FBD003C7073 /* SuggestCreateCLViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestCreateCLViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1959,6 +1965,7 @@
 		DEBC63ED2CB4144A003C7073 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				DEBC661B2CB43228003C7073 /* SuggestCreateCL */,
 				DEBC63DA2CB4144A003C7073 /* Onboarding */,
 				DEBC63E72CB4144A003C7073 /* Paygate */,
 				DEBC66182CB41E0A003C7073 /* Splash */,
@@ -2456,6 +2463,16 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		DEBC661B2CB43228003C7073 /* SuggestCreateCL */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC661C2CB43232003C7073 /* SuggestCreateCLViewController.swift */,
+				DEBC66202CB44FBD003C7073 /* SuggestCreateCLViewModel.swift */,
+				DEBC661E2CB4323E003C7073 /* SuggestCreateCLView.swift */,
+			);
+			path = SuggestCreateCL;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2649,6 +2666,7 @@
 				DEBC644E2CB4144A003C7073 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				DEBC644F2CB4144A003C7073 /* ProfileViewController.swift in Sources */,
 				DEBC64502CB4144A003C7073 /* SelectProfessionalSkillViewModel.swift in Sources */,
+				DEBC661F2CB4323F003C7073 /* SuggestCreateCLView.swift in Sources */,
 				DEBC64512CB4144A003C7073 /* SplashView.swift in Sources */,
 				DEBC64522CB4144A003C7073 /* CLMakerViewModel.swift in Sources */,
 				DEBC64532CB4144A003C7073 /* TapAreaButton.swift in Sources */,
@@ -2741,6 +2759,7 @@
 				DEBC64AA2CB4144A003C7073 /* CLMakerHiringManagerView.swift in Sources */,
 				DEBC64AB2CB4144A003C7073 /* Weak.swift in Sources */,
 				DEBC64AC2CB4144A003C7073 /* CVMETableView.swift in Sources */,
+				DEBC661D2CB4323B003C7073 /* SuggestCreateCLViewController.swift in Sources */,
 				DEBC64AD2CB4144A003C7073 /* CLHiringManager.swift in Sources */,
 				DEBC64AE2CB4144A003C7073 /* OWelcomeView.swift in Sources */,
 				DEBC64AF2CB4144A003C7073 /* ProfileView.swift in Sources */,
@@ -2832,6 +2851,7 @@
 				DEBC65042CB4144A003C7073 /* CV12Generator.swift in Sources */,
 				DEBC65052CB4144A003C7073 /* CVMakerChapterButton.swift in Sources */,
 				DEBC65062CB4144A003C7073 /* RWWCView.swift in Sources */,
+				DEBC66212CB44FC0003C7073 /* SuggestCreateCLViewModel.swift in Sources */,
 				DEBC65072CB4144A003C7073 /* Certificate.swift in Sources */,
 				DEBC65082CB4144A003C7073 /* ResumeGroup.swift in Sources */,
 				DEBC65092CB4144A003C7073 /* CVMakerTitleCell.swift in Sources */,

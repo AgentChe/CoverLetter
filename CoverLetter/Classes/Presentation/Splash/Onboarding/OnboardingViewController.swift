@@ -52,8 +52,10 @@ extension OnboardingViewController {
         OnboardingViewController()
     }
     
+    // TODO
     static func wasViewed() -> Bool {
-        UserDefaults.standard.bool(forKey: OnboardingViewController.Constants.wasViewedKey)
+        false
+//        UserDefaults.standard.bool(forKey: OnboardingViewController.Constants.wasViewedKey)
     }
 }
 
@@ -70,15 +72,15 @@ private extension OnboardingViewController {
                 self?.route(.main)
             }
             present(vc, animated: true)
-        case .paygateTransitionCVMaker:
+        case .paygateTransitionSuggestCreateCL:
             let vc = PaygateViewController.make { [weak self] in
-                self?.route(.cvMaker)
+                self?.route(.suggestCreateCL)
             }
             present(vc, animated: true)
         case .main:
             UIApplication.shared.keyWindow?.rootViewController = NavigationController(rootViewController: MainViewController.make())
-        case .cvMaker:
-            UIApplication.shared.keyWindow?.rootViewController = CVMakerViewController.make(mode: .create, stepAfterCancelFlow: .main)
+        case .suggestCreateCL:
+            UIApplication.shared.keyWindow?.rootViewController = SuggestCreateCLViewController.make()
         }
     }
 }

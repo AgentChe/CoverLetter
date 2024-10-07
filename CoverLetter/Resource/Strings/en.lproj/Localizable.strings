@@ -27,6 +27,11 @@
 "Onboarding.Finalize.Title" = "Finalize and\nDownload";
 "Onboarding.Finalize.SubTitle" = "Instantly review and download your personalized cover letter, ready to send!";
 
+// MARK: SuggestCreateCL
+"SuggestCreateCL.Title" = "Time to create your first cover letter";
+"SuggestCreateCL.SubTitle" = "Fill in a few details and get your personalized cover letter in seconds";
+"SuggestCreateCL.Create" = "Create";
+
 // MARK: Paygate
 "Paygate.Title" = "Unlock Premium Status";
 "Paygate.Cell1" = "Customizable CV templates";

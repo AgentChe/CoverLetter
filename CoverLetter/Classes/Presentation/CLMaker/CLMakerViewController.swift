@@ -21,9 +21,11 @@ final class CLMakerViewController: UIViewController {
     private lazy var disposeBag = DisposeBag()
     
     private let mode: Mode
+    private let didCancelFlow: (() -> Void)?
     
-    private init(mode: Mode) {
+    private init(mode: Mode, didCancelFlow: (() -> Void)? = nil) {
         self.mode = mode
+        self.didCancelFlow = didCancelFlow
         
         super.init(nibName: nil, bundle: nil)
     }
@@ -99,8 +101,8 @@ final class CLMakerViewController: UIViewController {
 
 // MARK: Public
 extension CLMakerViewController {
-    static func make(mode: Mode) -> CLMakerViewController {
-        let vc = CLMakerViewController(mode: mode)
+    static func make(mode: Mode, didCancelFlow: (() -> Void)? = nil) -> CLMakerViewController {
+        let vc = CLMakerViewController(mode: mode, didCancelFlow: didCancelFlow)
         vc.modalPresentationStyle = .fullScreen
         return vc
     }

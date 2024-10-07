@@ -136,8 +136,8 @@ private extension OnboardingView {
         ])
         
         NSLayoutConstraint.activate([
-            stepsView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
-            stepsView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
+            stepsView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 28.scale),
+            stepsView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -28.scale),
             stepsView.heightAnchor.constraint(equalToConstant: 4.scale),
             stepsView.topAnchor.constraint(equalTo: topAnchor, constant: 66.scale)
         ])

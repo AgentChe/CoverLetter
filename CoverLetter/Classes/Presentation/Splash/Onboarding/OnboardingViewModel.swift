@@ -10,7 +10,7 @@ import RxCocoa
 
 final class OnboardingViewModel {
     enum Route {
-        case paygateTransitionMain, paygateTransitionCVMaker, main, cvMaker
+        case paygateTransitionMain, paygateTransitionSuggestCreateCL, main, suggestCreateCL
     }
     
     private lazy var resumeManager = ResumeManager()
@@ -46,7 +46,7 @@ private extension OnboardingViewModel {
                         let hasActiveSubscriptions = SessionManager().hasActiveSubscriptions()
                         
                         if cvs.isEmpty {
-                            return hasActiveSubscriptions ? .cvMaker : .paygateTransitionCVMaker
+                            return hasActiveSubscriptions ? .suggestCreateCL : .paygateTransitionSuggestCreateCL
                         } else {
                             return hasActiveSubscriptions ? .main : .paygateTransitionMain
                         }
