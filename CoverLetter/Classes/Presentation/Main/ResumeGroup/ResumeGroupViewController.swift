@@ -16,9 +16,9 @@ final class ResumeGroupViewController: UIViewController {
 //    
 //    private lazy var disposeBag = DisposeBag()
 //    
-    private let group: ResumeGroup
+    private let group: CLsGroup
     
-    private init(group: ResumeGroup) {
+    private init(group: CLsGroup) {
         self.group = group
         
         super.init(nibName: nil, bundle: nil)
@@ -61,7 +61,7 @@ final class ResumeGroupViewController: UIViewController {
 
 // MARK: Public
 extension ResumeGroupViewController {
-    static func make(group: ResumeGroup) -> NavigationController {
+    static func make(group: CLsGroup) -> NavigationController {
         let vc = ResumeGroupViewController(group: group)
         vc.navigationItem.title = group.name
         let nc = NavigationController(rootViewController: vc)

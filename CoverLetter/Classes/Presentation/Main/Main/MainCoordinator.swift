@@ -10,7 +10,7 @@ import UIKit
 final class MainCoordinator {
     weak var parentVC: MainViewController?
     
-    lazy var clsAccount = UIViewController()
+    lazy var clsAccount = NavigationController(rootViewController: CLsGroupsViewController.make())
     lazy var settingsVC = SettingsViewController.make()
     
     private var previousVC: UIViewController?

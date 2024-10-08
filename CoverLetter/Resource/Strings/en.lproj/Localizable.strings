@@ -128,3 +128,8 @@
 "CLMaker.Preview.SubTitle" = "We saved your cover letter in app and you can edit it anytime you want!";
 "CLMaker.Preview.Preview" = "Preview";
 "CLMaker.Preview.Share" = "Export PDF";
+
+// MARK: CLsGroups
+"CLsGroups.Title" = "Your Cover Letters";
+"CLsGroups.Empty.Text" = "Nothing here yet";
+"CLsGroups.CreateNew" = "Create new";

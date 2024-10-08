@@ -114,7 +114,7 @@
 		DEBC64FD2CB4144A003C7073 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62982CB4144A003C7073 /* FacebookManager.swift */; };
 		DEBC64FE2CB4144A003C7073 /* RestAPITransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62BA2CB4144A003C7073 /* RestAPITransport.swift */; };
 		DEBC65032CB4144A003C7073 /* CLMakerHiringManagerStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E02CB4144A003C7073 /* CLMakerHiringManagerStepView.swift */; };
-		DEBC65082CB4144A003C7073 /* ResumeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64252CB4144A003C7073 /* ResumeGroup.swift */; };
+		DEBC65082CB4144A003C7073 /* CLsGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64252CB4144A003C7073 /* CLsGroup.swift */; };
 		DEBC650A2CB4144A003C7073 /* CLTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64202CB4144A003C7073 /* CLTextBlock.swift */; };
 		DEBC65132CB4144A003C7073 /* APIRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B92CB4144A003C7073 /* APIRequestBody.swift */; };
 		DEBC65182CB4144A003C7073 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A92CB4144A003C7073 /* PaddingTextField.swift */; };
@@ -237,6 +237,12 @@
 		DEBC66242CB45656003C7073 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66232CB45655003C7073 /* TabView.swift */; };
 		DEBC66262CB4565D003C7073 /* TabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66252CB4565C003C7073 /* TabItemView.swift */; };
 		DEBC66282CB45A70003C7073 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66272CB45A6E003C7073 /* MainCoordinator.swift */; };
+		DEBC662D2CB4F857003C7073 /* CLsGroupsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC662C2CB4F850003C7073 /* CLsGroupsView.swift */; };
+		DEBC662F2CB4F860003C7073 /* CLsGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC662E2CB4F85D003C7073 /* CLsGroupsViewController.swift */; };
+		DEBC66312CB4F865003C7073 /* CLsGroupsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66302CB4F863003C7073 /* CLsGroupsViewModel.swift */; };
+		DEBC66342CB4F968003C7073 /* CLsGroupsEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66332CB4F95E003C7073 /* CLsGroupsEmptyView.swift */; };
+		DEBC66372CB4FC47003C7073 /* CLsGroupsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66362CB4FC3F003C7073 /* CLsGroupsTableView.swift */; };
+		DEBC66392CB4FC4E003C7073 /* CLsGroupsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66382CB4FC4D003C7073 /* CLsGroupsTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -385,7 +391,7 @@
 		DEBC64202CB4144A003C7073 /* CLTextBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLTextBlock.swift; sourceTree = "<group>"; };
 		DEBC64212CB4144A003C7073 /* CLToneOfVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLToneOfVoice.swift; sourceTree = "<group>"; };
 		DEBC64222CB4144A003C7073 /* CLVacancy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLVacancy.swift; sourceTree = "<group>"; };
-		DEBC64252CB4144A003C7073 /* ResumeGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeGroup.swift; sourceTree = "<group>"; };
+		DEBC64252CB4144A003C7073 /* CLsGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroup.swift; sourceTree = "<group>"; };
 		DEBC64272CB4144A003C7073 /* CL1Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL1Generator.swift; sourceTree = "<group>"; };
 		DEBC64282CB4144A003C7073 /* CL2Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL2Generator.swift; sourceTree = "<group>"; };
 		DEBC64292CB4144A003C7073 /* CL3Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL3Generator.swift; sourceTree = "<group>"; };
@@ -474,6 +480,12 @@
 		DEBC66232CB45655003C7073 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		DEBC66252CB4565C003C7073 /* TabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemView.swift; sourceTree = "<group>"; };
 		DEBC66272CB45A6E003C7073 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		DEBC662C2CB4F850003C7073 /* CLsGroupsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroupsView.swift; sourceTree = "<group>"; };
+		DEBC662E2CB4F85D003C7073 /* CLsGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroupsViewController.swift; sourceTree = "<group>"; };
+		DEBC66302CB4F863003C7073 /* CLsGroupsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroupsViewModel.swift; sourceTree = "<group>"; };
+		DEBC66332CB4F95E003C7073 /* CLsGroupsEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroupsEmptyView.swift; sourceTree = "<group>"; };
+		DEBC66362CB4FC3F003C7073 /* CLsGroupsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroupsTableView.swift; sourceTree = "<group>"; };
+		DEBC66382CB4FC4D003C7073 /* CLsGroupsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroupsTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -958,7 +970,7 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		DEBC63C62CB4144A003C7073 /* ResumeGroup 2 */ = {
+		DEBC63C62CB4144A003C7073 /* ResumeGroup */ = {
 			isa = PBXGroup;
 			children = (
 				DEBC63C22CB4144A003C7073 /* Views */,
@@ -966,7 +978,7 @@
 				DEBC63C52CB4144A003C7073 /* ResumeGroupViewModel.swift */,
 				DEBC63C32CB4144A003C7073 /* ResumeGroupView.swift */,
 			);
-			path = "ResumeGroup 2";
+			path = ResumeGroup;
 			sourceTree = "<group>";
 		};
 		DEBC63CC2CB4144A003C7073 /* Views */ = {
@@ -991,8 +1003,9 @@
 		DEBC63D12CB4144A003C7073 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DEBC662B2CB4F849003C7073 /* Groups */,
 				DEBC63B22CB4144A003C7073 /* Main */,
-				DEBC63C62CB4144A003C7073 /* ResumeGroup 2 */,
+				DEBC63C62CB4144A003C7073 /* ResumeGroup */,
 				DEBC63D02CB4144A003C7073 /* Settings */,
 			);
 			path = Main;
@@ -1142,7 +1155,7 @@
 				DEBC64202CB4144A003C7073 /* CLTextBlock.swift */,
 				DEBC64212CB4144A003C7073 /* CLToneOfVoice.swift */,
 				DEBC64222CB4144A003C7073 /* CLVacancy.swift */,
-				DEBC64252CB4144A003C7073 /* ResumeGroup.swift */,
+				DEBC64252CB4144A003C7073 /* CLsGroup.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -1496,6 +1509,35 @@
 			path = CLMaker;
 			sourceTree = "<group>";
 		};
+		DEBC662B2CB4F849003C7073 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC66322CB4F959003C7073 /* Views */,
+				DEBC662E2CB4F85D003C7073 /* CLsGroupsViewController.swift */,
+				DEBC66302CB4F863003C7073 /* CLsGroupsViewModel.swift */,
+				DEBC662C2CB4F850003C7073 /* CLsGroupsView.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		DEBC66322CB4F959003C7073 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC66352CB4FC39003C7073 /* TableView */,
+				DEBC66332CB4F95E003C7073 /* CLsGroupsEmptyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEBC66352CB4FC39003C7073 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC66382CB4FC4D003C7073 /* CLsGroupsTableCell.swift */,
+				DEBC66362CB4FC3F003C7073 /* CLsGroupsTableView.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1734,6 +1776,7 @@
 				DEBC64A12CB4144A003C7073 /* CLTemplate.swift in Sources */,
 				DEBC64A32CB4144A003C7073 /* PaddingLabel.swift in Sources */,
 				DEBC64A42CB4144A003C7073 /* CL6Generator.swift in Sources */,
+				DEBC66342CB4F968003C7073 /* CLsGroupsEmptyView.swift in Sources */,
 				DEBC64A62CB4144A003C7073 /* SignError.swift in Sources */,
 				DEBC64A72CB4144A003C7073 /* CLPersonalInfo.swift in Sources */,
 				DEBC64A82CB4144A003C7073 /* CLMakerFlowView.swift in Sources */,
@@ -1751,6 +1794,7 @@
 				DEBC64BC2CB4144A003C7073 /* RequestReview.swift in Sources */,
 				DEBC64BD2CB4144A003C7073 /* CVMTOVCell.swift in Sources */,
 				DEBC64BE2CB4144A003C7073 /* OInputInfoView.swift in Sources */,
+				DEBC66392CB4FC4E003C7073 /* CLsGroupsTableCell.swift in Sources */,
 				DEBC64BF2CB4144A003C7073 /* PaygateInteractor.swift in Sources */,
 				DEBC64C02CB4144A003C7073 /* PushNotificationsModel.swift in Sources */,
 				DEBC64C12CB4144A003C7073 /* PDFViewController.swift in Sources */,
@@ -1770,6 +1814,7 @@
 				DEBC64E02CB4144A003C7073 /* OnboardingView.swift in Sources */,
 				DEBC64E22CB4144A003C7073 /* PaygateOptionInfo.swift in Sources */,
 				DEBC64E32CB4144A003C7073 /* CLMakerTextBlocksView.swift in Sources */,
+				DEBC66372CB4FC47003C7073 /* CLsGroupsTableView.swift in Sources */,
 				DEBC64E42CB4144A003C7073 /* NavigationController.swift in Sources */,
 				DEBC64E52CB4144A003C7073 /* PurchaseValidationObserver.swift in Sources */,
 				DEBC64E82CB4144A003C7073 /* PushNotificationsManager.swift in Sources */,
@@ -1789,7 +1834,7 @@
 				DEBC64FE2CB4144A003C7073 /* RestAPITransport.swift in Sources */,
 				DEBC65032CB4144A003C7073 /* CLMakerHiringManagerStepView.swift in Sources */,
 				DEBC66212CB44FC0003C7073 /* SuggestCreateCLViewModel.swift in Sources */,
-				DEBC65082CB4144A003C7073 /* ResumeGroup.swift in Sources */,
+				DEBC65082CB4144A003C7073 /* CLsGroup.swift in Sources */,
 				DEBC650A2CB4144A003C7073 /* CLTextBlock.swift in Sources */,
 				DEBC65132CB4144A003C7073 /* APIRequestBody.swift in Sources */,
 				DEBC65182CB4144A003C7073 /* PaddingTextField.swift in Sources */,
@@ -1800,6 +1845,7 @@
 				DEBC65272CB4144A003C7073 /* UIApplication+Extension.swift in Sources */,
 				DEBC65282CB4144A003C7073 /* PaygateViewController.swift in Sources */,
 				DEBC65292CB4144A003C7073 /* OnboardingViewModel.swift in Sources */,
+				DEBC662F2CB4F860003C7073 /* CLsGroupsViewController.swift in Sources */,
 				DEBC652B2CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift in Sources */,
 				DEBC652E2CB4144A003C7073 /* BranchManager.swift in Sources */,
 				DEBC66282CB45A70003C7073 /* MainCoordinator.swift in Sources */,
@@ -1814,6 +1860,7 @@
 				DEBC653E2CB4144A003C7073 /* ResumeManager.swift in Sources */,
 				DEBC653F2CB4144A003C7073 /* CLMTBTableView.swift in Sources */,
 				DEBC65402CB4144A003C7073 /* CLMakerVacancyCollector.swift in Sources */,
+				DEBC66312CB4F865003C7073 /* CLsGroupsViewModel.swift in Sources */,
 				DEBC65412CB4144A003C7073 /* UIEdgeInsets+Extension.swift in Sources */,
 				DEBC65442CB4144A003C7073 /* SettingsViewModel.swift in Sources */,
 				DEBC65452CB4144A003C7073 /* GlobalDefinitions.swift in Sources */,
@@ -1825,6 +1872,7 @@
 				DEBC65512CB4144A003C7073 /* CLMTemplatesCollectionElement.swift in Sources */,
 				DEBC65522CB4144A003C7073 /* RSCollectionView.swift in Sources */,
 				DEBC65532CB4144A003C7073 /* ImagePicker.swift in Sources */,
+				DEBC662D2CB4F857003C7073 /* CLsGroupsView.swift in Sources */,
 				DEBC65542CB4144A003C7073 /* CL1Generator.swift in Sources */,
 				DEBC655A2CB4144A003C7073 /* IAPErrorHelper.swift in Sources */,
 				DEBC655E2CB4144A003C7073 /* AppDelegate.swift in Sources */,
@@ -1870,6 +1918,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GY8CB289H;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoverLetter/Resource/Info.plist;
@@ -1885,7 +1934,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = iphone.cvmaker;
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.cl.local;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1905,6 +1954,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GY8CB289H;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoverLetter/Resource/Info.plist;
@@ -1920,7 +1970,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = iphone.cvmaker;
+				PRODUCT_BUNDLE_IDENTIFIER = iphone.cl.local;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

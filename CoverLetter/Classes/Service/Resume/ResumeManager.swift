@@ -11,12 +11,12 @@ import RxCocoa
 protocol ResumeManagerProtocol {
     func obtainCLTemplates() -> Single<[CLTemplate]>
     func obtainCLs() -> Single<[CL]>
-    func obtainGroups() -> Single<[ResumeGroup]>
+    func obtainGroups() -> Single<[CLsGroup]>
     func createCL(template: CLTemplate, info: CLInfo) -> Single<CL>
     func removeCL(id: String) -> Single<Void>
     func removeGroup(id: String) -> Single<Void>
     func edit(cl: CL) -> Single<CL>
-    func edit(resumeGroup: ResumeGroup) -> Single<ResumeGroup>
+    func edit(resumeGroup: CLsGroup) -> Single<CLsGroup>
     func analyzeCL(qa: [[String: String]], resumeStyle: String?) -> Single<[CLTextBlock]>
 }
 
@@ -62,11 +62,11 @@ extension ResumeManager: ResumeManagerProtocol {
         }
     }
     
-    func obtainGroups() -> Single<[ResumeGroup]> {
-        Single<[ResumeGroup]>.create { single in
-            let groups: [ResumeGroup] = {
+    func obtainGroups() -> Single<[CLsGroup]> {
+        Single<[CLsGroup]>.create { single in
+            let groups: [CLsGroup] = {
                 guard let data = UserDefaults.standard.data(forKey: Constants.groupKey) else { return [] }
-                let array = try? JSONDecoder().decode([ResumeGroup].self, from: data)
+                let array = try? JSONDecoder().decode([CLsGroup].self, from: data)
                 return array ?? []
             }()
             
@@ -97,25 +97,30 @@ extension ResumeManager: ResumeManagerProtocol {
                 UserDefaults.standard.setValue(data, forKey: Constants.clKey)
             }
             
-            var groups: [ResumeGroup] = {
+            var groups: [CLsGroup] = {
                 guard let data = UserDefaults.standard.data(forKey: Constants.groupKey) else { return [] }
-                let array = try? JSONDecoder().decode([ResumeGroup].self, from: data)
+                let array = try? JSONDecoder().decode([CLsGroup].self, from: data)
                 return array ?? []
             }()
             
-            let companyName = cl.info.company?.name ?? "ResumeGroup.DefaultName".localized
+            let companyName: String = {
+                guard let inputName = cl.info.company?.name, !inputName.isEmpty else {
+                    return "ResumeGroup.DefaultName".localized
+                }
+                return inputName
+            }()
             
             if let index = groups.firstIndex(where: { $0.name == companyName }) {
                 let group = groups[index]
                 
-                let newGroup = ResumeGroup(
+                let newGroup = CLsGroup(
                     id: group.id,
                     name: group.name,
                     cls: group.cls + [cl]
                 )
                 groups[index] = newGroup
             } else {
-                let newGroup = ResumeGroup(
+                let newGroup = CLsGroup(
                     id: UUID().uuidString,
                     name: companyName,
                     cls: [cl]
@@ -150,15 +155,15 @@ extension ResumeManager: ResumeManagerProtocol {
                 UserDefaults.standard.setValue(data, forKey: Constants.clKey)
             }
             
-            let groups: [ResumeGroup] = {
+            let groups: [CLsGroup] = {
                 guard let data = UserDefaults.standard.data(forKey: Constants.groupKey) else { return [] }
-                let array = try? JSONDecoder().decode([ResumeGroup].self, from: data)
+                let array = try? JSONDecoder().decode([CLsGroup].self, from: data)
                 return array ?? []
             }()
             
             let updatedGroups = groups
-                .map { group -> ResumeGroup in
-                    ResumeGroup(
+                .map { group -> CLsGroup in
+                    CLsGroup(
                         id: group.id,
                         name: group.name,
                         cls: group.cls.filter { $0.id != id }
@@ -181,9 +186,9 @@ extension ResumeManager: ResumeManagerProtocol {
     
     func removeGroup(id: String) -> Single<Void> {
         Single<Void>.create { single in
-            var groups: [ResumeGroup] = {
+            var groups: [CLsGroup] = {
                 guard let data = UserDefaults.standard.data(forKey: Constants.groupKey) else { return [] }
-                let array = try? JSONDecoder().decode([ResumeGroup].self, from: data)
+                let array = try? JSONDecoder().decode([CLsGroup].self, from: data)
                 return array ?? []
             }()
             
@@ -235,18 +240,18 @@ extension ResumeManager: ResumeManagerProtocol {
                 UserDefaults.standard.setValue(data, forKey: Constants.clKey)
             }
             
-            let groups: [ResumeGroup] = {
+            let groups: [CLsGroup] = {
                 guard let data = UserDefaults.standard.data(forKey: Constants.groupKey) else { return [] }
-                let array = try? JSONDecoder().decode([ResumeGroup].self, from: data)
+                let array = try? JSONDecoder().decode([CLsGroup].self, from: data)
                 return array ?? []
             }()
             
             let updatedGroups = groups
-                .map { group -> ResumeGroup in
+                .map { group -> CLsGroup in
                     let cls = group.cls.map { item -> CL in
                         item.id == cl.id ? cl : item
                     }
-                    return ResumeGroup(
+                    return CLsGroup(
                         id: group.id,
                         name: group.name,
                         cls: cls
@@ -267,11 +272,11 @@ extension ResumeManager: ResumeManagerProtocol {
         }
     }
     
-    func edit(resumeGroup: ResumeGroup) -> Single<ResumeGroup> {
-        Single<ResumeGroup>.create { single in
-            var groups: [ResumeGroup] = {
+    func edit(resumeGroup: CLsGroup) -> Single<CLsGroup> {
+        Single<CLsGroup>.create { single in
+            var groups: [CLsGroup] = {
                 guard let data = UserDefaults.standard.data(forKey: Constants.groupKey) else { return [] }
-                let array = try? JSONDecoder().decode([ResumeGroup].self, from: data)
+                let array = try? JSONDecoder().decode([CLsGroup].self, from: data)
                 return array ?? []
             }()
             
