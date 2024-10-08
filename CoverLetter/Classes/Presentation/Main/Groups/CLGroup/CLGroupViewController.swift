@@ -61,12 +61,6 @@ final class CLGroupViewController: UIViewController {
             })
             .disposed(by: disposeBag)
         
-        output.action
-            .drive(Binder(self) { base, action in
-                base.action(action)
-            })
-            .disposed(by: disposeBag)
-        
         output.disposable
             .disposed(by: disposeBag)
     }
@@ -103,14 +97,12 @@ private extension CLGroupViewController {
                 }
             }
             present(vc, animated: false)
-        }
-    }
-    
-    func action(_ action: CLGroupViewModel.Action) {
-        switch action {
         case .share(let cl):
             let pdf = PDFFactory.createCL(cl: cl)
             let vc = UIActivityViewController(activityItems: [pdf], applicationActivities: nil)
+            present(vc, animated: true)
+        case .paygate:
+            let vc = PaygateViewController.make()
             present(vc, animated: true)
         }
     }

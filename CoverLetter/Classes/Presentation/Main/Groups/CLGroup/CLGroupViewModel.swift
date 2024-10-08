@@ -14,9 +14,7 @@ final class CLGroupViewModel {
         case createNew
         case edit(CL)
         case menu(CL)
-    }
-    
-    enum Action {
+        case paygate
         case share(CL)
     }
     
@@ -44,7 +42,6 @@ extension CLGroupViewModel {
     struct Output {
         let route: Driver<Route>
         let elements: Driver<[CL]>
-        let action: Driver<Action>
         let disposable: Disposable
     }
     
@@ -54,10 +51,10 @@ extension CLGroupViewModel {
                 didTapBack: input.didTapBack,
                 didTapCreateNew: input.didTapCreateNew,
                 didSelectCL: input.didSelectCL,
-                didMenuTap: input.didMenuTap
+                didMenuTap: input.didMenuTap,
+                didTapShare: input.didTapShare
             ),
             elements: makeElements(initialGroup: initialGroup),
-            action: makeAction(didTapShare: input.didTapShare),
             disposable: makeDisposable(
                 didTapDuplicate: input.didTapDuplicate,
                 didTapDelete: input.didTapDelete
@@ -72,7 +69,8 @@ private extension CLGroupViewModel {
         didTapBack: Signal<Void>,
         didTapCreateNew: Signal<Void>,
         didSelectCL: Signal<CL>,
-        didMenuTap: Signal<CL>
+        didMenuTap: Signal<CL>,
+        didTapShare: Signal<CL>
     ) -> Driver<Route> {
         let back = didTapBack
             .map { Route.back }
@@ -82,16 +80,24 @@ private extension CLGroupViewModel {
             .map { Route.createNew }
             .asDriver(onErrorDriveWith: .never())
         
-        let edit = didSelectCL
-            .map { Route.edit($0) }
+        let editOrPaygate = didSelectCL
+            .map { cl -> Route in
+                SessionManager().hasActiveSubscriptions() ? .edit(cl) : .paygate
+            }
             .asDriver(onErrorDriveWith: .never())
         
         let menu = didMenuTap
             .map { Route.menu($0) }
             .asDriver(onErrorDriveWith: .never())
         
+        let shareOrPaygate = didTapShare
+            .map { cl -> Route in
+                SessionManager().hasActiveSubscriptions() ? .share(cl) : .paygate
+            }
+            .asDriver(onErrorDriveWith: .never())
+        
         return Driver
-            .merge(back, createNew, edit, menu)
+            .merge(back, createNew, editOrPaygate, menu, shareOrPaygate)
     }
     
     func makeElements(initialGroup: Driver<CLsGroup>) -> Driver<[CL]> {
@@ -112,15 +118,6 @@ private extension CLGroupViewModel {
         
         return Driver
             .merge(initial, updated)
-    }
-    
-    func makeAction(didTapShare: Signal<CL>) -> Driver<Action> {
-        let share = didTapShare
-            .map { Action.share($0) }
-            .asDriver(onErrorDriveWith: .never())
-        
-        return Driver
-            .merge(share)
     }
     
     func makeDisposable(

@@ -10,7 +10,10 @@ import RxCocoa
 
 final class CLMakerViewModel {
     enum Route {
-        case cancelFlow, preview(CL), share(CL), paygate
+        case cancelFlow
+        case preview(CL)
+        case share(CL)
+        case paygate
     }
     
     enum Action {
