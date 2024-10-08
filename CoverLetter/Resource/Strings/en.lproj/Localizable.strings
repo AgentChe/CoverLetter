@@ -133,3 +133,9 @@
 "CLsGroups.Title" = "Your Cover Letters";
 "CLsGroups.Empty.Text" = "Nothing here yet";
 "CLsGroups.CreateNew" = "Create new";
+
+// MARK: CLGroup
+"CLGroup.CreateNew" = "Create new";
+"CLGroup.Duplicate" = "Duplicate";
+"CLGroup.Share" = "Share";
+"CLGroup.Delete" = "Delete";

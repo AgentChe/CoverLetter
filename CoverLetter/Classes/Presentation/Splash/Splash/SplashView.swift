@@ -7,6 +7,7 @@
 
 import UIKit
 
+// TODO: animate
 final class SplashView: UIView {
     lazy var imageView = makeImageView()
     lazy var preloaderLabel = makePreloaderLabel()

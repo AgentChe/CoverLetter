@@ -62,10 +62,10 @@ private extension CLsGroupsTableCell {
         ])
         
         NSLayoutConstraint.activate([
-            placeholderImageView.widthAnchor.constraint(equalToConstant: 240.scale),
-            placeholderImageView.heightAnchor.constraint(equalToConstant: 193.scale),
+            placeholderImageView.widthAnchor.constraint(equalToConstant: 272.scale),
+            placeholderImageView.heightAnchor.constraint(equalToConstant: 178.scale),
             placeholderImageView.centerXAnchor.constraint(equalTo: container.centerXAnchor),
-            placeholderImageView.topAnchor.constraint(equalTo: container.topAnchor, constant: 8.scale)
+            placeholderImageView.topAnchor.constraint(equalTo: container.topAnchor)
         ])
         
         NSLayoutConstraint.activate([
@@ -111,8 +111,8 @@ private extension CLsGroupsTableCell {
     func makeGradientView() -> GradientView {
         let view = GradientView()
         view.gradientLayer.colors = [
-            Appearance.custom_fafafb.withAlphaComponent(0).cgColor,
-            Appearance.custom_fafafb.cgColor
+            Appearance.mono100.withAlphaComponent(0).cgColor,
+            Appearance.mono100.cgColor
         ]
         view.gradientLayer.startPoint = CGPoint(x: 0.5, y: 0)
         view.gradientLayer.endPoint = CGPoint(x: 0.5, y: 1)

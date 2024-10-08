@@ -46,18 +46,6 @@ final class CLsGroupsViewController: UIViewController {
             })
             .disposed(by: disposeBag)
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        navigationController?.setNavigationBarHidden(true, animated: false)
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        
-        navigationController?.setNavigationBarHidden(false, animated: false)
-    }
 }
 
 // MARK: Public
@@ -72,7 +60,8 @@ private extension CLsGroupsViewController {
     func route(_ route: CLsGroupsViewModel.Route) {
         switch route {
         case .clsGroup(let group):
-            break // TODO
+            let vc = CLGroupViewController.make(group: group)
+            navigationController?.pushViewController(vc, animated: true)
         case .createNew:
             let vc = CLMakerViewController.make(mode: .create)
             present(vc, animated: true)

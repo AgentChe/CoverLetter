@@ -20,7 +20,6 @@
 		DEBC64562CB4144A003C7073 /* CLMakerCompanyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62DA2CB4144A003C7073 /* CLMakerCompanyInfoView.swift */; };
 		DEBC64592CB4144A003C7073 /* CL2Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64282CB4144A003C7073 /* CL2Generator.swift */; };
 		DEBC645A2CB4144A003C7073 /* CLMakerVacancyResourceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62EE2CB4144A003C7073 /* CLMakerVacancyResourceView.swift */; };
-		DEBC645B2CB4144A003C7073 /* ResumeGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C42CB4144A003C7073 /* ResumeGroupViewController.swift */; };
 		DEBC645C2CB4144A003C7073 /* Paygate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63FE2CB4144A003C7073 /* Paygate.swift */; };
 		DEBC645D2CB4144A003C7073 /* CLMakerChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D82CB4144A003C7073 /* CLMakerChaptersView.swift */; };
 		DEBC645F2CB4144A003C7073 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A62CB4144A003C7073 /* GradientView.swift */; };
@@ -33,7 +32,6 @@
 		DEBC646A2CB4144A003C7073 /* PaygateOptionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63FF2CB4144A003C7073 /* PaygateOptionConfig.swift */; };
 		DEBC646B2CB4144A003C7073 /* XOREncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62CD2CB4144A003C7073 /* XOREncryption.swift */; };
 		DEBC646C2CB4144A003C7073 /* NumberLaunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C72CB4144A003C7073 /* NumberLaunches.swift */; };
-		DEBC646F2CB4144A003C7073 /* RSCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63BF2CB4144A003C7073 /* RSCollectionElement.swift */; };
 		DEBC64702CB4144A003C7073 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62962CB4144A003C7073 /* AmplitudeManager.swift */; };
 		DEBC64712CB4144A003C7073 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64472CB4144A003C7073 /* SessionManager.swift */; };
 		DEBC64722CB4144A003C7073 /* CLVacancy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64222CB4144A003C7073 /* CLVacancy.swift */; };
@@ -101,9 +99,7 @@
 		DEBC64E82CB4144A003C7073 /* PushNotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62BF2CB4144A003C7073 /* PushNotificationsManager.swift */; };
 		DEBC64E92CB4144A003C7073 /* CLMakerToneOfVoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62E92CB4144A003C7073 /* CLMakerToneOfVoiceView.swift */; };
 		DEBC64EA2CB4144A003C7073 /* DefaultRequestWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B72CB4144A003C7073 /* DefaultRequestWrapper.swift */; };
-		DEBC64EE2CB4144A003C7073 /* ResumeGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C32CB4144A003C7073 /* ResumeGroupView.swift */; };
 		DEBC64EF2CB4144A003C7073 /* CL5Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC642B2CB4144A003C7073 /* CL5Generator.swift */; };
-		DEBC64F02CB4144A003C7073 /* DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C52CB4144A003C7073 /* DocumentsDirectory.swift */; };
 		DEBC64F12CB4144A003C7073 /* ObservableAndSingle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62AE2CB4144A003C7073 /* ObservableAndSingle+Extension.swift */; };
 		DEBC64F32CB4144A003C7073 /* CLAssistantAnalyzeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64422CB4144A003C7073 /* CLAssistantAnalyzeRequest.swift */; };
 		DEBC64F42CB4144A003C7073 /* ResumeMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64452CB4144A003C7073 /* ResumeMediator.swift */; };
@@ -141,13 +137,11 @@
 		DEBC65412CB4144A003C7073 /* UIEdgeInsets+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B32CB4144A003C7073 /* UIEdgeInsets+Extension.swift */; };
 		DEBC65442CB4144A003C7073 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63CF2CB4144A003C7073 /* SettingsViewModel.swift */; };
 		DEBC65452CB4144A003C7073 /* GlobalDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D12CB4144A003C7073 /* GlobalDefinitions.swift */; };
-		DEBC65462CB4144A003C7073 /* ResumeGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C52CB4144A003C7073 /* ResumeGroupViewModel.swift */; };
 		DEBC654A2CB4144A003C7073 /* CL4Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC642A2CB4144A003C7073 /* CL4Generator.swift */; };
 		DEBC654B2CB4144A003C7073 /* SelectField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62AA2CB4144A003C7073 /* SelectField.swift */; };
 		DEBC654D2CB4144A003C7073 /* DateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A42CB4144A003C7073 /* DateField.swift */; };
 		DEBC654F2CB4144A003C7073 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62D02CB4144A003C7073 /* Appearance.swift */; };
 		DEBC65512CB4144A003C7073 /* CLMTemplatesCollectionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62FB2CB4144A003C7073 /* CLMTemplatesCollectionElement.swift */; };
-		DEBC65522CB4144A003C7073 /* RSCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63C02CB4144A003C7073 /* RSCollectionView.swift */; };
 		DEBC65532CB4144A003C7073 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC629B2CB4144A003C7073 /* ImagePicker.swift */; };
 		DEBC65542CB4144A003C7073 /* CL1Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64272CB4144A003C7073 /* CL1Generator.swift */; };
 		DEBC655A2CB4144A003C7073 /* IAPErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64112CB4144A003C7073 /* IAPErrorHelper.swift */; };
@@ -156,7 +150,6 @@
 		DEBC65672CB4144A003C7073 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62A22CB4144A003C7073 /* CircleProgressView.swift */; };
 		DEBC65692CB4144A003C7073 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62AD2CB4144A003C7073 /* Collection+Extension.swift */; };
 		DEBC656A2CB4144A003C7073 /* CLMakerVacancyStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62EF2CB4144A003C7073 /* CLMakerVacancyStepView.swift */; };
-		DEBC656C2CB4144A003C7073 /* RSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63BE2CB4144A003C7073 /* RSCollectionCell.swift */; };
 		DEBC656E2CB4144A003C7073 /* ContentError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62C12CB4144A003C7073 /* ContentError.swift */; };
 		DEBC65702CB4144A003C7073 /* RxActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC629D2CB4144A003C7073 /* RxActivityIndicator.swift */; };
 		DEBC65712CB4144A003C7073 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B22CB4144A003C7073 /* UIDevice+Extension.swift */; };
@@ -243,6 +236,14 @@
 		DEBC66342CB4F968003C7073 /* CLsGroupsEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66332CB4F95E003C7073 /* CLsGroupsEmptyView.swift */; };
 		DEBC66372CB4FC47003C7073 /* CLsGroupsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66362CB4FC3F003C7073 /* CLsGroupsTableView.swift */; };
 		DEBC66392CB4FC4E003C7073 /* CLsGroupsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66382CB4FC4D003C7073 /* CLsGroupsTableCell.swift */; };
+		DEBC663D2CB50BC5003C7073 /* CLGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC663C2CB50BC0003C7073 /* CLGroupViewController.swift */; };
+		DEBC663F2CB50BCC003C7073 /* CLGroupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC663E2CB50BC8003C7073 /* CLGroupViewModel.swift */; };
+		DEBC66412CB50BD2003C7073 /* CLGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66402CB50BD0003C7073 /* CLGroupView.swift */; };
+		DEBC66452CB50DE7003C7073 /* CLGroupCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66442CB50DE0003C7073 /* CLGroupCollectionView.swift */; };
+		DEBC66472CB50DE9003C7073 /* CLGroupCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66462CB50DE9003C7073 /* CLGroupCollectionCell.swift */; };
+		DEBC664A2CB5440A003C7073 /* ClGroupMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66492CB543FE003C7073 /* ClGroupMenuView.swift */; };
+		DEBC664C2CB54411003C7073 /* ClGroupMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC664B2CB5440E003C7073 /* ClGroupMenuViewController.swift */; };
+		DEBC664F2CB544D0003C7073 /* ClGroupMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC664E2CB544CD003C7073 /* ClGroupMenuButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -290,7 +291,6 @@
 		DEBC62C12CB4144A003C7073 /* ContentError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentError.swift; sourceTree = "<group>"; };
 		DEBC62C22CB4144A003C7073 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		DEBC62C32CB4144A003C7073 /* SignError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignError.swift; sourceTree = "<group>"; };
-		DEBC62C52CB4144A003C7073 /* DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsDirectory.swift; sourceTree = "<group>"; };
 		DEBC62C62CB4144A003C7073 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		DEBC62C72CB4144A003C7073 /* NumberLaunches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLaunches.swift; sourceTree = "<group>"; };
 		DEBC62C82CB4144A003C7073 /* ObservableRetrySingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableRetrySingle.swift; sourceTree = "<group>"; };
@@ -342,12 +342,6 @@
 		DEBC63862CB4144A003C7073 /* PDFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
 		DEBC63AF2CB4144A003C7073 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		DEBC63B02CB4144A003C7073 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		DEBC63BE2CB4144A003C7073 /* RSCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCollectionCell.swift; sourceTree = "<group>"; };
-		DEBC63BF2CB4144A003C7073 /* RSCollectionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCollectionElement.swift; sourceTree = "<group>"; };
-		DEBC63C02CB4144A003C7073 /* RSCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSCollectionView.swift; sourceTree = "<group>"; };
-		DEBC63C32CB4144A003C7073 /* ResumeGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeGroupView.swift; sourceTree = "<group>"; };
-		DEBC63C42CB4144A003C7073 /* ResumeGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeGroupViewController.swift; sourceTree = "<group>"; };
-		DEBC63C52CB4144A003C7073 /* ResumeGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeGroupViewModel.swift; sourceTree = "<group>"; };
 		DEBC63CB2CB4144A003C7073 /* SettingsLinkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLinkButton.swift; sourceTree = "<group>"; };
 		DEBC63CD2CB4144A003C7073 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DEBC63CE2CB4144A003C7073 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -486,6 +480,14 @@
 		DEBC66332CB4F95E003C7073 /* CLsGroupsEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroupsEmptyView.swift; sourceTree = "<group>"; };
 		DEBC66362CB4FC3F003C7073 /* CLsGroupsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroupsTableView.swift; sourceTree = "<group>"; };
 		DEBC66382CB4FC4D003C7073 /* CLsGroupsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLsGroupsTableCell.swift; sourceTree = "<group>"; };
+		DEBC663C2CB50BC0003C7073 /* CLGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLGroupViewController.swift; sourceTree = "<group>"; };
+		DEBC663E2CB50BC8003C7073 /* CLGroupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLGroupViewModel.swift; sourceTree = "<group>"; };
+		DEBC66402CB50BD0003C7073 /* CLGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLGroupView.swift; sourceTree = "<group>"; };
+		DEBC66442CB50DE0003C7073 /* CLGroupCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLGroupCollectionView.swift; sourceTree = "<group>"; };
+		DEBC66462CB50DE9003C7073 /* CLGroupCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLGroupCollectionCell.swift; sourceTree = "<group>"; };
+		DEBC66492CB543FE003C7073 /* ClGroupMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClGroupMenuView.swift; sourceTree = "<group>"; };
+		DEBC664B2CB5440E003C7073 /* ClGroupMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClGroupMenuViewController.swift; sourceTree = "<group>"; };
+		DEBC664E2CB544CD003C7073 /* ClGroupMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClGroupMenuButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -670,7 +672,6 @@
 			isa = PBXGroup;
 			children = (
 				DEBC62C42CB4144A003C7073 /* Error */,
-				DEBC62C52CB4144A003C7073 /* DocumentsDirectory.swift */,
 				DEBC62C62CB4144A003C7073 /* Fonts.swift */,
 				DEBC62C72CB4144A003C7073 /* NumberLaunches.swift */,
 				DEBC62C82CB4144A003C7073 /* ObservableRetrySingle.swift */,
@@ -952,35 +953,6 @@
 			path = Main;
 			sourceTree = "<group>";
 		};
-		DEBC63C12CB4144A003C7073 /* CollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63BE2CB4144A003C7073 /* RSCollectionCell.swift */,
-				DEBC63BF2CB4144A003C7073 /* RSCollectionElement.swift */,
-				DEBC63C02CB4144A003C7073 /* RSCollectionView.swift */,
-			);
-			path = CollectionView;
-			sourceTree = "<group>";
-		};
-		DEBC63C22CB4144A003C7073 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63C12CB4144A003C7073 /* CollectionView */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		DEBC63C62CB4144A003C7073 /* ResumeGroup */ = {
-			isa = PBXGroup;
-			children = (
-				DEBC63C22CB4144A003C7073 /* Views */,
-				DEBC63C42CB4144A003C7073 /* ResumeGroupViewController.swift */,
-				DEBC63C52CB4144A003C7073 /* ResumeGroupViewModel.swift */,
-				DEBC63C32CB4144A003C7073 /* ResumeGroupView.swift */,
-			);
-			path = ResumeGroup;
-			sourceTree = "<group>";
-		};
 		DEBC63CC2CB4144A003C7073 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -1005,7 +977,6 @@
 			children = (
 				DEBC662B2CB4F849003C7073 /* Groups */,
 				DEBC63B22CB4144A003C7073 /* Main */,
-				DEBC63C62CB4144A003C7073 /* ResumeGroup */,
 				DEBC63D02CB4144A003C7073 /* Settings */,
 			);
 			path = Main;
@@ -1512,10 +1483,8 @@
 		DEBC662B2CB4F849003C7073 /* Groups */ = {
 			isa = PBXGroup;
 			children = (
-				DEBC66322CB4F959003C7073 /* Views */,
-				DEBC662E2CB4F85D003C7073 /* CLsGroupsViewController.swift */,
-				DEBC66302CB4F863003C7073 /* CLsGroupsViewModel.swift */,
-				DEBC662C2CB4F850003C7073 /* CLsGroupsView.swift */,
+				DEBC663B2CB50BB1003C7073 /* CLGroup */,
+				DEBC663A2CB50BA9003C7073 /* CLsGroups */,
 			);
 			path = Groups;
 			sourceTree = "<group>";
@@ -1536,6 +1505,64 @@
 				DEBC66362CB4FC3F003C7073 /* CLsGroupsTableView.swift */,
 			);
 			path = TableView;
+			sourceTree = "<group>";
+		};
+		DEBC663A2CB50BA9003C7073 /* CLsGroups */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC66322CB4F959003C7073 /* Views */,
+				DEBC662E2CB4F85D003C7073 /* CLsGroupsViewController.swift */,
+				DEBC66302CB4F863003C7073 /* CLsGroupsViewModel.swift */,
+				DEBC662C2CB4F850003C7073 /* CLsGroupsView.swift */,
+			);
+			path = CLsGroups;
+			sourceTree = "<group>";
+		};
+		DEBC663B2CB50BB1003C7073 /* CLGroup */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC66482CB543F8003C7073 /* Menu */,
+				DEBC66422CB50DD6003C7073 /* Views */,
+				DEBC663C2CB50BC0003C7073 /* CLGroupViewController.swift */,
+				DEBC663E2CB50BC8003C7073 /* CLGroupViewModel.swift */,
+				DEBC66402CB50BD0003C7073 /* CLGroupView.swift */,
+			);
+			path = CLGroup;
+			sourceTree = "<group>";
+		};
+		DEBC66422CB50DD6003C7073 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC66432CB50DDB003C7073 /* CollectionView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEBC66432CB50DDB003C7073 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC66462CB50DE9003C7073 /* CLGroupCollectionCell.swift */,
+				DEBC66442CB50DE0003C7073 /* CLGroupCollectionView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		DEBC66482CB543F8003C7073 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC664D2CB544C3003C7073 /* Views */,
+				DEBC664B2CB5440E003C7073 /* ClGroupMenuViewController.swift */,
+				DEBC66492CB543FE003C7073 /* ClGroupMenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		DEBC664D2CB544C3003C7073 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC664E2CB544CD003C7073 /* ClGroupMenuButton.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1732,7 +1759,6 @@
 				DEBC64562CB4144A003C7073 /* CLMakerCompanyInfoView.swift in Sources */,
 				DEBC64592CB4144A003C7073 /* CL2Generator.swift in Sources */,
 				DEBC645A2CB4144A003C7073 /* CLMakerVacancyResourceView.swift in Sources */,
-				DEBC645B2CB4144A003C7073 /* ResumeGroupViewController.swift in Sources */,
 				DEBC645C2CB4144A003C7073 /* Paygate.swift in Sources */,
 				DEBC645D2CB4144A003C7073 /* CLMakerChaptersView.swift in Sources */,
 				DEBC645F2CB4144A003C7073 /* GradientView.swift in Sources */,
@@ -1745,7 +1771,6 @@
 				DEBC646A2CB4144A003C7073 /* PaygateOptionConfig.swift in Sources */,
 				DEBC646B2CB4144A003C7073 /* XOREncryption.swift in Sources */,
 				DEBC646C2CB4144A003C7073 /* NumberLaunches.swift in Sources */,
-				DEBC646F2CB4144A003C7073 /* RSCollectionElement.swift in Sources */,
 				DEBC64702CB4144A003C7073 /* AmplitudeManager.swift in Sources */,
 				DEBC64712CB4144A003C7073 /* SessionManager.swift in Sources */,
 				DEBC64722CB4144A003C7073 /* CLVacancy.swift in Sources */,
@@ -1755,6 +1780,7 @@
 				DEBC64792CB4144A003C7073 /* CLMakerChapterProgressView.swift in Sources */,
 				DEBC647A2CB4144A003C7073 /* IAPManager.swift in Sources */,
 				DEBC647B2CB4144A003C7073 /* CLMakerHMGenderView.swift in Sources */,
+				DEBC664A2CB5440A003C7073 /* ClGroupMenuView.swift in Sources */,
 				DEBC66262CB4565D003C7073 /* TabItemView.swift in Sources */,
 				DEBC647C2CB4144A003C7073 /* CLMakerAnalyzeDataGenerator.swift in Sources */,
 				DEBC647F2CB4144A003C7073 /* UIView+RxExtension.swift in Sources */,
@@ -1770,6 +1796,7 @@
 				DEBC64952CB4144A003C7073 /* PDFFactory.swift in Sources */,
 				DEBC64962CB4144A003C7073 /* DefaultPaygate.swift in Sources */,
 				DEBC64972CB4144A003C7073 /* FirebaseManager.swift in Sources */,
+				DEBC66452CB50DE7003C7073 /* CLGroupCollectionView.swift in Sources */,
 				DEBC64992CB4144A003C7073 /* CLMakerHMWhoIsView.swift in Sources */,
 				DEBC649B2CB4144A003C7073 /* IAPError.swift in Sources */,
 				DEBC649F2CB4144A003C7073 /* CLMTBTableHeaderCell.swift in Sources */,
@@ -1791,11 +1818,14 @@
 				DEBC64B62CB4144A003C7073 /* TextAttributes.swift in Sources */,
 				DEBC64B72CB4144A003C7073 /* PaygateView.swift in Sources */,
 				DEBC64BA2CB4144A003C7073 /* PaygateProductButton.swift in Sources */,
+				DEBC66412CB50BD2003C7073 /* CLGroupView.swift in Sources */,
 				DEBC64BC2CB4144A003C7073 /* RequestReview.swift in Sources */,
 				DEBC64BD2CB4144A003C7073 /* CVMTOVCell.swift in Sources */,
 				DEBC64BE2CB4144A003C7073 /* OInputInfoView.swift in Sources */,
+				DEBC66472CB50DE9003C7073 /* CLGroupCollectionCell.swift in Sources */,
 				DEBC66392CB4FC4E003C7073 /* CLsGroupsTableCell.swift in Sources */,
 				DEBC64BF2CB4144A003C7073 /* PaygateInteractor.swift in Sources */,
+				DEBC664F2CB544D0003C7073 /* ClGroupMenuButton.swift in Sources */,
 				DEBC64C02CB4144A003C7073 /* PushNotificationsModel.swift in Sources */,
 				DEBC64C12CB4144A003C7073 /* PDFViewController.swift in Sources */,
 				DEBC64C42CB4144A003C7073 /* CLMakerVacancyView.swift in Sources */,
@@ -1808,6 +1838,7 @@
 				DEBC64D32CB4144A003C7073 /* CircleView.swift in Sources */,
 				DEBC64D92CB4144A003C7073 /* IAPActionResult.swift in Sources */,
 				DEBC64DA2CB4144A003C7073 /* CLMakerViewController.swift in Sources */,
+				DEBC664C2CB54411003C7073 /* ClGroupMenuViewController.swift in Sources */,
 				DEBC64DC2CB4144A003C7073 /* SceneDelegate.swift in Sources */,
 				DEBC64DD2CB4144A003C7073 /* CLMakerPreviewView.swift in Sources */,
 				DEBC64DE2CB4144A003C7073 /* MainView.swift in Sources */,
@@ -1820,9 +1851,7 @@
 				DEBC64E82CB4144A003C7073 /* PushNotificationsManager.swift in Sources */,
 				DEBC64E92CB4144A003C7073 /* CLMakerToneOfVoiceView.swift in Sources */,
 				DEBC64EA2CB4144A003C7073 /* DefaultRequestWrapper.swift in Sources */,
-				DEBC64EE2CB4144A003C7073 /* ResumeGroupView.swift in Sources */,
 				DEBC64EF2CB4144A003C7073 /* CL5Generator.swift in Sources */,
-				DEBC64F02CB4144A003C7073 /* DocumentsDirectory.swift in Sources */,
 				DEBC64F12CB4144A003C7073 /* ObservableAndSingle+Extension.swift in Sources */,
 				DEBC64F32CB4144A003C7073 /* CLAssistantAnalyzeRequest.swift in Sources */,
 				DEBC64F42CB4144A003C7073 /* ResumeMediator.swift in Sources */,
@@ -1848,6 +1877,7 @@
 				DEBC662F2CB4F860003C7073 /* CLsGroupsViewController.swift in Sources */,
 				DEBC652B2CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift in Sources */,
 				DEBC652E2CB4144A003C7073 /* BranchManager.swift in Sources */,
+				DEBC663F2CB50BCC003C7073 /* CLGroupViewModel.swift in Sources */,
 				DEBC66282CB45A70003C7073 /* MainCoordinator.swift in Sources */,
 				DEBC65312CB4144A003C7073 /* CL7Generator.swift in Sources */,
 				DEBC65322CB4144A003C7073 /* UIColor+Extension.swift in Sources */,
@@ -1864,13 +1894,12 @@
 				DEBC65412CB4144A003C7073 /* UIEdgeInsets+Extension.swift in Sources */,
 				DEBC65442CB4144A003C7073 /* SettingsViewModel.swift in Sources */,
 				DEBC65452CB4144A003C7073 /* GlobalDefinitions.swift in Sources */,
-				DEBC65462CB4144A003C7073 /* ResumeGroupViewModel.swift in Sources */,
 				DEBC654A2CB4144A003C7073 /* CL4Generator.swift in Sources */,
 				DEBC654B2CB4144A003C7073 /* SelectField.swift in Sources */,
 				DEBC654D2CB4144A003C7073 /* DateField.swift in Sources */,
 				DEBC654F2CB4144A003C7073 /* Appearance.swift in Sources */,
 				DEBC65512CB4144A003C7073 /* CLMTemplatesCollectionElement.swift in Sources */,
-				DEBC65522CB4144A003C7073 /* RSCollectionView.swift in Sources */,
+				DEBC663D2CB50BC5003C7073 /* CLGroupViewController.swift in Sources */,
 				DEBC65532CB4144A003C7073 /* ImagePicker.swift in Sources */,
 				DEBC662D2CB4F857003C7073 /* CLsGroupsView.swift in Sources */,
 				DEBC65542CB4144A003C7073 /* CL1Generator.swift in Sources */,
@@ -1880,7 +1909,6 @@
 				DEBC65672CB4144A003C7073 /* CircleProgressView.swift in Sources */,
 				DEBC65692CB4144A003C7073 /* Collection+Extension.swift in Sources */,
 				DEBC656A2CB4144A003C7073 /* CLMakerVacancyStepView.swift in Sources */,
-				DEBC656C2CB4144A003C7073 /* RSCollectionCell.swift in Sources */,
 				DEBC656E2CB4144A003C7073 /* ContentError.swift in Sources */,
 				DEBC65702CB4144A003C7073 /* RxActivityIndicator.swift in Sources */,
 				DEBC65712CB4144A003C7073 /* UIDevice+Extension.swift in Sources */,

@@ -12,6 +12,8 @@ class NavigationController: UINavigationController {
         super.viewDidLoad()
         
         apply(settings: .default())
+        
+        setNavigationBarHidden(true, animated: false)
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
