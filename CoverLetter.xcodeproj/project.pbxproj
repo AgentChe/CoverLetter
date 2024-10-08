@@ -244,6 +244,7 @@
 		DEBC664A2CB5440A003C7073 /* ClGroupMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66492CB543FE003C7073 /* ClGroupMenuView.swift */; };
 		DEBC664C2CB54411003C7073 /* ClGroupMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC664B2CB5440E003C7073 /* ClGroupMenuViewController.swift */; };
 		DEBC664F2CB544D0003C7073 /* ClGroupMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC664E2CB544CD003C7073 /* ClGroupMenuButton.swift */; };
+		DEBC66542CB58768003C7073 /* CLMakerProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66532CB5875F003C7073 /* CLMakerProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -488,6 +489,7 @@
 		DEBC66492CB543FE003C7073 /* ClGroupMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClGroupMenuView.swift; sourceTree = "<group>"; };
 		DEBC664B2CB5440E003C7073 /* ClGroupMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClGroupMenuViewController.swift; sourceTree = "<group>"; };
 		DEBC664E2CB544CD003C7073 /* ClGroupMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClGroupMenuButton.swift; sourceTree = "<group>"; };
+		DEBC66532CB5875F003C7073 /* CLMakerProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLMakerProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -913,6 +915,7 @@
 				DEBC63002CB4144A003C7073 /* Template */,
 				DEBC63092CB4144A003C7073 /* TextBlocks */,
 				DEBC630A2CB4144A003C7073 /* CLMakerFlowView.swift */,
+				DEBC66532CB5875F003C7073 /* CLMakerProgressView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1853,6 +1856,7 @@
 				DEBC64EA2CB4144A003C7073 /* DefaultRequestWrapper.swift in Sources */,
 				DEBC64EF2CB4144A003C7073 /* CL5Generator.swift in Sources */,
 				DEBC64F12CB4144A003C7073 /* ObservableAndSingle+Extension.swift in Sources */,
+				DEBC66542CB58768003C7073 /* CLMakerProgressView.swift in Sources */,
 				DEBC64F32CB4144A003C7073 /* CLAssistantAnalyzeRequest.swift in Sources */,
 				DEBC64F42CB4144A003C7073 /* ResumeMediator.swift in Sources */,
 				DEBC64F52CB4144A003C7073 /* OSlideView.swift in Sources */,

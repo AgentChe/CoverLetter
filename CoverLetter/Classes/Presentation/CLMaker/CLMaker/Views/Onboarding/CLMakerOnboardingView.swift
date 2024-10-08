@@ -18,6 +18,8 @@ final class CLMakerOnboardingView: CLMakerFlowView {
         case toneOnVoice
     }
     
+    var didChangeChapter: ((Chapter) -> Void)?
+    
     lazy var chaptersView = makeChaptersView()
     lazy var container = makeContainer()
     lazy var chaptersViews: [Chapter: UIView] = [
@@ -51,13 +53,13 @@ final class CLMakerOnboardingView: CLMakerFlowView {
         self?.finished()
     })
     
+    private(set) var chapter = Chapter.personalInfo
+    
     private lazy var didCollectedPersonalInfoTrigger = PublishRelay<CLPersonalInfo>()
     private lazy var didCollectedCompanyTrigger = PublishRelay<CLCompany>()
     private lazy var didCollectedHiringManagerTrigger = PublishRelay<CLHiringManager>()
     private lazy var didCollectedVacancyTrigger = PublishRelay<CLVacancy>()
     private lazy var didCollectedToneOfVoiceTrigger = PublishRelay<CLToneOfVoice>()
-    
-    private var chapter = Chapter.personalInfo
     
     private let finished: () -> Void
     
@@ -85,6 +87,10 @@ final class CLMakerOnboardingView: CLMakerFlowView {
 
 // MARK: Public
 extension CLMakerOnboardingView {
+    func move(to chapter: Chapter) {
+        next(chapter: chapter)
+    }
+    
     var didCollectedPersonalInfo: Signal<CLPersonalInfo> {
         didCollectedPersonalInfoTrigger.asSignal()
     }
@@ -167,6 +173,8 @@ private extension CLMakerOnboardingView {
             currentView.removeFromSuperview()
             
             self.chapter = newChapter
+            
+            self.didChangeChapter?(newChapter)
         })
     }
 }

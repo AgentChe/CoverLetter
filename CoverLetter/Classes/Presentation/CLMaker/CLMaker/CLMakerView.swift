@@ -17,6 +17,7 @@ final class CLMakerView: UIView {
         case preview
     }
     
+    lazy var progressView = makeProgressView()
     lazy var container = makeContainer()
     lazy var flowViews: [Flow: CLMakerFlowView] = [
         .template: templateView,
@@ -39,17 +40,21 @@ final class CLMakerView: UIView {
     }
     lazy var previewView = CLMakerPreviewView()
     
+    private lazy var didCancelFlowTrigger = PublishRelay<Void>()
     private lazy var didSelectTemplateTrigger = PublishRelay<CLTemplate>()
     private lazy var didCompleteOnboardingTrigger = PublishRelay<Void>()
     private lazy var didCreatedTextBlocksTrigger = PublishRelay<[CLTextBlock]>()
     
     private var flow = Flow.template
     
+    private lazy var disposeBag = DisposeBag()
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
         makeConstraints()
         initialize()
+        updateProgress(at: flow)
     }
     
     required init?(coder: NSCoder) {
@@ -67,6 +72,14 @@ final class CLMakerView: UIView {
 
 // MARK: Public
 extension CLMakerView {
+    var didCancelFlow: Signal<Void> {
+        Signal
+            .merge(
+                didCancelFlowTrigger.asSignal(),
+                previewView.closeButton.rx.tap.asSignal()
+            )
+    }
+    
     var didSelectTemplate: Signal<CLTemplate> {
         didSelectTemplateTrigger.asSignal()
     }
@@ -83,7 +96,7 @@ extension CLMakerView {
 // MARK: Private
 private extension CLMakerView {
     func initialize() {
-        backgroundColor = Appearance.main100
+        backgroundColor = Appearance.mono100
         
         flowViews
             .forEach { [weak self] flow, view in
@@ -95,6 +108,19 @@ private extension CLMakerView {
                     container.addSubview(view)
                 }
             }
+        
+        onboardingView.didChangeChapter = { [weak self] chapter in
+            guard let self else { return }
+            
+            updateProgress(at: flow)
+        }
+        
+        progressView
+            .backButton.rx.tap
+            .bind(to: Binder(self) { base, void in
+                base.movePositionBack()
+            })
+            .disposed(by: disposeBag)
     }
     
     func scroll(to newFlow: Flow) {
@@ -132,13 +158,72 @@ private extension CLMakerView {
             self.flow = newFlow
             
             scrollToView.moveToThis()
+            
+            updateProgress(at: newFlow)
         })
+    }
+    
+    func updateProgress(at flow: Flow) {
+        let position = currentPosition()
+        progressView.move(to: position)
+    }
+    
+    func movePositionBack() {
+        guard let position = currentPosition() else { return }
+        
+        switch position {
+        case .templates:
+            didCancelFlowTrigger.accept(Void())
+        case .personalInfo:
+            scroll(to: .template)
+        case .companyInfo:
+            onboardingView.move(to: .personalInfo)
+        case .hiringManager:
+            onboardingView.move(to: .companyInfo)
+        case .vacancy:
+            onboardingView.move(to: .hiringManager)
+        case .toneOnVoice:
+            onboardingView.move(to: .vacancy)
+        case .textBlocks:
+            scroll(to: .onboarding)
+        }
+    }
+    
+    func currentPosition() -> CLMakerProgressView.Position? {
+        switch flow {
+        case .template:
+            return .templates
+        case .onboarding:
+            switch onboardingView.chapter {
+            case .personalInfo:
+                return .personalInfo
+            case .companyInfo:
+                return .companyInfo
+            case .hiringManager:
+                return .hiringManager
+            case .vacancy:
+                return .vacancy
+            case .toneOnVoice:
+                return .toneOnVoice
+            }
+        case .textBlocks:
+            return .textBlocks
+        case .preview:
+            return nil
+        }
     }
 }
 
 // MARK: Make constraints
 private extension CLMakerView {
     func makeConstraints() {
+        NSLayoutConstraint.activate([
+            progressView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            progressView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            progressView.bottomAnchor.constraint(equalTo: container.topAnchor, constant: -15.scale),
+            progressView.heightAnchor.constraint(equalToConstant: 24.scale)
+        ])
+        
         NSLayoutConstraint.activate([
             container.leadingAnchor.constraint(equalTo: leadingAnchor),
             container.trailingAnchor.constraint(equalTo: trailingAnchor),
@@ -150,7 +235,14 @@ private extension CLMakerView {
 
 // MARK: Lazy initialization
 private extension CLMakerView {
-    func makeContainer() -> UIView {
+    func makeProgressView() -> CLMakerProgressView {
+        let view = CLMakerProgressView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        addSubview(view)
+        return view
+    }
+    
+    func makeContainer() -> GradientView {
         let view = GradientView()
         view.gradientLayer.colors = [
             Appearance.custom_f7f3ed.cgColor,

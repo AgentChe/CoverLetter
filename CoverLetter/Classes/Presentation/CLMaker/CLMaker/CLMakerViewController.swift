@@ -59,7 +59,7 @@ final class CLMakerViewController: UIViewController {
             didCreatedTextBlocks: mainView.didCreatedTextBlocks,
             didTapPreview: mainView.previewView.previewButton.rx.tap.asSignal(),
             didShareCL: mainView.previewView.shareButton.rx.tap.asSignal(),
-            didCancelFlow: mainView.previewView.closeButton.rx.tap.asSignal()
+            didCancelFlow: mainView.didCancelFlow
         ))
         
         output.templatesElements
