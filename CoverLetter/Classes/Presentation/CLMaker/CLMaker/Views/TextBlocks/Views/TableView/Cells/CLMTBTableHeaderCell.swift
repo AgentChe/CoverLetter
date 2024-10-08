@@ -56,7 +56,7 @@ private extension CLMTBTableHeaderCell {
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.Bitter.bold(size: 30.scale))
+            .font(Fonts.Inter.bold(size: 30.scale))
             .lineHeight(34.scale)
             .textAlignment(.center)
         
@@ -71,7 +71,7 @@ private extension CLMTBTableHeaderCell {
     func makeSubTitleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.SFPro.regular(size: 17.scale))
+            .font(Fonts.Inter.regular(size: 17.scale))
             .lineHeight(20.scale)
             .textAlignment(.center)
         

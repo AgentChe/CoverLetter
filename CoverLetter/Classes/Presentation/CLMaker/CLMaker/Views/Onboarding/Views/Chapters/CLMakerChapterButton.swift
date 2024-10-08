@@ -15,7 +15,6 @@ final class CLMakerChapterButton: UIButton {
     }
     
     lazy var label = makeLabel()
-    lazy var divider = makeDivider()
     
     let chapter: CLMakerOnboardingView.Chapter
     
@@ -37,7 +36,6 @@ final class CLMakerChapterButton: UIButton {
 private extension CLMakerChapterButton {
     func update() {
         alpha = marked ? 1 : 0.3
-        divider.isHidden = !marked
     }
 }
 
@@ -49,13 +47,6 @@ private extension CLMakerChapterButton {
             label.trailingAnchor.constraint(equalTo: trailingAnchor),
             label.topAnchor.constraint(equalTo: topAnchor)
         ])
-        
-        NSLayoutConstraint.activate([
-            divider.leadingAnchor.constraint(equalTo: leadingAnchor),
-            divider.trailingAnchor.constraint(equalTo: trailingAnchor),
-            divider.bottomAnchor.constraint(equalTo: bottomAnchor),
-            divider.heightAnchor.constraint(equalToConstant: 1.scale)
-        ])
     }
 }
 
@@ -63,21 +54,13 @@ private extension CLMakerChapterButton {
 private extension CLMakerChapterButton {
     func makeLabel() -> UILabel {
         let attrs = TextAttributes()
-            .textColor(Appearance.mono200)
-            .font(Fonts.SFPro.semiBold(size: 17.scale))
-            .lineHeight(20.29.scale)
+            .textColor(Appearance.custom_1e2340)
+            .font(Fonts.Inter.medium(size: 17.scale))
+            .lineHeight(21.scale)
             .textAlignment(.center)
         
         let view = UILabel()
         view.attributedText = chapter.title.attributed(with: attrs)
-        view.translatesAutoresizingMaskIntoConstraints = false
-        addSubview(view)
-        return view
-    }
-    
-    func makeDivider() -> UIView {
-        let view = UIView()
-        view.backgroundColor = Appearance.mono200
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

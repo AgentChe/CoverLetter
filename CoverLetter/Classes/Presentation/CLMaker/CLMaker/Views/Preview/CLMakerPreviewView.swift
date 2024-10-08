@@ -38,7 +38,7 @@ extension CLMakerPreviewView {
 // MARK: Private
 private extension CLMakerPreviewView {
     func initialize() {
-        backgroundColor = Appearance.main100
+        backgroundColor = UIColor.clear
     }
 }
 
@@ -48,21 +48,21 @@ private extension CLMakerPreviewView {
         NSLayoutConstraint.activate([
             closeButton.widthAnchor.constraint(equalToConstant: 16.scale),
             closeButton.heightAnchor.constraint(equalToConstant: 16.scale),
-            closeButton.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 12.scale),
+            closeButton.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 8.scale),
             closeButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -12.scale)
         ])
         
         NSLayoutConstraint.activate([
-            templateView.widthAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 301.scale : 240.8.scale),
-            templateView.heightAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 426.scale : 340.8.scale),
-            templateView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 43.scale),
+            templateView.widthAnchor.constraint(equalToConstant: 301.scale),
+            templateView.heightAnchor.constraint(equalToConstant: 426.scale),
+            templateView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 32.scale),
             templateView.centerXAnchor.constraint(equalTo: centerXAnchor)
         ])
         
         NSLayoutConstraint.activate([
             titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
             titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
-            titleLabel.topAnchor.constraint(equalTo: templateView.bottomAnchor, constant: 40.scale)
+            titleLabel.topAnchor.constraint(equalTo: templateView.bottomAnchor, constant: 32.scale)
         ])
         
         NSLayoutConstraint.activate([
@@ -111,7 +111,7 @@ private extension CLMakerPreviewView {
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.Bitter.bold(size: 30.scale))
+            .font(Fonts.Inter.bold(size: 30.scale))
             .lineHeight(34.scale)
             .textAlignment(.center)
         
@@ -126,7 +126,7 @@ private extension CLMakerPreviewView {
     func makeSubTitleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.SFPro.regular(size: 17.scale))
+            .font(Fonts.Inter.regular(size: 17.scale))
             .lineHeight(20.scale)
             .textAlignment(.center)
         
@@ -141,12 +141,12 @@ private extension CLMakerPreviewView {
     func makePreviewButton() -> UIButton {
         let attrs = TextAttributes()
             .textColor(Appearance.mono100)
-            .font(Fonts.Nunito.semiBold(size: 17.scale))
+            .font(Fonts.Inter.semibold(size: 17.scale))
         
         let view = UIButton()
         view.setAttributedTitle("CLMaker.Preview.Preview".localized.attributed(with: attrs), for: .normal)
-        view.layer.cornerRadius = 12.scale
-        view.backgroundColor = Appearance.main200
+        view.layer.cornerRadius = 20.scale
+        view.backgroundColor = Appearance.custom_ed6f00
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view
@@ -155,7 +155,7 @@ private extension CLMakerPreviewView {
     func makeShareButton() -> UIButton {
         let attrs = TextAttributes()
             .textColor(Appearance.main200)
-            .font(Fonts.Nunito.semiBold(size: 17.scale))
+            .font(Fonts.Inter.semibold(size: 17.scale))
         
         let view = UIButton()
         view.setAttributedTitle("CLMaker.Preview.Share".localized.attributed(with: attrs), for: .normal)

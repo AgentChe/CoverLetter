@@ -15,9 +15,9 @@ final class CLMakerChapterProgressView: UIView {
     lazy var progressView = makeProgressView()
     
     private lazy var attrs = TextAttributes()
-        .textColor(Appearance.main300)
-        .font(Fonts.SFPro.regular(size: 17.scale))
-        .lineHeight(20.29.scale)
+        .textColor(Appearance.custom_ed6f00)
+        .font(Fonts.Inter.regular(size: 17.scale))
+        .lineHeight(21.scale)
         .textAlignment(.center)
     
     private let count: Int
@@ -57,8 +57,8 @@ private extension CLMakerChapterProgressView {
 private extension CLMakerChapterProgressView {
     func makeConstraints() {
         NSLayoutConstraint.activate([
-            backButton.widthAnchor.constraint(equalToConstant: 13.scale),
-            backButton.heightAnchor.constraint(equalToConstant: 22.scale),
+            backButton.widthAnchor.constraint(equalToConstant: 24.scale),
+            backButton.heightAnchor.constraint(equalToConstant: 24.scale),
             backButton.leadingAnchor.constraint(equalTo: leadingAnchor),
             backButton.centerYAnchor.constraint(equalTo: label.centerYAnchor)
         ])
@@ -98,8 +98,8 @@ private extension CLMakerChapterProgressView {
     
     func makeProgressView() -> UIProgressView {
         let view = UIProgressView()
-        view.trackTintColor = Appearance.main300.withAlphaComponent(0.2)
-        view.progressTintColor = Appearance.main300
+        view.trackTintColor = Appearance.custom_ed6f00.withAlphaComponent(0.2)
+        view.progressTintColor = Appearance.custom_ed6f00
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

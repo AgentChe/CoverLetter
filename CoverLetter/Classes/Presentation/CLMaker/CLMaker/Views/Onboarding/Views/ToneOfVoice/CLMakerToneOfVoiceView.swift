@@ -49,7 +49,7 @@ extension CLMakerToneOfVoiceView {
 // MARK: Private
 private extension CLMakerToneOfVoiceView {
     func initialize() {
-        backgroundColor = Appearance.main100
+        backgroundColor = UIColor.clear
     }
     
     @objc
@@ -133,7 +133,7 @@ private extension CLMakerToneOfVoiceView {
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.SFPro.bold(size: 30.scale))
+            .font(Fonts.Inter.bold(size: 30.scale))
             .lineHeight(34.scale)
             .textAlignment(.center)
         
@@ -148,7 +148,7 @@ private extension CLMakerToneOfVoiceView {
     func makeSubTitleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.SFPro.regular(size: 17.scale))
+            .font(Fonts.Inter.regular(size: 17.scale))
             .lineHeight(20.29.scale)
             .textAlignment(.center)
         
@@ -170,12 +170,12 @@ private extension CLMakerToneOfVoiceView {
     func makeContinueButton() -> UIButton {
         let attrs = TextAttributes()
             .textColor(Appearance.mono100)
-            .font(Fonts.Nunito.semiBold(size: 17.scale))
+            .font(Fonts.Inter.semibold(size: 17.scale))
         
         let view = UIButton()
         view.setAttributedTitle("Continue".localized.attributed(with: attrs), for: .normal)
-        view.layer.cornerRadius = 12.scale
-        view.backgroundColor = Appearance.main200
+        view.layer.cornerRadius = 20.scale
+        view.backgroundColor = Appearance.custom_ed6f00
         view.addTarget(self, action: #selector(continueTapped), for: .touchUpInside)
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)

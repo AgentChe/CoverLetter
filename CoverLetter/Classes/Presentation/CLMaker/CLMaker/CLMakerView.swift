@@ -142,7 +142,7 @@ private extension CLMakerView {
         NSLayoutConstraint.activate([
             container.leadingAnchor.constraint(equalTo: leadingAnchor),
             container.trailingAnchor.constraint(equalTo: trailingAnchor),
-            container.topAnchor.constraint(equalTo: topAnchor),
+            container.topAnchor.constraint(equalTo: topAnchor, constant: 93.scale),
             container.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }
@@ -151,8 +151,15 @@ private extension CLMakerView {
 // MARK: Lazy initialization
 private extension CLMakerView {
     func makeContainer() -> UIView {
-        let view = UIView()
-        view.backgroundColor = UIColor.clear
+        let view = GradientView()
+        view.gradientLayer.colors = [
+            Appearance.custom_f7f3ed.cgColor,
+            Appearance.mono100.cgColor
+        ]
+        view.gradientLayer.startPoint = CGPoint(x: 0.5, y: 0)
+        view.gradientLayer.endPoint = CGPoint(x: 0.5, y: 1)
+        view.layer.cornerRadius = 30.scale
+        view.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view

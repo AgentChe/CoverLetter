@@ -1473,9 +1473,9 @@
 			children = (
 				DEBC62D62CB4144A003C7073 /* Utils */,
 				DEBC630B2CB4144A003C7073 /* Views */,
-				DEBC630C2CB4144A003C7073 /* CLMakerView.swift */,
 				DEBC630D2CB4144A003C7073 /* CLMakerViewController.swift */,
 				DEBC630E2CB4144A003C7073 /* CLMakerViewModel.swift */,
+				DEBC630C2CB4144A003C7073 /* CLMakerView.swift */,
 			);
 			path = CLMaker;
 			sourceTree = "<group>";

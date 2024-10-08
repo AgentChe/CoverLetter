@@ -90,7 +90,7 @@
 "CLMaker.CompanyInfo.Name.Placeholder" = "Apple";
 "CLMaker.CompanyInfo.Address.Title" = "COMPANY ADDRESS";
 "CLMaker.CompanyInfo.Address.Placeholder" = "ex.";
-"CLMaker.HiringManager.WhoIs.Title" = "Who is the hiring manager?";
+"CLMaker.HiringManager.WhoIs.Title" = "Is your hiring manager male or female?";
 "CLMaker.HiringManager.WhoIs.SubTitle" = "Enter the name of the hiring manager, the phone and email address.";
 "CLMaker.HiringManager.WhoIs.FirstName.Title" = "FIRST NAME";
 "CLMaker.HiringManager.WhoIs.FirstName.Placeholder" = "Ivan";
@@ -104,8 +104,13 @@
 "CLMaker.HiringManager.Gender.Male" = "Male";
 "CLMaker.HiringManager.Gender.Female" = "Female";
 "CLMaker.Vacancy.Position.Title" = "What is the position you're applying for ?";
+"CLMaker.Vacancy.Position.SubTitle" = "Paste a link to a vacancy or fill the forms manually";
+"CLMaker.Vacancy.Link.Title" = "Link to the vacancy";
+"CLMaker.Vacancy.Link.Placeholder" = "Paste info from vacancy";
 "CLMaker.Vacancy.Position.Field.Title" = "POSITION";
 "CLMaker.Vacancy.Position.Field.Placeholder" = "Paste info from vacancy";
+"CLMaker.Vacancy.Description.Title" = "Description";
+"CLMaker.Vacancy.Description.Placeholder" = "Paste info from vacancy";
 "CLMaker.Vacancy.Resource.Title" = "How do you know about the job?";
 "CLMaker.Vacancy.Resource.SubTitle" = "Specify how you found out about the vacancy, for example, networking, referrals, job boards or career websites.";
 "CLMaker.Vacancy.Resource.Field.Title" = "RESOURCE";

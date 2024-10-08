@@ -15,6 +15,7 @@ final class CVMTOVCell: UIView {
     lazy var titleLabel = makeTitleLabel()
     lazy var switchView = makeSwitch()
     lazy var container = makeContainer()
+    lazy var exampleIconView = makeExampleIconView()
     lazy var exampleTitleLabel = makeExampleTitleLabel()
     lazy var exampleLabel = makeExampleLabel()
     lazy var bestRegardsLabel = makeBestRegardsLabel()
@@ -74,7 +75,14 @@ private extension CVMTOVCell {
         ])
         
         NSLayoutConstraint.activate([
-            exampleTitleLabel.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 37.scale),
+            exampleIconView.widthAnchor.constraint(equalToConstant: 24.scale),
+            exampleIconView.heightAnchor.constraint(equalToConstant: 16.scale),
+            exampleIconView.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 16.scale),
+            exampleIconView.centerYAnchor.constraint(equalTo: exampleTitleLabel.centerYAnchor)
+        ])
+        
+        NSLayoutConstraint.activate([
+            exampleTitleLabel.leadingAnchor.constraint(equalTo: container.leadingAnchor, constant: 48.scale),
             exampleTitleLabel.topAnchor.constraint(equalTo: container.topAnchor, constant: 17.scale)
         ])
         
@@ -98,7 +106,7 @@ private extension CVMTOVCell {
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.SFPro.semiBold(size: 21.scale))
+            .font(Fonts.Inter.semibold(size: 21.scale))
             .lineHeight(25.scale)
             .textAlignment(.left)
         
@@ -121,17 +129,26 @@ private extension CVMTOVCell {
     
     func makeContainer() -> UIView {
         let view = UIView()
-        view.backgroundColor = Appearance.main300.withAlphaComponent(0.06)
+        view.backgroundColor = Appearance.custom_ed6f00.withAlphaComponent(0.1)
         view.layer.cornerRadius = 20.scale
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view
     }
     
+    func makeExampleIconView() -> UIImageView {
+        let view = UIImageView()
+        view.contentMode = .scaleAspectFit
+        view.image = UIImage(named: "CLMaker.ToneOfVoice.Example")
+        view.translatesAutoresizingMaskIntoConstraints = false
+        container.addSubview(view)
+        return view
+    }
+    
     func makeExampleTitleLabel() -> UILabel {
         let attrs = TextAttributes()
-            .textColor(Appearance.main300)
-            .font(Fonts.SFPro.semiBold(size: 17.scale))
+            .textColor(Appearance.custom_ed6f00)
+            .font(Fonts.Inter.semibold(size: 17.scale))
             .lineHeight(20.scale)
             .textAlignment(.left)
         
@@ -145,7 +162,7 @@ private extension CVMTOVCell {
     func makeExampleLabel() -> UILabel {
         let attrs = TextAttributes()
             .textColor(Appearance.mono200.withAlphaComponent(0.6))
-            .font(Fonts.SFPro.regular(size: 17.scale))
+            .font(Fonts.Inter.regular(size: 17.scale))
             .lineHeight(20.scale)
             .textAlignment(.left)
         

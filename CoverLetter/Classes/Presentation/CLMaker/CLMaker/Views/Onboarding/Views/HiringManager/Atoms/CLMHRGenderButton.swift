@@ -23,7 +23,7 @@ final class CLMHRGenderButton: UIButton {
         
         let attrs = TextAttributes()
             .textColor(Appearance.mono200)
-            .font(Fonts.Nunito.semiBold(size: 17.scale))
+            .font(Fonts.Inter.semibold(size: 17.scale))
         setAttributedTitle(gender.title.attributed(with: attrs), for: .normal)
         
         initialize()
@@ -37,17 +37,19 @@ final class CLMHRGenderButton: UIButton {
 // MARK: Private
 private extension CLMHRGenderButton {
     func initialize() {
-        layer.cornerRadius = 10.scale
+        layer.cornerRadius = 20.scale
         layer.shadowColor = Appearance.mono200.withAlphaComponent(0.4).cgColor
         layer.shadowOpacity = 0.1
         layer.shadowOffset = .zero
         layer.shadowRadius = 4.scale
         backgroundColor = Appearance.mono100
+        contentHorizontalAlignment = .left
+        titleEdgeInsets = UIEdgeInsets(l: 16.scale)
     }
     
     func update() {
         layer.borderWidth = marked ? 2.scale : 0
-        layer.borderColor = marked ? Appearance.main300.cgColor : UIColor.clear.cgColor
+        layer.borderColor = marked ? Appearance.custom_ed6f00.cgColor : UIColor.clear.cgColor
     }
 }
 

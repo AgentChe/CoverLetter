@@ -6,7 +6,9 @@
 //
 
 final class CLMakerVacancyCollector {
+    private var link: String?
     private var position: String?
+    private var description: String?
     private var resource: String?
 }
 
@@ -14,7 +16,9 @@ final class CLMakerVacancyCollector {
 extension CLMakerVacancyCollector {
     func make() -> CLVacancy {
         CLVacancy(
+            link: link,
             position: position,
+            description: description,
             resource: resource
         )
     }
@@ -22,8 +26,10 @@ extension CLMakerVacancyCollector {
 
 // MARK: CLMakerVacancyPositionViewDelegate
 extension CLMakerVacancyCollector: CLMakerVacancyPositionViewDelegate {
-    func position(_ position: String?) {
+    func position(link: String?, position: String?, description: String?) {
+        self.link = link
         self.position = position
+        self.description = description
     }
 }
 

@@ -109,7 +109,7 @@ extension CLMakerOnboardingView {
 // MARK: Private
 private extension CLMakerOnboardingView {
     func initialize() {
-        backgroundColor = Appearance.main100
+        backgroundColor = UIColor.clear
         
         chaptersViews
             .forEach { [weak self] chapter, view in

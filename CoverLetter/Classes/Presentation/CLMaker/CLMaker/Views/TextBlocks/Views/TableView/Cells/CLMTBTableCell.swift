@@ -14,8 +14,8 @@ final class CLMTBTableCell: UITableViewCell {
     private var element: CLMTBTableTextBlockElement?
     
     private lazy var nameAttrs = TextAttributes()
-        .textColor(Appearance.main200.withAlphaComponent(0.4))
-        .font(Fonts.Nunito.semiBold(size: 10.scale))
+        .textColor(Appearance.custom_1e2340.withAlphaComponent(0.4))
+        .font(Fonts.Inter.semibold(size: 10.scale))
         .lineHeight(14.scale)
         .textAlignment(.left)
     
@@ -92,7 +92,7 @@ private extension CLMTBTableCell {
     func makeTextView() -> UITextView {
         let attrs = TextAttributes()
             .textColor(Appearance.main200)
-            .font(Fonts.Nunito.semiBold(size: 17.scale))
+            .font(Fonts.Inter.regular(size: 17.scale))
             .lineHeight(23.scale)
             .textAlignment(.left)
         

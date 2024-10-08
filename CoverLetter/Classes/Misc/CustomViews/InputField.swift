@@ -69,9 +69,9 @@ private extension InputField {
 private extension InputField {
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
-            .textColor(Appearance.mono200.withAlphaComponent(0.4))
-            .font(Fonts.Nunito.semiBold(size: 10.scale))
-            .lineHeight(13.64.scale)
+            .textColor(Appearance.custom_1e2340.withAlphaComponent(0.4))
+            .font(Fonts.Inter.semibold(size: 10.scale))
+            .lineHeight(12.scale)
             .textAlignment(.left)
         
         let view = UILabel()
@@ -84,19 +84,19 @@ private extension InputField {
     
     func makeTextField() -> PaddingTextField {
         let placeholderAttrs = TextAttributes()
-            .textColor(Appearance.mono200.withAlphaComponent(0.4))
-            .font(Fonts.Nunito.semiBold(size: 17.scale))
-            .lineHeight(23.19.scale)
+            .textColor(Appearance.custom_1e2340.withAlphaComponent(0.4))
+            .font(Fonts.Inter.semibold(size: 17.scale))
+            .lineHeight(21.scale)
             .textAlignment(.left)
         let textAttrs = TextAttributes()
-            .textColor(Appearance.mono200)
-            .font(Fonts.Nunito.semiBold(size: 17.scale))
-            .lineHeight(23.19.scale)
+            .textColor(Appearance.custom_1e2340)
+            .font(Fonts.Inter.semibold(size: 17.scale))
+            .lineHeight(21.scale)
             .textAlignment(.left)
         
         let view = PaddingTextField()
         view.textPadding = UIEdgeInsets(vertical: 18.scale, horizontal: 16.scale)
-        view.layer.cornerRadius = 10.scale
+        view.layer.cornerRadius = 20.scale
         view.layer.shadowColor = Appearance.mono200.withAlphaComponent(0.4).cgColor
         view.layer.shadowOpacity = 0.1
         view.layer.shadowOffset = .zero

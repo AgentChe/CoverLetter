@@ -6,6 +6,8 @@
 //
 
 struct CLVacancy: Codable {
+    let link: String?
     let position: String?
+    let description: String?
     let resource: String?
 }

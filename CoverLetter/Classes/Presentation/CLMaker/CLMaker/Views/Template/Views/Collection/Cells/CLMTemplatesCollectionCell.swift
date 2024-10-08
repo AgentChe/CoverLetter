@@ -33,7 +33,7 @@ extension CLMTemplatesCollectionCell {
         selectedView.isHidden = !element.marked
         
         container.layer.borderWidth = element.marked ? 3.scale : 0
-        container.layer.borderColor = element.marked ? Appearance.main300.cgColor : UIColor.clear.cgColor
+        container.layer.borderColor = element.marked ? Appearance.custom_ed6f00.cgColor : UIColor.clear.cgColor
     }
 }
 
