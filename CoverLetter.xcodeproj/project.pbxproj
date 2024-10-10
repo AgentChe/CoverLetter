@@ -245,6 +245,7 @@
 		DEBC664C2CB54411003C7073 /* ClGroupMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC664B2CB5440E003C7073 /* ClGroupMenuViewController.swift */; };
 		DEBC664F2CB544D0003C7073 /* ClGroupMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC664E2CB544CD003C7073 /* ClGroupMenuButton.swift */; };
 		DEBC66542CB58768003C7073 /* CLMakerProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC66532CB5875F003C7073 /* CLMakerProgressView.swift */; };
+		DEC65C312CB84A1900A036B0 /* Splash.Animate.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC65C302CB84A1900A036B0 /* Splash.Animate.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -490,6 +491,7 @@
 		DEBC664B2CB5440E003C7073 /* ClGroupMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClGroupMenuViewController.swift; sourceTree = "<group>"; };
 		DEBC664E2CB544CD003C7073 /* ClGroupMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClGroupMenuButton.swift; sourceTree = "<group>"; };
 		DEBC66532CB5875F003C7073 /* CLMakerProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLMakerProgressView.swift; sourceTree = "<group>"; };
+		DEC65C302CB84A1900A036B0 /* Splash.Animate.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Splash.Animate.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1444,6 +1446,7 @@
 		DEBC66182CB41E0A003C7073 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				DEC65C2F2CB84A0C00A036B0 /* Source */,
 				DEBC63E92CB4144A003C7073 /* Utils */,
 				DEBC63EB2CB4144A003C7073 /* SplashViewController.swift */,
 				DEBC63EC2CB4144A003C7073 /* SplashViewModel.swift */,
@@ -1568,6 +1571,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		DEC65C2F2CB84A0C00A036B0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DEC65C302CB84A1900A036B0 /* Splash.Animate.json */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1671,6 +1682,7 @@
 				DEBC65FB2CB41457003C7073 /* Lato-Regular.ttf in Resources */,
 				DEBC65FC2CB41457003C7073 /* SourceSansPro-Regular.ttf in Resources */,
 				DEBC65FD2CB41457003C7073 /* Bitter-Regular.ttf in Resources */,
+				DEC65C312CB84A1900A036B0 /* Splash.Animate.json in Resources */,
 				DEBC65FE2CB41457003C7073 /* SplineSans-Regular.ttf in Resources */,
 				DEBC65FF2CB41457003C7073 /* Mulish-Medium.ttf in Resources */,
 				DEBC66002CB41457003C7073 /* Nunito-Regular.ttf in Resources */,

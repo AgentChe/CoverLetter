@@ -40,6 +40,8 @@ final class SplashViewController: UIViewController {
         sdkInitialize.observe { [weak self] in
             self?.didSDKConfiguredTrigger.accept(Void())
         }
+        
+        mainView.animateView.play()
     }
 }
 

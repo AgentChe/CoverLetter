@@ -6,10 +6,10 @@
 //
 
 import UIKit
+import Lottie
 
-// TODO: animate
 final class SplashView: UIView {
-    lazy var imageView = makeImageView()
+    lazy var animateView = makeAnimateView()
     lazy var preloaderLabel = makePreloaderLabel()
     
     override init(frame: CGRect) {
@@ -35,10 +35,10 @@ private extension SplashView {
 private extension SplashView {
     func makeConstraints() {
         NSLayoutConstraint.activate([
-            imageView.widthAnchor.constraint(equalToConstant: 216.scale),
-            imageView.heightAnchor.constraint(equalToConstant: 271.scale),
-            imageView.centerXAnchor.constraint(equalTo: centerXAnchor),
-            imageView.topAnchor.constraint(equalTo: topAnchor, constant: 240.scale)
+            animateView.widthAnchor.constraint(equalToConstant: 216.scale),
+            animateView.heightAnchor.constraint(equalToConstant: 271.scale),
+            animateView.centerXAnchor.constraint(equalTo: centerXAnchor),
+            animateView.topAnchor.constraint(equalTo: topAnchor, constant: 240.scale)
         ])
         
         NSLayoutConstraint.activate([
@@ -50,10 +50,11 @@ private extension SplashView {
 
 // MARK: Lazy initialization
 private extension SplashView {
-    func makeImageView() -> UIImageView {
-        let view = UIImageView()
+    func makeAnimateView() -> LottieAnimationView {
+        let view = LottieAnimationView()
         view.contentMode = .scaleAspectFit
-        view.image = UIImage(named: "Splash.Image")
+        view.loopMode = .loop
+        view.animation = LottieAnimation.named("Splash.Animate")
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
         return view
