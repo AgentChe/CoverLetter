@@ -12,24 +12,17 @@ final class GlobalDefinitions {
     static let apiKey = "Xn4QEjsgh4zE4kMZyA"
     
     static let otterScaleHost = "https://api.korrekted.com"
-    static let otterScaleApiKey = "52pXvkLAXBbRyk6x"
+    static let otterScaleApiKey = "7W8OVoaTlJmlPmlx"
     
-    static let applicationTag = "CV_MAKER"
+    static let applicationTag = "COVER_LETTER"
     static let amplitudeApiKey = "d433d2c66723aeefd10c5b65f91c1fa3"
     
     static let termsOfUseUrl = URL(string: "https://toiboto.com/terms")!
     static let privacyPolicyUrl = URL(string: "https://toiboto.com/policy")!
     static let contactUsUrl = URL(string: "https://toiboto.com/#contact_us")!
     
-    enum LinkedIn {
-        static let clientId = "7792qc3r585vh5"
-        static let clientShared = "KDFs4YQmsbY6rHRG"
-        static let redirectUri = "https://cmmaker.callback"
-    }
-    
-    // TODO
     enum Paygate {
-        static let defaultLifetime = "cvmaker.endless"
-        static let defaultMonthly = "cvmaker.monthly"
+        static let defaultLifetime = "coverletter.endless"
+        static let defaultMonthly = "coverletter.monthly"
     }
 }
