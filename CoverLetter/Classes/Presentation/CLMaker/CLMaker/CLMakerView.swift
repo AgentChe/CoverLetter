@@ -227,7 +227,7 @@ private extension CLMakerView {
         NSLayoutConstraint.activate([
             container.leadingAnchor.constraint(equalTo: leadingAnchor),
             container.trailingAnchor.constraint(equalTo: trailingAnchor),
-            container.topAnchor.constraint(equalTo: topAnchor, constant: 93.scale),
+            container.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 93.scale : 48.scale),
             container.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
     }

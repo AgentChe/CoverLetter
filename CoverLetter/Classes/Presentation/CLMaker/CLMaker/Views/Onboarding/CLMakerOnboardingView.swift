@@ -185,7 +185,7 @@ private extension CLMakerOnboardingView {
         NSLayoutConstraint.activate([
             chaptersView.leadingAnchor.constraint(equalTo: leadingAnchor),
             chaptersView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            chaptersView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 12.scale),
+            chaptersView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 16.scale),
             chaptersView.heightAnchor.constraint(equalToConstant: 28.scale)
         ])
         

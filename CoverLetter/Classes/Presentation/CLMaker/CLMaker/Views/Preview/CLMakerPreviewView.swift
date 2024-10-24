@@ -48,13 +48,13 @@ private extension CLMakerPreviewView {
         NSLayoutConstraint.activate([
             closeButton.widthAnchor.constraint(equalToConstant: 16.scale),
             closeButton.heightAnchor.constraint(equalToConstant: 16.scale),
-            closeButton.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 8.scale),
-            closeButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -12.scale)
+            closeButton.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 16.scale),
+            closeButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale)
         ])
         
         NSLayoutConstraint.activate([
-            templateView.widthAnchor.constraint(equalToConstant: 301.scale),
-            templateView.heightAnchor.constraint(equalToConstant: 426.scale),
+            templateView.widthAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 301.scale : 255.85.scale),
+            templateView.heightAnchor.constraint(equalToConstant: ScreenSize.isIphoneXFamily ? 426.scale : 362.1.scale),
             templateView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 32.scale),
             templateView.centerXAnchor.constraint(equalTo: centerXAnchor)
         ])

@@ -39,7 +39,7 @@ private extension OWelcomeView {
         NSLayoutConstraint.activate([
             roundedView.leadingAnchor.constraint(equalTo: leadingAnchor),
             roundedView.trailingAnchor.constraint(equalTo: trailingAnchor),
-            roundedView.topAnchor.constraint(equalTo: topAnchor, constant: 263.scale),
+            roundedView.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 263.scale : 163.scale),
             roundedView.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
         
@@ -47,13 +47,13 @@ private extension OWelcomeView {
             imageView.widthAnchor.constraint(equalToConstant: 166.scale),
             imageView.heightAnchor.constraint(equalToConstant: 212.scale),
             imageView.centerXAnchor.constraint(equalTo: centerXAnchor),
-            imageView.topAnchor.constraint(equalTo: topAnchor, constant: 148.scale)
+            imageView.topAnchor.constraint(equalTo: topAnchor, constant: ScreenSize.isIphoneXFamily ? 148.scale : 48.scale)
         ])
         
         NSLayoutConstraint.activate([
             titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
             titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
-            titleLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: 126.scale)
+            titleLabel.topAnchor.constraint(equalTo: imageView.bottomAnchor, constant: ScreenSize.isIphoneXFamily ? 126.scale : 76.scale)
         ])
         
         NSLayoutConstraint.activate([

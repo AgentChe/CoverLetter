@@ -178,7 +178,7 @@ private extension CLMakerTextBlocksView {
             continueButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 16.scale),
             continueButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -16.scale),
             continueButton.heightAnchor.constraint(equalToConstant: 58.scale),
-            continueButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: ScreenSize.isIphoneXFamily ? 8.scale : 16.scale)
+            continueButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: ScreenSize.isIphoneXFamily ? -8.scale : -16.scale)
         ])
         
         NSLayoutConstraint.activate([

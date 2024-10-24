@@ -63,14 +63,22 @@ private extension SplashViewController {
     func goNext(route: SplashViewModel.Route) {
         switch route {
         case .onboarding:
-            UIApplication.shared.keyWindow?.rootViewController = OnboardingViewController.make()
+            if let window = UIApplication.shared.keyWindow {
+                window.rootViewController = OnboardingViewController.make()
+            } else {
+                self.route(route)
+            }
         case .paygateTransitionMain:
             let vc = PaygateViewController.make { [weak self] in
                 self?.goNext(route: .main)
             }
             present(vc, animated: true)
         case .main:
-            UIApplication.shared.keyWindow?.rootViewController = MainViewController.make()
+            if let window = UIApplication.shared.keyWindow {
+                window.rootViewController = MainViewController.make()
+            } else {
+                self.route(route)
+            }
         }
     }
 }
