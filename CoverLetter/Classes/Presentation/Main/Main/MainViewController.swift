@@ -15,6 +15,18 @@ final class MainViewController: UIViewController {
     
     private lazy var coordinator = MainCoordinator(parentVC: self)
     
+    private let requestReview: Bool
+    
+    private init(requestReview: Bool) {
+        self.requestReview = requestReview
+
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func loadView() {
         view = mainView
     }
@@ -41,6 +53,10 @@ final class MainViewController: UIViewController {
                 base.coordinator.change(tab: tab)
             })
             .disposed(by: disposeBag)
+        
+        if requestReview {
+            RequestReview.request()
+        }
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -50,7 +66,7 @@ final class MainViewController: UIViewController {
 
 // MARK: Public
 extension MainViewController {
-    static func make() -> MainViewController {
-        MainViewController()
+    static func make(requestReview: Bool) -> MainViewController {
+        MainViewController(requestReview: requestReview)
     }
 }

@@ -76,9 +76,9 @@ private extension OnboardingViewController {
             }
             present(vc, animated: true)
         case .main:
-            UIApplication.shared.keyWindow?.rootViewController = MainViewController.make()
+            UIApplication.shared.keyWindow?.rootViewController = MainViewController.make(requestReview: true)
         case .suggestCreateCL:
-            UIApplication.shared.keyWindow?.rootViewController = SuggestCreateCLViewController.make()
+            UIApplication.shared.keyWindow?.rootViewController = SuggestCreateCLViewController.make(requestReview: true)
         }
     }
 }

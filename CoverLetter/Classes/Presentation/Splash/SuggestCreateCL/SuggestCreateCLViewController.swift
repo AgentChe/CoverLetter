@@ -16,6 +16,18 @@ final class SuggestCreateCLViewController: UIViewController {
     
     private lazy var disposeBag = DisposeBag()
     
+    private let requestReview: Bool
+    
+    private init(requestReview: Bool) {
+        self.requestReview = requestReview
+
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func loadView() {
         view = mainView
     }
@@ -33,13 +45,17 @@ final class SuggestCreateCLViewController: UIViewController {
                 base.route(route)
             })
             .disposed(by: disposeBag)
+        
+        if requestReview {
+            RequestReview.request()
+        }
     }
 }
 
 // MARK: Public
 extension SuggestCreateCLViewController {
-    static func make() -> SuggestCreateCLViewController {
-        let vc = SuggestCreateCLViewController()
+    static func make(requestReview: Bool) -> SuggestCreateCLViewController {
+        let vc = SuggestCreateCLViewController(requestReview: requestReview)
         vc.modalPresentationStyle = .fullScreen
         return vc
     }
@@ -50,7 +66,7 @@ private extension SuggestCreateCLViewController {
     func route(_ route: SuggestCreateCLViewModel.Route) {
         switch route {
         case .main:
-            UIApplication.shared.keyWindow?.rootViewController = MainViewController.make()
+            UIApplication.shared.keyWindow?.rootViewController = MainViewController.make(requestReview: false)
         case .createCL:
             let vc = CLMakerViewController.make(mode: .create) { [weak self] in
                 self?.route(.main)

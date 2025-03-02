@@ -75,7 +75,7 @@ private extension SplashViewController {
             present(vc, animated: true)
         case .main:
             if let window = UIApplication.shared.keyWindow {
-                window.rootViewController = MainViewController.make()
+                window.rootViewController = MainViewController.make(requestReview: false)
             } else {
                 self.route(route)
             }
