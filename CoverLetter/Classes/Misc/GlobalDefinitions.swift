@@ -15,7 +15,7 @@ final class GlobalDefinitions {
     static let otterScaleApiKey = "7W8OVoaTlJmlPmlx"
     
     static let applicationTag = "COVER_LETTER"
-    static let amplitudeApiKey = "d433d2c66723aeefd10c5b65f91c1fa3"
+    static let amplitudeApiKey = "e2f97fdca00fd18f23fee9ae1520225b"
     
     static let termsOfUseUrl = URL(string: "https://toiboto.com/terms")!
     static let privacyPolicyUrl = URL(string: "https://toiboto.com/policy")!
