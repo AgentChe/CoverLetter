@@ -122,7 +122,6 @@
 		DEBC65282CB4144A003C7073 /* PaygateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63E52CB4144A003C7073 /* PaygateViewController.swift */; };
 		DEBC65292CB4144A003C7073 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC63D92CB4144A003C7073 /* OnboardingViewModel.swift */; };
 		DEBC652B2CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62F92CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift */; };
-		DEBC652E2CB4144A003C7073 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62972CB4144A003C7073 /* BranchManager.swift */; };
 		DEBC65312CB4144A003C7073 /* CL7Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC642D2CB4144A003C7073 /* CL7Generator.swift */; };
 		DEBC65322CB4144A003C7073 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC62B12CB4144A003C7073 /* UIColor+Extension.swift */; };
 		DEBC65342CB4144A003C7073 /* PaygateOptionLineComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBC64002CB4144A003C7073 /* PaygateOptionLineComponent.swift */; };
@@ -257,7 +256,6 @@
 		DE04A9B32CB4125B00127D95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE04A9B42CB4125B00127D95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEBC62962CB4144A003C7073 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		DEBC62972CB4144A003C7073 /* BranchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
 		DEBC62982CB4144A003C7073 /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DEBC62992CB4144A003C7073 /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DEBC629B2CB4144A003C7073 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -566,7 +564,6 @@
 			isa = PBXGroup;
 			children = (
 				DEBC62962CB4144A003C7073 /* AmplitudeManager.swift */,
-				DEBC62972CB4144A003C7073 /* BranchManager.swift */,
 				DEBC62982CB4144A003C7073 /* FacebookManager.swift */,
 				DEBC62992CB4144A003C7073 /* FirebaseManager.swift */,
 			);
@@ -1892,7 +1889,6 @@
 				DEBC65292CB4144A003C7073 /* OnboardingViewModel.swift in Sources */,
 				DEBC662F2CB4F860003C7073 /* CLsGroupsViewController.swift in Sources */,
 				DEBC652B2CB4144A003C7073 /* CLMTemplatesCollectionHeaderCell.swift in Sources */,
-				DEBC652E2CB4144A003C7073 /* BranchManager.swift in Sources */,
 				DEBC663F2CB50BCC003C7073 /* CLGroupViewModel.swift in Sources */,
 				DEBC66282CB45A70003C7073 /* MainCoordinator.swift in Sources */,
 				DEBC65312CB4144A003C7073 /* CL7Generator.swift in Sources */,
@@ -1962,7 +1958,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2MYAP2M337;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1979,7 +1975,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = iphone.coverletter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2002,7 +1998,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2MYAP2M337;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2019,7 +2015,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.1;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = iphone.coverletter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
