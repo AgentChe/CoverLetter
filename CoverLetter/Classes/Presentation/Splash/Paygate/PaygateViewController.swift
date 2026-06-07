@@ -35,9 +35,6 @@ final class PaygateViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        AmplitudeManager.shared
-            .logEvent(name: "Paygate Screen")
-        
         Observable
             .merge(
                 mainView.leftOptionButton.rx.tap.map { (true, false) },

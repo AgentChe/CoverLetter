@@ -41,7 +41,7 @@ extension SettingsLinkButton {
             
             switch entity {
             case .termsOfUse:
-                return GlobalDefinitions.termsOfUseUrl
+                return GlobalDefinitions.termsOfServiceUrl
             case .privacyPolicy:
                 return GlobalDefinitions.privacyPolicyUrl
             case .contactUs:
